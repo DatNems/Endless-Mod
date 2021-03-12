@@ -1,0 +1,425 @@
+[
+
+// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/
+
+	// Base Units
+	
+	{
+		"name": "Settler",   //capturing causes crash
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 110,
+		"uniques": ["Founds a new city"],
+		"hurryCostModifier": 20
+	},
+	//Infantry
+	{
+		"name": "Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 60,
+		"requiredTech": "Mercenary Market",
+	},
+	{
+		"name": "Glassteel Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 60,
+		"requiredTech": "Alchemical Alloys",
+		"promotions": ["Glassteel"],
+		"uniques": ["Consumes [1] [Glassteel]"],
+	},
+	{
+		"name": "Titanium Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 60,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Titanium"],
+		"uniques": ["Consumes [1] [Titanium]"],
+	},
+	//Ranged
+    {
+		"name": "Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Pillage",
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Glassteel Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Alchemical Alloys",
+		"promotions": ["Glassteel"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Glassteel]"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Titanium Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Titanium"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Titanium]"],
+		"attackSound": "arrow"
+	},
+	//Support
+	{
+		"name": "Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	//Cavalry
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"],
+		"attackSound": "horse"
+	},
+	//Flying
+    {
+		"name": "Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+    {
+		"name": "Scyther",   //T3 flying
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 40,
+		"cost": 250,
+		"requiredTech": "Scyther",
+		"uniques": ["Consumes [2] [Glassteel]","Consumes [2] [Titanium]",
+		"+[25]% Strength when defending","Can move after attacking","Unable to capture cities","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+	
+	//Guardians
+	{
+		"name": "Dust Guardian",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 75,
+		"rangedStrength": 25,
+		"range": 1,
+		"cost": 2000,
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Fire Guardian",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 100,
+		"range": 3,
+		"cost": 2000,
+		"uniques": ["Unbuildable","Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Earth Guardian",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 64,
+		"cost": 2000,
+		"uniques": ["Unbuildable","+[100]% Strength when defending"]
+	},
+	{
+		"name": "Water Guardian",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 100,
+		"cost": 2000,
+		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","-[50]% Strength when defending"],
+	},
+	{
+		"name": "Air Guardian",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 60,
+		"cost": 2000,
+		"uniques": ["Unbuildable","+[133]% Strength when defending","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	//Naval
+	{
+		"name": "Boarding Vessel",
+		"unitType": "WaterMelee",
+		"movement": 6,
+		"strength": 36,
+		"cost": 30,
+		"requiredTech": "Boarding Vessel",
+		"upgradesTo": "Bathysphere",
+		"uniques": ["Cannot enter ocean tiles"]
+	},
+	{
+		"name": "Fire Ship",
+		"unitType": "WaterRanged",
+		"movement": 4,
+		"strength": 28,
+		"rangedStrength": 24,
+		"range": 2,
+		"cost": 60,
+		"requiredTech": "Fire Ship",
+		"upgradesTo": "Artillery Ship",
+		"uniques": ["Cannot enter ocean tiles"]
+	},
+	{
+		"name": "Artillery Ship",
+		"unitType": "WaterRanged",
+		"movement": 3,
+		"strength": 24,
+		"rangedStrength": 70,
+		"range": 4,
+		"cost": 80,
+		"requiredTech": "Artillery Ship",
+		"uniques": ["Can only attack water"]
+	},
+	{
+		"name": "Bathysphere",
+		"unitType": "WaterSubmarine",
+		"movement": 5,
+		"strength": 38,
+		"rangedStrength": 40,
+		"range": 1,
+		"cost": 60,
+		"requiredTech": "Bathysphere",
+		"uniques": ["Invisible to others"]
+	},
+
+
+
+
+    //Faction Uniques
+	//Ardent Mages
+    {
+		"name": "Telsem Warlock",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "Ardent Mages",
+		"movement": 4,
+		"strength": 40,
+		"cost": 60,
+		"requiredTech": "Mercenary Market"
+		"uniques": ["-[50]% Strength when defending"],
+	},
+    {
+		"name": "Ateshi Zealot",
+		"unitType": "Ranged",
+		"replaces": "Ranger",
+		"uniqueTo": "Ardent Mages",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 24,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Pillage",
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Eneqa Wing",   //Era II
+		"unitType": "Mounted",
+		"replaces": "Flying",
+		"uniqueTo": "Ardent Mages",
+		"movement": 6,
+		"strength": 34,
+		"cost": 250,
+		"requiredTech": "Alchemical Alloys",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+	
+	
+	
+	//Allayi
+    {   
+		"name": "Seeker",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Allayi",
+		"movement": 6,
+		"strength": 22,
+		"cost": 80,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["+[50]% Strength when defending","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+	},
+    {
+		"name": "Skyfin",
+		"unitType": "Ranged",
+		"replaces": "Support",
+		"uniqueTo": "Allayi",
+		"movement": 8,
+		"strength": 46,
+		"rangedStrength": 18,
+		"range": 3,
+		"cost": 250,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Monk",  //Era II
+		"unitType": "Mounted",
+		"replaces": "Flying",
+		"uniqueTo": "Allayi",
+		"movement": 6,
+		"strength": 34,
+		"cost": 90,
+		"requiredTech": "Alchemical Alloys",
+		"uniques": ["+[50]% Strength when defending","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+	
+	//Broken Lords
+	{
+		"name": "Stalwart",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "Broken Lords",
+		"movement": 4,
+		"strength": 22,
+		"cost": 60,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["+[100]% Strength when defending"],
+	},
+	{   
+		"name": "Ryder",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Broken Lords",
+		"movement": 6,
+		"strength": 28,
+		"cost": 60,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["+[10]% Strength when defending","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+	},
+	{
+		"name": "Dust Bishop",  //Era II
+		"unitType": "Ranged",
+		"replaces": "Support",
+		"uniqueTo": "Broken Lords",
+		"movement": 4,
+		"strength": 28,
+		"rangedStrength": 30,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	//Cultist "Settler"
+	{
+		"name": "Cultist",   
+		"uniqueTo": "Cultists",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 110,
+		"uniques": ["Can construct [District]"]
+	},
+	//Cultist Units
+	{
+		"name": "Preacher",
+		"unitType": "Ranged",
+		"replaces": "Support",
+		"uniqueTo": "Cultists",
+		"movement": 4,
+		"strength": 28,
+		"rangedStrength": 14,
+		"range": 3,
+		"cost": 30,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	{   
+		"name": "Fanatec",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Cultists",
+		"movement": 6,
+		"strength": 22,
+		"cost": 80,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["+[30]% Strength when defending","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+	},
+	{
+		"name": "Nameless Guard",    //Era II
+		"unitType": "Ranged",
+		"replaces": "Ranger",
+		"uniqueTo": "Cultists",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 32,
+		"range": 3,
+		"cost": 120,
+		"requiredTech": "Alchemical Armor",
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+]

@@ -1,0 +1,39 @@
+[
+	
+	
+	// Resource-specific
+	{
+		"name": "District", 
+		"uniqueTo": "Cultists",
+		"food": 3,
+		"production": 3,
+		"culture": 3,
+		"science": 3,
+		"gold": 3,
+		"uniques": ["Great Improvement"]
+	},
+
+	// Special improvement
+	
+
+	// Military improvements
+	
+
+	// Transportation
+	
+	
+	// Removals
+	
+
+	// These are unique and have unique in-game checks related to them
+	
+	
+	// Great Person improvements
+	
+
+	//Civilization unique improvements
+	
+	{ "name": "Ancient ruins" },
+	{ "name": "City ruins" },
+	{ "name": "Barbarian encampment" }
+]
