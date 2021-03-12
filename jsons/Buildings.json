@@ -3,6 +3,8 @@
         "name": "Palace",  
         "isNationalWonder": true,
 		"culture": 1,
+		"production": 5,
+		"science": 2,
 		"cost": 1,
         "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]"]
     },
@@ -1496,14 +1498,14 @@
         "isWonder": true, 
 		"cost": 2000,
         "uniques": ["Free [Air Guardian] appears"],
-        "requiredTech": "Guardian of Earth"
+        "requiredTech": "Guardian of Air"
     },
 	{
         "name": "Guardian of Water",    
         "isWonder": true, 
 		"cost": 2000,
         "uniques": ["Free [Water Guardian] appears"],
-        "requiredTech": "Guardian of Earth"
+        "requiredTech": "Guardian of Water"
     },
 	
 	
