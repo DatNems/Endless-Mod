@@ -1,0 +1,465 @@
+[	
+	// Bonus resources
+	{
+		"name": "Azotic Exotics",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Marsh","Oasis","Atoll"],
+		"food": 4,
+		"science": 2,
+	},
+	{
+		"name": "Black Dust",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert","Snow"],
+		"gold": 4,
+		"science": 2,
+	},
+	{
+		"name": "Black Earth",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 6,
+	},
+	{
+		"name": "Botanical Garden",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 4,
+		"science": 4,
+		"happiness": 10,
+	},
+	{
+		"name": "Caldera Lake",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"production": 2,
+		"gold": 4,
+	},
+	{
+		"name": "Chromatic Land",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"food": 2,
+		"science": 2,
+		"gold": 2,
+	},
+	{
+		"name": "Clay",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"production": 4,
+		"gold": 2,
+	},
+	{
+		"name": "Crystal Flowers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow","Marsh"],
+		"gold": 2,
+		"science": 4,
+	},
+	{
+		"name": "Dragon Tree",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"food": 2,
+		"science": 2,
+		"gold": 2,
+		"production": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Earthspine",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Hill","Plains"],
+		"gold": 4,
+		"science": 4,
+		"happiness": 10,
+	},
+	{
+		"name": "Earth Tower",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Hill","Plains"],
+		"production": 4,
+		"science": 4,
+		"happiness": 10,
+	},
+	{
+		"name": "Escaped Specimens",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"food": 2,
+		"gold": 4,
+	},
+	{
+		"name": "Fumarole",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill","Desert"],
+		"production": 6,
+	},
+	{
+		"name": "Geothermal Pit",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"production": 2,
+		"science": 4,
+	},
+	{
+		"name": "Geysers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"production": 4,
+		"science": 2,
+	},
+	{
+		"name": "Golden Tree",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"production": 2,
+		"gold": 8,
+		"happiness": 20,
+	},
+	{
+		"name": "Hidden Springs",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Lakes"],
+		"food": 4,
+		"gold": 2,
+	},{
+		"name": "Ice Sculptures",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra"],
+		"science": 6,
+	},
+	{
+		"name": "Igloo Larvae",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Snow"],
+		"production": 2,
+		"food": 4,
+	},
+	{
+		"name": "Lava Chimneys",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill","Desert"],
+		"science": 2,
+		"gold": 4,
+	},
+	{
+		"name": "Lava Geyser",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill","Desert"],
+		"science": 4,
+		"production": 2,
+	},
+	{
+		"name": "Life Tree",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Forest"],
+		"food": 6,
+		"science": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Massive Tree",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Jungle"],
+		"food": 4,
+		"production": 2,
+	},
+	{
+		"name": "Meteor Fields",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert"],
+		"science": 2,
+		"production": 4,
+	},
+	{
+		"name": "Mineral Rich",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 6,
+	},
+	{
+		"name": "Moss Pearls",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 2,
+		"science": 4,
+	},
+	{
+		"name": "Mutant Marsh",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Marsh","Oasis","Atoll"],
+		"gold": 2,
+		"science": 4,
+	},
+	{
+		"name": "Mychordia",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Forest"],
+		"food": 2,
+		"science": 6,
+		"happiness": 10,
+	},
+	{
+		"name": "Northern Loam",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra"],
+		"food": 6,
+	},
+	{
+		"name": "Hidden Oasis",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Flood plains"],
+		"food": 6,
+		"gold": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Ruby Cactus Fields",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Desert"],
+		"production": 2,
+		"gold": 4,
+	},
+	{
+		"name": "Rumbling Stones",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"production": 4,
+		"gold": 2,
+	},
+	{
+		"name": "Salt Desert",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Desert"],
+		"food": 2,
+		"gold": 4,
+	},
+	{
+		"name": "Spiral Rock Peel",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains"],
+		"science": 2,
+		"production": 6,
+		"happiness": 10,
+	},
+	{
+		"name": "Stasis Pillar",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"science": 6,
+		"gold": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Steel Stalks",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"gold": 2,
+		"production": 6,
+		"happiness": 10,
+	},
+	{
+		"name": "Steppe Soil",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Jungle"],
+		"food": 6,
+		"production": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Weaver Worms",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Snow"],
+		"gold": 6,
+		"production": 2,
+		"happiness": 10,
+	},
+	{
+		"name": "Wizard Stone",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert"],
+		"science": 6,
+		"production": 2,
+		"happiness": 10,
+	},
+	
+	
+	// Strategic resources (for units)
+	{
+		"name": "Glassteel",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	{
+		"name": "Titanium",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	{
+		"name": "Adamantian",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	{
+		"name": "Palladian",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	{
+		"name": "Mithrite",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	{
+		"name": "Hyperium",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"science": 1,
+	},
+	
+	
+	// Startegic resources (Luxuries)
+	{
+		"name": "Dye",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Dye Extractor"
+	},
+	{
+		"name": "Emerald",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Emerald Extractor"
+	},
+	{
+		"name": "Bronze",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Bronze Extractor"
+	},
+	{
+		"name": "Spice",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Spice Extractor"
+	},
+	{
+		"name": "Wine",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Discovery",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Wine Extractor"
+	},
+	{
+		"name": "Blood Crystal",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Blood Crystal Extractor"
+	},
+	{
+		"name": "Grassilk",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Grassilk Extractor"
+	},
+	{
+		"name": "Moon Leaf",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Moon Leaf Extractor"
+	},
+	{
+		"name": "Quicksilver",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Quicksilver Extractor"
+	},
+	{
+		"name": "Titan Bones",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Enlightenment",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Titan Bones Extractor"
+	},
+	{
+		"name": "Dust Orchid",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Dust Orchid Extractor"
+	},
+	{
+		"name": "Dustwater",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Dustwater Extractor"
+	},
+	{
+		"name": "Hydromiel",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Hydromiel Extractor"
+	},
+	{
+		"name": "Pixie Blood",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Pixie Blood Extractor"
+	},
+	{
+		"name": "Redsang",
+		"resourceType": "Strategic",
+		"revealedBy": "Age of Industry",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"gold": 1,
+		"building": "Redsang Extractor"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+]
