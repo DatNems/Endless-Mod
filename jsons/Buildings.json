@@ -460,14 +460,14 @@
         "name": "Glassteel Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [10] [Glassteel]"],
+        "uniques": ["Provides [20] [Glassteel]"],
         "requiredTech": "Exotic Alloys"
     },
 	{
         "name": "Titanium Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [10] [Titanium]"],
+        "uniques": ["Provides [20] [Titanium]"],
         "requiredTech": "Exotic Armor"
     },
 	{
@@ -573,35 +573,35 @@
         "name": "Titanium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [8] [Titanium]","+[20]% [Science] [in this city]"],
+        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [23] [Titanium]","+[20]% [Science] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Glassteel Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [8] [Glassteel]","+[20]% [Gold] [in this city]"],
+        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [23] [Glassteel]","+[20]% [Gold] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Adamantian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [8] [Adamantian]","+[20]% [Production] [in this city]"],
+        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [23] [Adamantian]","+[20]% [Production] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Palladian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [8] [Palladian]","+[20]% [Food] [in this city]"],
+        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [23] [Palladian]","+[20]% [Food] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Mithrite Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [8] [Mithrite]",
+        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [23] [Mithrite]",
 		"+[15]% [Production] [in this city]","+[15]% [Gold] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
@@ -609,7 +609,7 @@
         "name": "Hyperium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [8] [Hyperium]",
+        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [23] [Hyperium]",
 		"+[15]% [Science] [in this city]","+[15]% [Food] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },

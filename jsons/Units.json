@@ -19,7 +19,6 @@
 		"movement": 4,
 		"strength": 30,
 		"cost": 60,
-		"requiredTech": "Mercenary Market",
 	},
 	{
 		"name": "Glassteel Infantry",
@@ -178,21 +177,6 @@
 	},
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	//Naval
 	{
 		"name": "Boarding Vessel",
@@ -252,7 +236,6 @@
 		"movement": 4,
 		"strength": 40,
 		"cost": 60,
-		"requiredTech": "Mercenary Market"
 		"uniques": ["-[50]% Strength when defending"],
 	},
     {
@@ -333,7 +316,6 @@
 		"movement": 4,
 		"strength": 22,
 		"cost": 60,
-		"requiredTech": "Mercenary Market",
 		"uniques": ["+[100]% Strength when defending"],
 	},
 	{   
@@ -414,10 +396,45 @@
 		"attackSound": "arrow"
 	},
 	
-	
-	
-	
-	
+	//Drakken
+	{
+		"name": "Drakkenling",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "Drakken",
+		"movement": 4,
+		"strength": 22,
+		"cost": 90,
+		"uniques": ["+[100]% Strength when defending"],
+	},
+	{
+		"name": "Wyvern",
+		"unitType": "Mounted",
+		"replaces": "Flying",
+		"uniqueTo": "Drakken",
+		"movement": 6,
+		"strength": 38,
+		"cost": 110,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"-[25]% Strength when defending"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ancient",
+		"unitType": "Ranged",
+		"replaces": "Support",
+		"uniqueTo": "Drakken",
+		"movement": 4,
+		"strength": 38,
+		"rangedStrength": 28,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
 	
 	
 	
