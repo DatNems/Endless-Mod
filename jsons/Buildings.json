@@ -402,6 +402,49 @@
 		"uniques": ["[4] free [Cultist] units appear"],
         "requiredTech": "Hand of the Unspoken"
     },
+	// Drakken tech boosts & buildings
+	{
+        "name": "Aura of Leadership",   
+		"uniqueTo": "Drakken",
+        "isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["[+1 Culture] [in all cities]","[+1 Science] [in all cities]"],
+        "requiredTech": "Aura of Leadership"
+    },
+	{
+        "name": "Oologic Nursery",   
+		"uniqueTo": "Drakken",
+		"cost": 400,
+		"food": 10,
+		"uniques": ["Consumes [4] [Titanium]","Consumes [8] Glassteel","New [Military] units start with [15] Experience in this city"],
+        "requiredTech": "Oologic Nursery"
+    },
+	{
+        "name": "Tribal Council",   
+		"uniqueTo": "Drakken",
+        "isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+        "requiredTech": "Tribal Council"
+    },
+	{
+        "name": "Auriga Institute",   
+		"uniqueTo": "Drakken",
+		"cost": 800,
+		"culture": 10,
+		"happiness": 10,
+		"uniques": ["Consumes [4] [Mithrite]"],
+        "requiredTech": "Auriga Institute"
+    },
+	{
+        "name": "Eye of the Endless",   //needs testing
+		"uniqueTo": "Drakken",
+        "isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["All newly-trained [All] units receive the [Endless Eye] promotion"],
+        "requiredTech": "Eye of the Endless"
+    },
+	
 	
 	
 	

@@ -75,7 +75,20 @@
 	"Starts with [Age of Discovery]"],
 	"cities":["The Eternal End"]
   },
-  
+  {
+    "name": "Drakken",   //Purple
+    "leaderName": "Archivist Mukangung",
+    "adjective": ["Drakken"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [125, 85, 255],
+    "innerColor": [255,255,255],
+	"uniqueName": "Diplomatic Pressure",
+	"uniqueText": "Starts the Game with the entire Map revealed. Generates Culture from every City and has a huge discount on policies."
+    "uniques": ["[+1 Culture] [in all cities]","Culture cost of adopting new Policies reduced by [50]%",
+	"Starts with [Empire Mint]","Starts with [Language Square]","Starts with [Protectors of Auriga]","Starts with [Age of Discovery]"],
+	"cities":["Jiraduvejy","Nachampassese","Lakaspassar","Masargaka","Jayawardene","Semsanitnwona","Namkang","Sadunitne","Maspa","Leyasa"]
+  },
   
   
  

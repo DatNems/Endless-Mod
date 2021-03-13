@@ -25,11 +25,16 @@
 		        //"uniqueTo": "Broken Lords",
 				"row": 6,
 			},
-			
 			{
 				"name": "High Seat of the Queen",
 		        //"uniqueTo": "Cultists",
 				"row": 9,
+			},
+			{
+				"name": "Protectors of Auriga",
+		        //"uniqueTo": "Drakken",
+				"uniques": ["Reveals the entire map"],
+				"row": 11,
 			},
 		]	
 	},
@@ -90,7 +95,18 @@
 				"row": 9,
 				"prerequisites": ["High Seat of the Queen"],   
 			},
-			
+			{
+				"name": "Aura of Leadership",  
+		        //"uniqueTo": "Drakken",
+				"row": 10,
+				"prerequisites": ["Protectors of Auriga"],   
+			},
+			{
+				"name": "Oologic Nursery",  
+		        //"uniqueTo": "Cultists",
+				"row": 11,
+				"prerequisites": ["Protectors of Auriga"],   
+			},
 			
 			
 			
@@ -154,6 +170,12 @@
 				"row": 8,
 				"prerequisites": ["Destructive Analysis","We are Legion"],   
 			},
+			{
+				"name": "Tribal Council",  
+		        //"uniqueTo": "Drakken",
+				"row": 11,
+				"prerequisites": ["Aura of Leadership","Oologic Nursery"],   
+			},
 			
 			
 			
@@ -202,7 +224,12 @@
 				"row": 8,
 				"prerequisites": ["Shrine of Whispers"],   
 			},
-			
+			{
+				"name": "Auriga Institute",  
+		        //"uniqueTo": "Drakken",
+				"row": 11,
+				"prerequisites": ["Tribal Council"],   
+			},
 			
 			
 			
@@ -238,7 +265,12 @@
 				"row": 8,
 				"prerequisites": ["All Beings are Siblings"],				
 			},
-			
+			{
+				"name": "Eye of the Endless",  
+		        //"uniqueTo": "Drakken",
+				"row": 11,
+				"prerequisites": ["Auriga Institute"],   
+			},
 			
 			
 			
