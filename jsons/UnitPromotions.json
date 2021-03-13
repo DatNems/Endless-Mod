@@ -486,19 +486,19 @@
 		"effect": "+[50]% Strength when defending",
 	},
 	{
-		"name": "Palladian", 
+		"name": "Adamantian", 
 		"effect": "+[100]% Strength when attacking",
 	},
 	{
-		"name": "Adamantian", 
+		"name": "Palladian", 
 		"effect": "+[100]% Strength when defending",
 	},
 	{
-		"name": "Hyperium", 
+		"name": "Mithrite", 
 		"effect": "+[150]% Strength when attacking",
 	},
 	{
-		"name": "Mithrite", 
+		"name": "Hyperium", 
 		"effect": "+[150]% Strength when defending",
 	},
 	{
