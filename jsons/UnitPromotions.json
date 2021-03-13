@@ -152,19 +152,15 @@
 	{
 		"name": "Scouting I",
 		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Scouting II",
-		"prerequisites": ["Scouting I"],
 		"effect": "+1 Movement",
-		"unitTypes": ["Scout"]
 	},
 	{
 		"name": "Scouting III",
 		"prerequisites": ["Scouting II"],
 		"effect": "+1 Visibility Range",
-		"unitTypes": ["Scout"]
 	},
 	
 	
@@ -525,6 +521,10 @@
 		"name": "Heroic", 
 		"effect": "+[25]% Combat Strength",
 	},
-	
+	{
+		"name": "Endless Eye",
+		"effect": "+2 Movement",
+		"uniques": ["Amphibious","No combat penalty when attacking from the sea or over a river"]
+	},
 	
 ]

@@ -471,6 +471,34 @@
         "requiredTech": "Exotic Armor"
     },
 	{
+        "name": "Adamantian Factory", 
+        "isNationalWonder": true, 
+		"cost": 1,
+        "uniques": ["Provides [20] [Adamantian]"],
+        "requiredTech": "Exceptional Alloys"
+    },
+	{
+        "name": "Palladian Factory", 
+        "isNationalWonder": true, 
+		"cost": 1,
+        "uniques": ["Provides [20] [Palladian]"],
+        "requiredTech": "Exceptional Armor"
+    },
+	{
+        "name": "Mithrite Factory", 
+        "isNationalWonder": true, 
+		"cost": 1,
+        "uniques": ["Provides [20] [Mithrite]"],
+        "requiredTech": "Marvelous Alloys"
+    },
+	{
+        "name": "Hyperium Factory", 
+        "isNationalWonder": true, 
+		"cost": 1,
+        "uniques": ["Provides [20] [Hyperium]"],
+        "requiredTech": "Marvelous Armor"
+    },
+	{
         "name": "Bread and Circuses", 
         "isNationalWonder": true, 
 		"cost": 1,

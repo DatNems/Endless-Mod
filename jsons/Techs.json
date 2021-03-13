@@ -753,7 +753,7 @@
 				"prerequisites": ["Age of Industry"],
 			},
 			{
-				"name": "Rare Alloy",   //Hyperium units
+				"name": "Rare Alloys",   //Hyperium units
 				"row": 17,
 				"prerequisites": ["Age of Industry"],
 			},
