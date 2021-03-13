@@ -75,9 +75,10 @@
 		"RGB": [210, 155, 135],
 	},
 	{
-		"name": "Hill",  //converted to grassland
+		"name": "Hill",  
 		"type": "Land",
-		"food": 3,
+		"food": 2,
+		"production": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [ 230, 230, 113],
