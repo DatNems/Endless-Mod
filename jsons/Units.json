@@ -752,6 +752,22 @@
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
 		"attackSound": "arrow"
 	},
+	//Forgotten
+	{
+		"name": "Assassin",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "The Forgotten",
+		"movement": 4,
+		"strength": 34,
+		"cost": 80,
+		"uniques": ["-[40]% Strength when defending"],
+	},
+	
+	
+	
+	
+	
 	
 	
 	

@@ -36,6 +36,12 @@
 				"uniques": ["Reveals the entire map"],
 				"row": 11,
 			},
+			{
+				"name": "Learn from Others",
+		        //"uniqueTo": "Forgotten",
+				"uniques": ["Earn [100]% of [Military] opponent's [Cost] as [Gold] for kills","Earn [100]% of [Military] opponent's [Cost] as [Science] for kills"],
+				"row": 14,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs

@@ -14,7 +14,7 @@
     "outerColor": [70, 145, 255],
     "innerColor": [255,255,255],
 	"uniqueName": "Power through Pain",
-	"uniqueText": "Units always fight with full Strength. Can construct Pillars to boost Tile Yields in Cities. Starts with Arcana of Agility & Arcana of Matter."
+	"uniqueText": "Units always fight with full Strength. Can construct Pillars to boost Tile Yields in Cities."
     "uniques": ["Units fight as though they were at full strength even when damaged",
 	"Starts with [Arcana of Agility]","Starts with [Arcana of Matter]",
 	"Starts with [Age of Discovery]"],
@@ -43,7 +43,7 @@
     "outerColor": [255, 235, 170],
     "innerColor": [128,128,128],
 	"uniqueName": "Appetite for Dust",  
-	"uniqueText": "Food gain reduced by 70%. All Food buildings provide Dust instead. Starts with Empire Mint & Augmented Extractor."
+	"uniqueText": "Food gain reduced by 70%. All Food buildings provide Dust instead."
     "uniques": ["[-2 Food] from every [Land]","[-2 Food] from every [Water]","[-1 Food] from every [River]",
 	//+gold from every gold tile
 	"[+2 Gold] from every [Coast]","[+2 Gold] from every [River]","[+2 Gold] from every [Jungle]","[+2 Gold] from every [Desert]","[+2 Gold] from every [Lakes]","[+2 Gold] from every [Plains]","[+2 Gold] from every [Ocean]",
@@ -69,7 +69,7 @@
     "outerColor": [255, 240, 250],
     "innerColor": [128,128,128],
 	"uniqueName": "Walls of Faith",
-	"uniqueText": "Cannot train Settlers. Can construct Districts around the City to boost Tile Yields. Starts with Walls of Faith in Capital. Starts with Language Square & Military Science."
+	"uniqueText": "Cannot train Settlers. Can construct Districts around the City to boost Tile Yields. Starts with Walls of Faith in Capital."
     "uniques": ["Defensive buildings in all cities are 50% more effective","Gain a free [Walls of Faith] [in capital]",
 	"Starts with [Language Square]","Starts with [Military Science]","Starts with [High Seat of the Queen]",
 	"Starts with [Age of Discovery]"],
@@ -89,9 +89,21 @@
 	"Starts with [Empire Mint]","Starts with [Language Square]","Starts with [Protectors of Auriga]","Starts with [Age of Discovery]"],
 	"cities":["Jiraduvejy","Nachampassese","Lakaspassar","Masargaka","Jayawardene","Semsanitnwona","Namkang","Sadunitne","Maspa","Leyasa"]
   },
+  {
+    "name": "The Forgotten",   //Grey
+    "leaderName": "Ziema Adya",
+    "adjective": ["Forgotten"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [100, 100, 100],
+    "innerColor": [255,255,255],
+	"uniqueName": "Diplomatic Pressure",
+	"uniqueText": "Generates 50% less Science. Gains 100% of Enemy Strength as Dust & Science. Starts with 3 free units in capital."
+    "uniques": ["Gain a free [Dust Opportunists] [in capital]",
+	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]"],
+	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
+  },
   
-  //Forgotten: science+gold from kills, +units at start???
- 
   
   
   

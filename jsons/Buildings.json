@@ -308,13 +308,6 @@
         "uniques": ["Unsellable","Provides [4] [Glassteel]","Provides [4] [Titanium]","Provides [4] [Adamantian]","Provides [4] [Palladian]","Provides [4] [Mithrite]","Provides [4] [Hyperium]"],
         "requiredTech": "Blessings of the Mother"
     },
-	
-	
-	
-	
-	
-	
-	
 	//Broken Lords Tech Boosts
 	{
         "name": "Broken Archaeologists",   
@@ -443,6 +436,14 @@
 		"cost": 1,
 		"uniques": ["All newly-trained [All] units receive the [Endless Eye] promotion"],
         "requiredTech": "Eye of the Endless"
+    },
+	//Forgotten Boosts
+	{
+        "name": "Dust Opportunists", 
+		"uniqueTo": "The Forgotten",
+        "isNationalWonder": true,
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable","-[50]% [Science] [in all cities]","[3] free [Assassin] units appear"]
     },
 	
 	
