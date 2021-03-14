@@ -119,6 +119,58 @@
 		"uniques": ["Penalty vs City 50%","Consumes [1] [Titanium]"],
 		"attackSound": "arrow"
 	},
+    {
+		"name": "Adamantian Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Uncommon Alloys",
+		"promotions": ["Adamantian"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Adamantian]"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Palladian Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Uncommon Armor",
+		"promotions": ["Palladian"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Palladian]"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Mithrite Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Rare Alloys",
+		"promotions": ["Mithrite"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Mithrite]"],
+		"attackSound": "arrow"
+	},
+    {
+		"name": "Hyperium Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Rare Armor",
+		"promotions": ["Hyperium"],
+		"uniques": ["Penalty vs City 50%","Consumes [1] [Hyperium]"],
+		"attackSound": "arrow"
+	},
 	//Support
 	{
 		"name": "Support",
@@ -133,6 +185,84 @@
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
 		"attackSound": "arrow"
 	},
+	{
+		"name": "Glassteel Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Alchemical Alloys",
+		"promotions": ["Glassteel","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Glassteel]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Titanium Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Titanium","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Titanium]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Adamantian Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Uncommon Alloys",
+		"promotions": ["Adamantian","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Adamantian]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Palladian Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Uncommon Armor",
+		"promotions": ["Palladian","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Palladian]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Mithrite Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Rare Alloys",
+		"promotions": ["Mithrite","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Mithrite]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Hyperium Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 1,
+		"cost": 250,
+		"requiredTech": "Rare Armor",
+		"promotions": ["Hyperium","Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Hyperium]"],
+		"attackSound": "arrow"
+	},
 	//Cavalry
 	{
 		"name": "Cavalry",
@@ -142,6 +272,72 @@
 		"cost": 100,
 		"requiredTech": "Mercenary Market",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Glassteel Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Alchemical Alloys",
+		"promotions": ["Glassteel"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Glassteel]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Titanium Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Titanium"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Titanium]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Adamantian Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Uncommon Alloys",
+		"promotions": ["Adamantian"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Adamantian]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Palladian Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Uncommon Armor",
+		"promotions": ["Palladian"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Palladian]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Mithrite Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Rare Alloys",
+		"promotions": ["Mithrite"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Mithrite]"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hyperium Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 20,
+		"cost": 100,
+		"requiredTech": "Rare Armor",
+		"promotions": ["Hyperium"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Hyperium]"],
 		"attackSound": "horse"
 	},
 	//Flying
@@ -156,16 +352,97 @@
 		"attackSound": "horse"
 	},
     {
-		"name": "Scyther",   //T3 flying
+		"name": "Glassteel Flying",
 		"unitType": "Mounted",
 		"movement": 6,
-		"strength": 40,
+		"strength": 30,
 		"cost": 250,
-		"requiredTech": "Scyther",
-		"uniques": ["Consumes [2] [Glassteel]","Consumes [2] [Titanium]",
-		"+[25]% Strength when defending","Can move after attacking","Unable to capture cities","Can pass through impassable tiles"],
+		"requiredTech": "Alchemical Alloys",
+		"promotions": ["Glassteel"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Glassteel]"],
 		"attackSound": "horse"
 	},
+    {
+		"name": "Titanium Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Titanium"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Titanium]"],
+		"attackSound": "horse"
+	},
+    {
+		"name": "Adamantian Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Uncommon Alloys",
+		"promotions": ["Adamantian"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Adamantian]"],
+		"attackSound": "horse"
+	},
+    {
+		"name": "Palladian Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Uncommon Armor",
+		"promotions": ["Palladian"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Palladian]"],
+		"attackSound": "horse"
+	},
+    {
+		"name": "Mithrite Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Rare Alloys",
+		"promotions": ["Mithrite"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Mithrite]"],
+		"attackSound": "horse"
+	},
+    {
+		"name": "Hyperium Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 30,
+		"cost": 250,
+		"requiredTech": "Rare Armor",
+		"promotions": ["Hyperium"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"Consumes [1] [Hyperium]"],
+		"attackSound": "horse"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+   // {
+	//	"name": "Scyther",   //T3 flying
+	//"unitType": "Mounted",
+	//	"movement": 6,
+	//	"strength": 40,
+	//	"cost": 250,
+	//	"requiredTech": "Scyther",
+	//	"uniques": ["Consumes [2] [Glassteel]","Consumes [2] [Titanium]",
+	//	"+[25]% Strength when defending","Can move after attacking","Unable to capture cities","Can pass through impassable tiles"],
+	//	"attackSound": "horse"
+	//},
 	
 	//Guardians
 	{
