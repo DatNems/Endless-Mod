@@ -443,7 +443,31 @@
 		"uniqueTo": "The Forgotten",
         "isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","-[50]% [Science] [in all cities]","[3] free [Assassin] units appear"]
+		"uniques": ["Unsellable","[3] free [Assassin] units appear"],
+        "requiredTech": "Learn from Others"
+    },
+	{
+        "name": "Tower of the Consencrate", 
+		"uniqueTo": "The Forgotten",
+		"cost": 600,
+		"maintenance": 2,
+		"uniques": ["Provides 2 extra copy of each improved strategy resource near this City"]
+        "requiredTech": "Tower of the Consencrate"
+    },
+	{
+        "name": "What's Mine is Mine", 
+		"uniqueTo": "The Forgotten",
+		"cost": 1,
+		"cityStrength": 15,
+        "requiredTech": "What's Mine is Mine"
+    },
+	{
+        "name": "Surreptitious Research", 
+		"uniqueTo": "The Forgotten",
+		"cost": 2000,
+		"maintenance": 7,
+		"uniques": ["Consumes [10] [Titanium]","+[20]% [Gold] [in this city]"],
+        "requiredTech": "Commercial Espionage"
     },
 	
 	

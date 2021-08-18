@@ -39,8 +39,8 @@
 			{
 				"name": "Learn from Others",
 		        //"uniqueTo": "Forgotten",
-				"uniques": ["Earn [100]% of [Military] opponent's [Cost] as [Gold] for kills","Earn [100]% of [Military] opponent's [Cost] as [Science] for kills"],
-				"row": 14,
+				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","Earn [100]% of killed [Military] unit's [Strength] as [Science]"],
+				"row": 13,
 			},
 		]	
 	},
@@ -113,6 +113,13 @@
 				"row": 11,
 				"prerequisites": ["Protectors of Auriga"],   
 			},
+			{
+				"name": "Dust Sense",  
+		        //"uniqueTo": "Forgotten",
+				"row": 13,
+				"prerequisites": ["Learn from Others"], 
+				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]  
+			},
 			
 			
 			
@@ -182,6 +189,24 @@
 				"row": 11,
 				"prerequisites": ["Aura of Leadership","Oologic Nursery"],   
 			},
+			{
+				"name": "Caudata Sanctuary",  //TO DO
+		        //"uniqueTo": "Forgotten",
+				"row": 12,
+				"prerequisites": ["Dust Sense"],   
+			},
+			{
+				"name": "Tower of the Consencrate", 
+		        //"uniqueTo": "Forgotten",
+				"row": 13,
+				"prerequisites": ["Dust Sense"],   
+			},
+			{
+				"name": "What's Mine is Mine", 
+		        //"uniqueTo": "Forgotten",
+				"row": 14,
+				"prerequisites": ["Dust Sense"],   
+			},
 			
 			
 			
@@ -236,6 +261,13 @@
 				"row": 11,
 				"prerequisites": ["Tribal Council"],   
 			},
+			{
+				"name": "High Seminary",  
+		        //"uniqueTo": "Forgotten",
+				"row": 13,
+				"uniques": ["+[30]% [Science] while the empire is happy"]
+				"prerequisites": ["Caudata Sanctuary","Tower of the Consencrate","What's Mine is Mine"],   
+			},
 			
 			
 			
@@ -276,6 +308,19 @@
 		        //"uniqueTo": "Drakken",
 				"row": 11,
 				"prerequisites": ["Auriga Institute"],   
+			},
+			{
+				"name": "Master Deceivers",  
+		        //"uniqueTo": "Forgotten",
+				"row": 12,
+				"uniques": ["-[25]% unit upkeep costs"],
+				"prerequisites": ["High Seminary"],   
+			},
+			{
+				"name": "Commercial Espionage",  
+		        //"uniqueTo": "Forgotten",
+				"row": 14,
+				"prerequisites": ["High Seminary"],   
 			},
 			
 			

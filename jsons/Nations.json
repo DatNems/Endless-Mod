@@ -97,9 +97,9 @@
     "preferredVictoryType": "Domination",
     "outerColor": [100, 100, 100],
     "innerColor": [255,255,255],
-	"uniqueName": "Diplomatic Pressure",
+	"uniqueName": "Science Phobic",
 	"uniqueText": "Generates 50% less Science. Gains 100% of Enemy Strength as Dust & Science. Starts with 3 free units in capital."
-    "uniques": ["Gain a free [Dust Opportunists] [in capital]",
+    "uniques": ["+[-50]% [Science] [in all cities]","-[50]% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
 	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]"],
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },

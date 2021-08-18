@@ -763,6 +763,33 @@
 		"cost": 80,
 		"uniques": ["-[40]% Strength when defending"],
 	},
+	{
+		"name": "Predatore",   
+		"unitType": "Ranged",
+		"replaces": "Ranger",
+		"uniqueTo": "The Forgotten",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 80,
+		"requiredTech": "Alchemical Armor", //?
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Myst",
+		"unitType": "Mounted",
+		"replaces": "Flying",
+		"uniqueTo": "The Forgotten",
+		"movement": 6,
+		"strength": 44,
+		"cost": 90,
+		"requiredTech": "Mercenary Market",  //? Era II
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
+		"-[25]% Strength when defending"],
+		"attackSound": "horse"
+	},
 	
 	
 	
