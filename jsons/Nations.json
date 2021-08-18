@@ -103,7 +103,19 @@
 	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]"],
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },
-  
+  {
+    "name": "Kapaku",   //Red  TO DO: ALL
+    "leaderName": "Grand Cleric Akuma",
+    "adjective": ["Kapaku"],
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [185, 65, 60],
+    "innerColor": [255,255,255],
+	"uniqueName": "Born of Ash",
+	"uniqueText": "Only receives Food from Desert. +2 Science from resources. Can terraform." //add rest
+    "uniques": ["[+2 Food] from every [Desert]","Starts with [Age of Discovery]"],
+	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
+  },
   
   
   
