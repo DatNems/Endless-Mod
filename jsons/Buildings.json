@@ -6,6 +6,7 @@
 		"production": 5,
 		"science": 2,
 		"cost": 1,
+		"cityStrength":50,
         "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]"]
     },
 	
