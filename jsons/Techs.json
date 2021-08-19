@@ -43,6 +43,11 @@
 				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]","Earn [100]% of killed [Military] unit's [Strength] as [Science]"],
 				"row": 13,
 			},
+			{
+				"name": "Golem Camp",
+		        //"uniqueTo": "Kapaku",
+				"row": 15,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs
@@ -118,6 +123,19 @@
 				"row": 13,
 				"prerequisites": ["Learn from Others"], 
 				"uniques": ["Earn [100]% of killed [Military] unit's [Strength] as [Gold]"]  
+			},
+			{
+				"name": "Shaman's Insight",  
+		        //"uniqueTo": "Kapaku",
+				"row": 14,
+				"prerequisites": ["Golem Camp"], 
+				"uniques": ["[5] units cost no maintenance"]  
+			},
+			{
+				"name": "Siege Engineering",  //TO DO
+		        //"uniqueTo": "Kapaku",
+				"row": 16,
+				"prerequisites": ["Golem Camp"],  
 			},
 			
 			
@@ -206,6 +224,12 @@
 				"row": 14,
 				"prerequisites": ["Dust Sense"],   
 			},
+			{
+				"name": "Koni School of Elite Riders", 
+		        //"uniqueTo": "Kapaku",
+				"row": 15,
+				"prerequisites": ["Shaman's Insight","Siege Engineering"],   
+			},
 			
 			
 			
@@ -267,6 +291,12 @@
 				"uniques": ["+[30]% [Science] while the empire is happy"]
 				"prerequisites": ["Caudata Sanctuary","Tower of the Consencrate","What's Mine is Mine"],   
 			},
+			{
+				"name": "Aurigan Archive",  
+		        //"uniqueTo": "Kapaku",
+				"row": 15,
+				"prerequisites": ["Koni School of Elite Riders"],   
+			},
 			
 			
 			
@@ -320,6 +350,13 @@
 		        //"uniqueTo": "Forgotten",
 				"row": 14,
 				"prerequisites": ["High Seminary"],   
+			},
+			{
+				"name": "Inner Peace",  
+		        //"uniqueTo": "Kapaku",
+				"row": 15,
+				"uniques": ["[+2 Culture] from every [Bonus resource]"],
+				"prerequisites": ["Aurigan Archive"],   
 			},
 			
 			

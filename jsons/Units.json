@@ -807,10 +807,45 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can construct [Desertification]"]
+		"uniques": ["Can build [Desertification] improvements on tiles"]
 	},
 	//Kapaku Units
-	
+	{
+		"name": "Stone Sentinel",
+		"unitType": "Melee",
+		"replaces": "Infantry",
+		"uniqueTo": "Kapaku",
+		"movement": 4,
+		"strength": 28,
+		"cost": 80,
+		"uniques": ["+[100]% Strength when defending"],
+	},
+	{
+		"name": "Geomancer",
+		"unitType": "Ranged",
+		"replaces": "Support",
+		"uniqueTo": "Kapaku",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 60,
+		"requiredTech": "Alchemical Armor",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	{   
+		"name": "Golem Rider",  //era II
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Kapaku",
+		"movement": 6,
+		"strength": 30,
+		"cost": 110,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+	},
 	
 	
 	

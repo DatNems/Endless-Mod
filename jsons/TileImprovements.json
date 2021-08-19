@@ -21,7 +21,7 @@
 		"food": 2,
 		"production": 1,
 		"science": 1,
-		"uniques": ["Great Improvement","Cannot be built on [Desert] tiles"]
+		"uniques": ["Cannot be built on [Desert] tiles"]
 	},
     {
 		"name": "Living Dust", 
