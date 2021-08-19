@@ -623,6 +623,16 @@
 		"uniques": ["+[50]% Strength when defending","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
 		"attackSound": "horse"
 	},
+	//Broken Lords pop increase thingy
+	{
+		"name": "Living Armor",   
+		"uniqueTo": "Broken Lords",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 100,
+		"uniques": ["Can construct [Living Dust]"]
+	},
+	
 	
 	//Broken Lords
 	{
@@ -790,7 +800,16 @@
 		"-[25]% Strength when defending"],
 		"attackSound": "horse"
 	},
-	
+	//Kapaku terraformer
+	{
+		"name": "Stargazer",   
+		"uniqueTo": "Kapaku",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 110,
+		"uniques": ["Can construct [Desertification]"]
+	},
+	//Kapaku Units
 	
 	
 	

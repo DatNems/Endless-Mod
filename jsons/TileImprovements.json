@@ -2,6 +2,9 @@
 	
 	
 	// Resource-specific
+	
+	
+	// Special improvement
 	{
 		"name": "District", 
 		"uniqueTo": "Cultists",
@@ -12,8 +15,19 @@
 		"gold": 3,
 		"uniques": ["Great Improvement"]
 	},
-
-	// Special improvement
+    {
+		"name": "Desertification", 
+		"uniqueTo": "Kapaku",
+		"food": 2,
+		"production": 1,
+		"science": 1,
+		"uniques": ["Great Improvement","Cannot be built on [Desert] tiles"]
+	},
+    {
+		"name": "Living Dust", 
+		"uniqueTo": "Broken Lords",
+		"uniques": ["Great Improvement","Tile provides yield without assigned population"]
+	},
 	
 
 	// Military improvements

@@ -23,6 +23,7 @@
 			{
 				"name": "Soul Burn",
 		        //"uniqueTo": "Broken Lords",
+				"uniques": ["Enables conversion of city production to gold"],
 				"row": 6,
 			},
 			{
@@ -73,9 +74,7 @@
 		        //"uniqueTo": "Allayi",
 				"row": 4,
 				"prerequisites": ["Garth of the Allayi"],
-				"uniques": ["[+3 Gold] from every [Dye]","[+3 Gold] from every [Emerald]","[+3 Gold] from every [Bronze]","[+3 Gold] from every [Spice]","[+3 Gold] from every [Wine]",
-				"[+3 Gold] from every [Moon Leaf]","[+3 Gold] from every [Grassilk]","[+3 Gold] from every [Blood Crystal]","[+3 Gold] from every [Quicksilver]","[+3 Gold] from every [Titan Bones]",
-				"[+3 Gold] from every [Dust Orchid]","[+3 Gold] from every [Dustwater]","[+3 Gold] from every [Hydromiel]","[+3 Gold] from every [Pixie Blood]","[+3 Gold] from every [Redsang]"],
+				"uniques": ["[+3 Gold] from every [Luxury resource]"],
 			},
 			{
 				"name": "Archaeologist",  

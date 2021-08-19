@@ -982,8 +982,8 @@
         "name": "Watchtower",   //add Mykaran Watchtower!
         "hurryCostModifier": 20,
 		"cost": 250,
-        "cityHealth": 50,
-        "cannotBeBuiltWith": "Lookout Tower",
+        "cityHealth": 20,
+		"uniques": ["3 tiles in every direction always visible"]
         "requiredTech": "Imperial Highways"
     },
 	{
@@ -1099,8 +1099,8 @@
         "name": "Lookout Tower",   //add Mykaran Lookout!
         "hurryCostModifier": 20,
 		"cost": 350,
-        "cannotBeBuiltWith": "Watchtower",  //+1 vision
-		"uniques": ["All newly-trained [All] units in this city receive the [Scouting I] promotion"],
+		"cityStrength": 30,
+		"uniques": ["5 tiles in every direction always visible"],
         "requiredTech": "Highway Outposts"
     },
 	{
@@ -1325,8 +1325,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
         "cityHealth": 50,
-        "cannotBeBuiltWith": "Lookout Tower",
-		"uniques": ["All newly-trained [All] units in this city receive the [Scouting I] promotion"],
+		"uniques": ["7 tiles in every direction always visible"],
         "requiredTech": "Enlightened Trade"
     },
 	{

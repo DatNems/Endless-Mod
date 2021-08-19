@@ -43,8 +43,14 @@
     "outerColor": [255, 235, 170],
     "innerColor": [128,128,128],
 	"uniqueName": "Appetite for Dust",  
-	"uniqueText": "Food gain reduced by 70%. All Food buildings provide Dust instead."
-    "uniques": ["[-2 Food] from every [Land]","[-2 Food] from every [Water]","[-1 Food] from every [River]",
+	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Living Armor which will grant tile yields. All Food buildings provide Dust instead."
+    "uniques": [
+	//-food from tiles
+	//"[-2 Food] from every [Land]","[-2 Food] from every [Water]","[-1 Food] from every [River]",
+	//-food from all sources
+	"+[-100]% [Food] [in all cities]",
+	
+	
 	//+gold from every gold tile
 	"[+2 Gold] from every [Coast]","[+2 Gold] from every [River]","[+2 Gold] from every [Jungle]","[+2 Gold] from every [Desert]","[+2 Gold] from every [Lakes]","[+2 Gold] from every [Plains]","[+2 Gold] from every [Ocean]",
 	"[+1 Gold] from every [Black Dust]","[+1 Gold] from every [Botanical Garden]","[+1 Gold] from every [Caldera Lake]","[+1 Gold] from every [Chromatic Land]","[+1 Gold] from every [Clay]","[+1 Gold] from every [Crystal Flowers]","[+1 Gold] from every [Dragon Tree]","[+1 Gold] from every [Earthspine]","[+1 Gold] from every [Escaped Specimens]","[+1 Gold] from every [Golden Tree]","[+1 Gold] from every [Hidden Springs]","[+1 Gold] from every [Lava Chimneys]","[+1 Gold] from every [Mutant Marsh]","[+1 Gold] from every [Hidden Oasis]","[+1 Gold] from every [Ruby Cactus Fields]","[+1 Gold] from every [Rumbling Stones]","[+1 Gold] from every [Salt Desert]","[+1 Gold] from every [Stasis Pillar]","[+1 Gold] from every [Steel Stalks]","[+1 Gold] from every [Weaver Worms]",
@@ -104,16 +110,19 @@
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },
   {
-    "name": "Kapaku",   //Red  TO DO: ALL
+    "name": "Kapaku",   //Red  TO DO: TECHS, UNITS
     "leaderName": "Grand Cleric Akuma",
     "adjective": ["Kapaku"],
     "startBias": ["Desert"],
-    "preferredVictoryType": "Domination",
+    "preferredVictoryType": "Scientific",
     "outerColor": [185, 65, 60],
     "innerColor": [255,255,255],
 	"uniqueName": "Born of Ash",
-	"uniqueText": "Only receives Food from Desert. +2 Science from resources. Can terraform." //add rest
-    "uniques": ["[+2 Food] from every [Desert]","Starts with [Age of Discovery]"],
+	"uniqueText": "Only receives Food from Desert. +2 Science from resources. Can terraform."
+    "uniques": ["[-2 Food] from every [Land]","[+5 Food] from every [Desert]",
+	//science from every resources
+	"[+2 Science] from every [Luxury resource]","[+2 Science] from every [Bonus resource]","[+2 Science] from every [Strategic resource]",
+	"Starts with [Topography]","Starts with [Alchemist's Furnace]","Starts with [Age of Discovery]"],
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
   
