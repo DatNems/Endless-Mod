@@ -23,12 +23,13 @@
 			{
 				"name": "Soul Burn",
 		        //"uniqueTo": "Broken Lords",
-				"uniques": ["Enables conversion of city production to gold"],
+				"uniques": ["Enables conversion of city production to [Gold]"],
 				"row": 6,
 			},
 			{
 				"name": "High Seat of the Queen",
 		        //"uniqueTo": "Cultists",
+				"uniques": ["[1] free [Settler] units appear"]
 				"row": 9,
 			},
 			{
@@ -342,7 +343,7 @@
 				"name": "Master Deceivers",  
 		        //"uniqueTo": "Forgotten",
 				"row": 12,
-				"uniques": ["-[25]% unit upkeep costs"],
+				"uniques": ["-25% unit upkeep costs"],
 				"prerequisites": ["High Seminary"],   
 			},
 			{

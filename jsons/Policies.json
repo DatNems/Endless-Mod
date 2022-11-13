@@ -2,7 +2,7 @@
 	{
 		"name": "Military",
 		"era": "Era I",
-		"uniques": ["+[20]% Production when constructing [Military] units [in all cities]"],
+		"uniques": ["+20% Production when constructing [Military] units [in all cities]"],
 		"policies": [
 			{
 				"name": "Military II",
@@ -18,7 +18,7 @@
 			},
 			{
 				"name": "Military IV",
-				"uniques": ["Units in cities cost no Maintenance","+50% attacking strength for cities with garrisoned units"],
+				"uniques": ["Units in cities cost no Maintenance","+50% Strength for cities with garrisoned units"],
 				"row": 3,
 				"column": 1
 			},
@@ -47,7 +47,7 @@
 			},
 			{
 				"name": "Economy IV",
-				"uniques": ["+[25]% [Gold] [in all cities]"],
+				"uniques": ["+25% Gold [in all cities]"],
 				"row": 3,
 				"column": 1
 			},
@@ -60,11 +60,11 @@
 	{
 		"name": "Science",
 		"era": "Era I",
-		"uniques": ["+[10]% [Science] [in all cities]"],
+		"uniques": ["+10% Science [in all cities]"],
 		"policies": [
 			{
 				"name": "Science II",
-				"uniques": ["+[25]% Production when constructing [Buildings] [in all cities]"],
+				"uniques": ["+25% Production when constructing [Buildings] [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
@@ -89,7 +89,7 @@
 	{
 		"name": "Expansion",
 		"era": "Era I",
-		"uniques": ["+[1] Movement for all [Military] units"],
+		"uniques": ["+1 Movement for all [Military] units"],
 		"policies": [
 			{
 				"name": "Expansion II",
@@ -99,13 +99,13 @@
 			},
 			{
 				"name": "Expansion III",
-				"uniques": ["+[1] Movement for all [Military] units"],
+				"uniques": ["+1 Movement for all [Military] units"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Expansion IV",
-				"uniques": ["+[50]% [Food] [in all cities]"],
+				"uniques": ["+50% Food [in all cities]"],
 				"row": 3,
 				"column": 1
 			},

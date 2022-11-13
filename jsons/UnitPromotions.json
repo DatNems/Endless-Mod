@@ -299,7 +299,6 @@
 		"effect": "Bonus when intercepting [34]%",
 		"unitTypes": ["Fighter"]
 	},
-	/*
 	{
 		"name": "Dogfighting I",
 		"effect": "Bonus when performing air sweep [33]%", // todo
@@ -316,8 +315,7 @@
 		"prerequisites": ["Dogfighting II"],
 		"effect": "Bonus when performing air sweep [34]%",
 		"unitTypes": ["Fighter"]
-	}
-	*/
+	},
 	
 	{
 		"name": "Sortie",
@@ -473,7 +471,6 @@
 	{
 		"name": "Synchronized",  //Broken Lords end-game promo
 		"uniques": ["Heals [100] damage if it kills a unit"],
-		"prerequisites": ["Synchronic Temple"]
 	},
 	
 	//Resource related Unit Promos

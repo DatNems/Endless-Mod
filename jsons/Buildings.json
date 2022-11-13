@@ -21,7 +21,7 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
-		"[+3 Science] once [Dust Purifier] is discovered"],
+		"+3 Science once [Dust Purifier] is discovered"],
         "requiredTech": "Arcana of Matter"
     },
 	{
@@ -31,7 +31,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
-		"[+3 Science] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Knowledge] in this city"],
+		"+3 Science once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Knowledge"],
         "requiredTech": "Dust Mechanics"
     },
 	{
@@ -41,7 +42,8 @@
 		"cost": 175,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
-		"[+3 Science] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Knowledge II] in this city"],
+		"+3 Science once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Knowledge II"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -51,7 +53,8 @@
 		"cost": 240,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
-		"[+3 Science] once [Painosphere] is discovered","Requires a [Pillar of Knowledge III] in this city"],
+		"+3 Science once [Painosphere] is discovered",
+		"Not displayed as an available construction without Pillar of Knowledge III"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -61,7 +64,7 @@
 		"cost": 275,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
-		"Requires a [Pillar of Knowledge IV] in this city"],
+		"Not displayed as an available construction without Pillar of Knowledge IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
 	{
@@ -70,7 +73,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units"],
+        "uniques": ["+1 Movement for all [Military] units"],
 		"requiredTech": "Arcana of Agility"
     },
 	{
@@ -79,8 +82,8 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units",
-		"Requires a [Pillar of Speed] in this city"],
+        "uniques": ["+1 Movement for all [Military] units",
+		"Not displayed as an available construction without Pillar of Speed"],
         "requiredTech": "Dust Mechanics"
     },
 	{
@@ -89,8 +92,8 @@
         "isNationalWonder": true,
 		"cost": 175,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units",
-		"Requires a [Pillar of Speed II] in this city"],
+        "uniques": ["+1 Movement for all [Military] units",
+		"Not displayed as an available construction without Pillar of Speed II"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -99,8 +102,8 @@
         "isNationalWonder": true,
 		"cost": 240,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units",
-		"Requires a [Pillar of Speed III] in this city"],
+        "uniques": ["+1 Movement for all [Military] units",
+		"Not displayed as an available construction without Pillar of Speed III"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -109,8 +112,8 @@
         "isNationalWonder": true,
 		"cost": 275,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units",
-		"Requires a [Pillar of Speed IV] in this city"],
+        "uniques": ["+1 Movement for all [Military] units",
+		"Not displayed as an available construction without Pillar of Speed IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
 	{
@@ -120,7 +123,7 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
-		"[+3 Culture] once [Dust Mechanics] is discovered"],
+		"+3 Culture once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Authority"
     },
 	{
@@ -130,7 +133,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
-		"[+3 Culture] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Influence] in this city"],
+		"+3 Culture once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Influence"],
         "requiredTech": "Dust Mechanics"
     },
 	{
@@ -140,7 +144,8 @@
 		"cost": 175,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
-		"[+3 Culture] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Influence II] in this city"],
+		"+3 Culture once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Influence II"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -150,7 +155,8 @@
 		"cost": 240,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
-		"[+3 Culture] once [Painosphere] is discovered","Requires a [Pillar of Influence III] in this city"],
+		"+3 Culture once [Painosphere] is discovered",
+		"Not displayed as an available construction without Pillar of Influence III"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -160,7 +166,7 @@
 		"cost": 275,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
-		"Requires a [Pillar of Influence IV] in this city"],
+		"Not displayed as an available construction without Pillar of Influence IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
 	{
@@ -170,7 +176,7 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
-		"[+3 Gold] once [Dust Mechanics] is discovered"],
+		"+3 Gold once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Materializing"
     },
 	{
@@ -180,7 +186,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
-		"[+3 Gold] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Extraction] in this city"],
+		"+3 Gold once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Extraction"],
         "requiredTech": "Dust Mechanics"
     },
 	{
@@ -190,7 +197,8 @@
 		"cost": 175,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
-		"[+3 Gold] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Extraction II] in this city"],
+		"+3 Gold once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Extraction II"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -200,7 +208,8 @@
 		"cost": 240,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
-		"[+3 Gold] once [Painosphere] is discovered","Requires a [Pillar of Extraction III] in this city"],
+		"+3 Gold once [Painosphere] is discovered",
+		"Not displayed as an available construction without Pillar of Extraction III"],
         "requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -210,7 +219,7 @@
 		"cost": 275,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
-		"Requires a [Pillar of Extraction IV] in this city"],
+		"Not displayed as an available construction without Pillar of Extraction IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
 	{
@@ -220,7 +229,7 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
-		"[+3 Food] once [Dust Mechanics] is discovered"],
+		"+3 Food once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Renewal"
     },
 	{
@@ -230,7 +239,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
-		"[+3 Food] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Regeneration] in this city"],
+		"+3 Food once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Regeneration"],
 		"requiredTech": "Dust Mechanics"
     },
 	{
@@ -240,7 +250,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
-		"[+3 Food] once [Secrets of the Virtuals] is discovered","Requires a [Pillar of Regeneration] in this city"],
+		"+3 Food once [Secrets of the Virtuals] is discovered",
+		"Not displayed as an available construction without Pillar of Regeneration II"],
 		"requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -250,7 +261,8 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
-		"[+3 Food] once [Painosphere] is discovered","Requires a [Pillar of Regeneration] in this city"],
+		"+3 Food once [Painosphere] is discovered",
+		"Not displayed as an available construction without Pillar of Regeneration III"],
 		"requiredTech": "Secrets of the Virtuals"
     },
 	{
@@ -260,7 +272,7 @@
 		"cost": 120,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
-		"Requires a [Pillar of Regeneration] in this city"],
+		"Not displayed as an available construction without Pillar of Regeneration IV"],
 		"requiredTech": "Sacrificial Amplifiers"
     },
 	//rest of Ardent Mage
@@ -359,7 +371,7 @@
         "isNationalWonder": true,
 		"cost": 800,
 		"maintenance": 4,
-		"uniques": ["+[30]% [Science] [in this city]",
+		"uniques": ["+30% Science [in this city]",
 		"Consumes [5] [Hyperium]"],
         "requiredTech": "Shrine of Whispers"
     },
@@ -467,7 +479,7 @@
 		"uniqueTo": "The Forgotten",
 		"cost": 2000,
 		"maintenance": 7,
-		"uniques": ["Consumes [10] [Titanium]","+[20]% [Gold] [in this city]"],
+		"uniques": ["Consumes [10] [Titanium]","+20% Gold [in this city]"],
         "requiredTech": "Commercial Espionage"
     },
 	//kapaku buildings
@@ -551,7 +563,7 @@
         "name": "Bread and Circuses", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Unhappiness from population decreased by [10]%"],
+        "uniques": ["-10% unhappiness from population [in all cities]"],
         "requiredTech": "Bread and Circuses"
     },
 	{
@@ -579,7 +591,7 @@
         "name": "Signal Corps",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["-[15]% [Military] unit maintenance costs"],
+		"uniques": ["-15% [Military] unit maintenance costs"],
         "requiredTech": "Signal Corps"
     },
 	{
@@ -593,35 +605,35 @@
         "name": "State-Approved Theatre",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["Unhappiness from population decreased by [25]%"],
+		"uniques": ["-25% unhappiness from population [in all cities]"],
         "requiredTech": "State-Approved Theatre"
     },
 	{
         "name": "Difference Engine",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["+[50]% [Science] [in all cities]"],
+		"uniques": ["+50% Science [in all cities]"],
         "requiredTech": "Difference Engine"
     },
 	{
         "name": "Dust-Driven Distillery",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["+[50]% [Gold] [in all cities]"],
+		"uniques": ["+50% Gold [in all cities]"],
         "requiredTech": "Dust-Driven Distillery"
     },
 	{
         "name": "Endless Alloys",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["+[50]% [Production] [in all cities]"],
+		"uniques": ["+50% Production [in all cities]"],
         "requiredTech": "Endless Alloys"
     },
 	{
         "name": "Self-Driving Plows",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["+[50]% [Food] [in all cities]"],
+		"uniques": ["+50% Food [in all cities]"],
         "requiredTech": "Self-Driving Plows"
     },
 	{
@@ -635,7 +647,7 @@
         "name": "United Empires Council",
         "isNationalWonder": true, 
 		"cost": 1,
-		"uniques": ["+[50]% [Culture] [in all cities]"],
+		"uniques": ["+50% Culture [in all cities]"],
         "requiredTech": "United Empires Council"
     },
 	
@@ -650,28 +662,32 @@
         "name": "Titanium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [23] [Titanium]","+[20]% [Science] [in this city]"],
+        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [23] [Titanium]",
+		"+20% Science [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Glassteel Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [23] [Glassteel]","+[20]% [Gold] [in this city]"],
+        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [23] [Glassteel]",
+		"+20% Gold [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Adamantian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [23] [Adamantian]","+[20]% [Production] [in this city]"],
+        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [23] [Adamantian]",
+		"+20% Production [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Palladian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [23] [Palladian]","+[20]% [Food] [in this city]"],
+        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [23] [Palladian]",
+		"+20% Food [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
@@ -679,7 +695,7 @@
         "hurryCostModifier": 20,
 		"cost": 60,
         "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [23] [Mithrite]",
-		"+[15]% [Production] [in this city]","+[15]% [Gold] [in this city]"],
+		"+15% Production [in this city]","+15% Gold [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
 	{
@@ -687,7 +703,7 @@
         "hurryCostModifier": 20,
 		"cost": 60,
         "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [23] [Hyperium]",
-		"+[15]% [Science] [in this city]","+[15]% [Food] [in this city]"],
+		"+15% Science [in this city]","+15% Food [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
 	//"Luxes"
@@ -696,7 +712,7 @@
         "hurryCostModifier": 20,
 		"cost": 60,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dye] within [3] tiles","+[50]% [Culture] [in this city]"],
+        "uniques": ["Must have an owned [Dye] within [3] tiles","+50% Culture [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
@@ -712,7 +728,7 @@
         "hurryCostModifier": 20,
 		"cost": 60,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Bronze] within [3] tiles","+[50]% [Gold] [in this city]"],
+        "uniques": ["Must have an owned [Bronze] within [3] tiles","+50% Gold [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
@@ -720,7 +736,7 @@
         "hurryCostModifier": 20,
 		"cost": 60,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Spice] within [3] tiles","+[50]% [Food] [in this city]"],
+        "uniques": ["Must have an owned [Spice] within [3] tiles","+50% Food [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
@@ -753,7 +769,7 @@
         "hurryCostModifier": 20,
 		"cost": 300,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Moon Leaf] within [3] tiles","+[50]% [Science] [in this city]"],
+        "uniques": ["Must have an owned [Moon Leaf] within [3] tiles","+50% Science [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
@@ -769,7 +785,7 @@
         "hurryCostModifier": 20,
 		"cost": 300,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Titan Bones] within [3] tiles","+[50]% [Production] [in this city]"],
+        "uniques": ["Must have an owned [Titan Bones] within [3] tiles","+50% Production [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
@@ -777,7 +793,8 @@
         "hurryCostModifier": 20,
 		"cost": 600,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dust Orchid] within [3] tiles","+[10]% [Production] [in this city]","+[10]% [Science] [in this city]","+[10]% [Gold] [in this city]","+[10]% [Culture] [in this city]"],
+        "uniques": ["Must have an owned [Dust Orchid] within [3] tiles","+10% Production [in this city]","+10% Science [in this city]",
+		"+10% Gold [in this city]","+10% Culture [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
 	{
@@ -785,7 +802,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dustwater] within [3] tiles","+[100]% [Gold] [in this city]"],
+        "uniques": ["Must have an owned [Dustwater] within [3] tiles","+100% Gold [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
 	{
@@ -793,7 +810,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
         "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Hydromiel] within [3] tiles","-[25]% [Military] unit maintenance costs"],
+        "uniques": ["Must have an owned [Hydromiel] within [3] tiles","-25% [Military] unit maintenance costs"],
         "requiredTech": "Advanced Harvester"
     },
 	{
@@ -831,7 +848,7 @@
         "name": "Dust Dredger",
         "hurryCostModifier": 20,
 		"cost": 75,
-        "uniques": ["Must have an owned [River] within [3] tiles","[+2 Gold] from [River] tiles in this city"],
+        "uniques": ["Must have an owned [River] within [3] tiles","[+2 Gold] from [River] tiles [in this city]"],
         "requiredTech": "Aquapulvistics"
     },
 	{
@@ -849,7 +866,7 @@
 		"cost": 75,
 		"maintenance": 1,
 		"food": 5,
-		"uniques": ["+[15]% [Food] [in this city]"],
+		"uniques": ["+15% Food [in this city]"],
         "requiredTech": "Cultivation"
     },
 	{
@@ -866,7 +883,7 @@
         "hurryCostModifier": 20,
 		"cost": 75,
 		"gold": 5,
-		"uniques": ["+[15]% [Gold] [in this city]"],
+		"uniques": ["+15% Gold [in this city]"],
         "requiredTech": "Empire Mint"
     },
 	{
@@ -883,7 +900,7 @@
 		"cost": 75,
 		"production": 5,
 		"maintenance": 1,
-		"uniques": ["+[15]% [Production] [in this city]"],
+		"uniques": ["+15% Production [in this city]"],
         "requiredTech": "Mill Foundry"
     },
 	{
@@ -892,7 +909,7 @@
 		"cost": 75,
 		"science": 5,
 		"maintenance": 1,
-		"uniques": ["+[15]% [Science] [in this city]"],
+		"uniques": ["+15% Science [in this city]"],
         "requiredTech": "Public Library"
     },
 	{
@@ -921,7 +938,7 @@
 		"cost": 250,
 		"science": 10,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]","+[20]% [Science] [in this city]"],
+		"uniques": ["Consumes [4] [Titanium]","+20% Science [in this city]"],
         "requiredTech": "Alchemy Workshop"
     },
 	{
@@ -944,7 +961,7 @@
 		"cost": 250,
 		"happiness": 5,
 		"maintenance": 2,
-		"uniques": ["Consumes [2] [Glassteel]","+[10]% [Food] [in this city]","+[10]% [Gold] [in this city]"],
+		"uniques": ["Consumes [2] [Glassteel]","+10% Food [in this city]","+10% Gold [in this city]"],
         "requiredTech": "Central Market"
     },
 	{
@@ -998,7 +1015,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 3,
-		"uniques": ["-[10]% [Military] unit maintenance costs"]
+		"uniques": ["-10% [Military] unit maintenance costs"]
         "requiredTech": "Imperial Highways"
     },
 	{
@@ -1067,7 +1084,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Palladian]","+[15]% growth [in this city]"],
+		"uniques": ["Consumes [4] [Palladian]","+15% growth [in this city]"],
         "requiredTech": "Borough Government"
     },
 	{
@@ -1156,7 +1173,7 @@
 		"cost": 1200,
         "isNationalWonder": true,
 		"maintenance": 8,
-		"uniques": ["Consumes [6] [Titanium]","+[50]% [Culture] [in this city]"],
+		"uniques": ["Consumes [6] [Titanium]","+50% Culture [in this city]"],
         "requiredTech": "Public Works"
     },
 	{
@@ -1281,7 +1298,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [8] [Palladian]","Consumes [2] [Glassteel]","+[25]% growth [in this city]"],
+		"uniques": ["Consumes [8] [Palladian]","Consumes [2] [Glassteel]","+25% growth [in this city]"],
         "requiredTech": "Isolation Sciences"
     },
 	{
@@ -1331,7 +1348,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 20,
-		"uniques": ["Consumes [4] [Adamantian]","Consumes [4] [Palladian]","+[50]% [Culture] [in this city]"],
+		"uniques": ["Consumes [4] [Adamantian]","Consumes [4] [Palladian]","+50% Culture [in this city]"],
         "requiredTech": "Dust-Enhanced Building"
     },
 	{
@@ -1422,7 +1439,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 20,
-		"uniques": ["Consumes [12] [Titanium]","Consumes [4] [Hyperium]","+[50]% [Science] [in this city]"],
+		"uniques": ["Consumes [12] [Titanium]","Consumes [4] [Hyperium]","+50% Science [in this city]"],
         "requiredTech": "Scientific Specialization"
     },
 	{
@@ -1448,7 +1465,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
 		"gold": 20,
-		"uniques": ["+[50]% [Gold] [in this city]"],
+		"uniques": ["+50% Gold [in this city]"],
         "requiredTech": "Town Criers"
     },
 	{
@@ -1495,7 +1512,7 @@
         "requiredTech": "Age of Discovery",
 		"cost": 500,
 		"happiness": 10,
-		"uniques": ["+[10]% [Science] [in all cities]","+[10]% [Gold] [in all cities]","Cost of purchasing items in cities reduced by [25]%"],
+		"uniques": ["+10% Science [in all cities]","+10% Gold [in all cities]","Cost of purchasing items in cities reduced by [25]%"],
     },
 	//Legendary Deeds Era II
 	{
@@ -1518,7 +1535,7 @@
         "requiredTech": "Age of Glory",
 		"cost": 1000,
 		"production": 10,
-		"uniques": ["+[25]% Production when constructing [Buildings] [in all cities]"],
+		"uniques": ["+25% Production when constructing [Buildings] [in all cities]"],
     },
 	//Deeds Era III
     {
@@ -1551,7 +1568,7 @@
         "requiredTech": "Age of Industry",
 		"cost": 3000,
 		"gold": 20,
-		"uniques": ["+[50]% [Gold] [in this city]"],
+		"uniques": ["+50% Gold [in this city]"],
     },
 	{
         "name": "Immovable Force",
@@ -1573,7 +1590,7 @@
         "isWonder": true,
         "requiredTech": "Age of Heroes",
 		"cost": 5000,
-		"uniques": ["Unhappiness from population decreased by [25]%"],
+		"uniques": ["-25% unhappiness from population [in all cities]"],
     },
 	{
         "name": "Hero of Heroes",
@@ -1588,7 +1605,7 @@
         "requiredTech": "Age of Heroes",
 		"cost": 5000,
 		"gold": 25,
-		"uniques": ["-[50]% [Military] unit maintenance costs"],
+		"uniques": ["-50% [Military] unit maintenance costs"],
     },
 	//Guardian "Wonders"
 	{

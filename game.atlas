@@ -717,6 +717,13 @@ UnitIcons/Dust Bishop
   orig: 24, 24
   offset: 0, 0
   index: -1
+UnitIcons/Geomancer
+  rotate: false
+  xy: 1047, 1230
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
 UnitIcons/Preacher
   rotate: false
   xy: 1047, 1230
@@ -767,6 +774,13 @@ UnitIcons/Special Infantry
   offset: 0, 0
   index: -1
 UnitIcons/Stalwart
+  rotate: false
+  xy: 1047, 1166
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+UnitIcons/Stone Sentinel
   rotate: false
   xy: 1047, 1166
   size: 24, 24
@@ -907,6 +921,13 @@ UnitIcons/Wyvern
   offset: 0, 0
   index: -1
 UnitIcons/Fanatec
+  rotate: false
+  xy: 252, 176
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+UnitIcons/Golem Rider
   rotate: false
   xy: 252, 176
   size: 16, 16

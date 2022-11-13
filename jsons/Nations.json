@@ -15,7 +15,7 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Power through Pain",
 	"uniqueText": "Units always fight with full Strength. Can construct Pillars to boost Tile Yields in Cities."
-    "uniques": ["Units fight as though they were at full strength even when damaged",
+    "uniques": ["Damage is ignored when determining unit Strength",
 	"Starts with [Arcana of Agility]","Starts with [Arcana of Matter]",
 	"Starts with [Age of Discovery]"],
 	"cities":["Telsem","Ateshi","Eneqa","Argbadh","Asalah Arca","Zakiya","Wadeha","Zarcha","Attinul","Faresh"]
@@ -29,7 +29,7 @@
     "outerColor": [255, 150, 75],
     "innerColor": [255,255,255],
 	"uniqueName": "Call of Auriga",
-    "uniques": ["+[1] Movement for all [Military] units","Culture cost of adopting new Policies reduced by [15]%","Unhappiness from number of Cities doubled","[-1 Food] per [1] population in all cities",
+    "uniques": ["+1 Movement for all [Military] units","-15% Culture cost of adopting new Policies","Unhappiness from number of Cities doubled","[-1 Food] per [1] population in all cities",
 	"Starts with [Garth of the Allayi]","Starts with [Shipyard]",
 	"Starts with [Age of Discovery]"],
 	"cities":["Epistles","Garth","Breyos","Eayos","Rabos","Samos","Xoyos","Ystros","Braxos","Auriga"]
@@ -46,7 +46,7 @@
 	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Living Armor which will grant tile yields. All Food buildings provide Dust instead."
     "uniques": [
 	//-food from all sources
-	"+[-100]% [Food] [in all cities]",
+	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]"
 	//+gold from every gold tile
 	"[+2 Gold] from every [Land]","[+2 Gold] from every [Water]",
 	"[+1 Gold] from every [Black Dust]","[+1 Gold] from every [Botanical Garden]","[+1 Gold] from every [Caldera Lake]","[+1 Gold] from every [Chromatic Land]","[+1 Gold] from every [Clay]","[+1 Gold] from every [Crystal Flowers]","[+1 Gold] from every [Dragon Tree]","[+1 Gold] from every [Earthspine]","[+1 Gold] from every [Escaped Specimens]","[+1 Gold] from every [Golden Tree]","[+1 Gold] from every [Hidden Springs]","[+1 Gold] from every [Lava Chimneys]","[+1 Gold] from every [Mutant Marsh]","[+1 Gold] from every [Hidden Oasis]","[+1 Gold] from every [Ruby Cactus Fields]","[+1 Gold] from every [Rumbling Stones]","[+1 Gold] from every [Salt Desert]","[+1 Gold] from every [Stasis Pillar]","[+1 Gold] from every [Steel Stalks]","[+1 Gold] from every [Weaver Worms]",
@@ -72,7 +72,7 @@
 	"uniqueText": "Cannot train Settlers. Can construct Districts around the City to boost Tile Yields. Starts with Walls of Faith in Capital."
     "uniques": ["Defensive buildings in all cities are 50% more effective","Gain a free [Walls of Faith] [in capital]",
 	"Starts with [Language Square]","Starts with [Military Science]","Starts with [High Seat of the Queen]",
-	"Starts with [Age of Discovery]"],
+	"Starts with [Age of Discovery]","Receive free [Settler] when you discover [Age of Discovery]"],
 	"cities":["The Eternal End"]
   },
   {
@@ -85,7 +85,7 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Diplomatic Pressure",
 	"uniqueText": "Starts the Game with the entire Map revealed. Generates Culture from every City and has a huge discount on policies."
-    "uniques": ["[+1 Culture] [in all cities]","Culture cost of adopting new Policies reduced by [50]%",
+    "uniques": ["[+1 Culture] [in all cities]","-50% Culture cost of adopting new Policies",
 	"Starts with [Empire Mint]","Starts with [Language Square]","Starts with [Protectors of Auriga]","Starts with [Age of Discovery]"],
 	"cities":["Jiraduvejy","Nachampassese","Lakaspassar","Masargaka","Jayawardene","Semsanitnwona","Namkang","Sadunitne","Maspa","Leyasa"]
   },
@@ -99,12 +99,12 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Science Phobic",
 	"uniqueText": "Generates 50% less Science. Gains 100% of Enemy Strength as Dust & Science. Starts with 3 free units in capital."
-    "uniques": ["+[-50]% [Science] [in all cities]","-[50]% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
+    "uniques": ["-50% Science [in all cities]","-50% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
 	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]"],
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },
   {
-    "name": "Kapaku",   //Red  TO DO: UNITS
+    "name": "Kapaku",   //Red 
     "leaderName": "Grand Cleric Akuma",
     "adjective": ["Kapaku"],
     "startBias": ["Desert"],
@@ -113,7 +113,7 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Born of Ash",
 	"uniqueText": "Only receives Food from Desert. +2 Science from resources. Can terraform."
-    "uniques": ["[-3 Food] from every [Land]","[+5 Food] from every [Desert]",
+    "uniques": ["[-10 Food] from every [Land]","[+5 Food] from every [Desert]",
 	//science from every resources
 	"[+2 Science] from every [Luxury resource]","[+2 Science] from every [Bonus resource]","[+2 Science] from every [Strategic resource]",
 	"Starts with [Topography]","Starts with [Alchemist's Furnace]","Starts with [Golem Camp]","Starts with [Age of Discovery]"],

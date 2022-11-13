@@ -1,0 +1,203 @@
+[
+    // Source: the fandom, so take these with a grain of salt
+    // I also did some testing in the official version, but by far not all
+    
+    {
+        "name": "Tribes of Auriga",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Infantry",
+        "settlerPopulation": 1,
+		       "baseUnitBuyCost": 200,
+			   "startPercent": 0,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+            "Religious": ["Provides [3] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [6] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Era I",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 2,
+        "startingMilitaryUnit": "Titanium Infantry",
+        "startingGold": 10,
+        "startingCulture": 100,
+        "settlerPopulation": 1,
+		"baseUnitBuyCost": 200,
+		"startPercent": 10,
+        "friendBonus": {
+            "Cultured": ["Provides [3] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [2] Happiness"],
+			"Religious": ["Provides [3] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [2] Happiness", "Provides a unique luxury"],
+            "Religious": ["Provides [6] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Era II",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Titanium Infantry",
+        "startingGold": 25,
+        "startingCulture": 200,
+        "settlerPopulation": 1,
+         "baseUnitBuyCost": 200,
+"startPercent": 25,
+        "friendBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+			"Religious": ["Provides [6] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [12] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [12] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },       
+	   "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Era III",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 2,
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Palladian Infantry",
+        "startingGold": 50,
+        "startingCulture": 300,
+        "settlerPopulation": 2,
+        "baseUnitBuyCost": 300,
+  "startPercent": 37,
+        "friendBonus": {
+            "Cultured": ["Provides [6] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+			"Religious": ["Provides [6] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [12] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [12] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },       
+	   "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Era IV",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Palladian Infantry",
+        "startingGold": 100,
+        "startingCulture": 400,
+        "settlerPopulation": 3,
+          "baseUnitBuyCost": 400,
+		  "startPercent": 50,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+			"Religious": ["Provides [13] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [26] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+		"iconRGB": [63, 81, 182]
+		        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Starting in this era disables religion"]
+    },
+    {
+        "name": "Era V",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Hyperium Infantry",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 3,
+         "baseUnitBuyCost": 600,
+		 "startPercent": 65,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+			"Religious": ["Provides [13] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [26] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+		"iconRGB": [33, 150, 243]
+		        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Starting in this era disables religion"]
+    },
+    {
+        "name": "Era VI",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Hyperium Infantry",
+        "startingGold": 200,
+        "startingCulture": 500,
+        "settlerPopulation": 4,
+        "baseUnitBuyCost": 800,
+		"startPercent": 65,
+        "friendBonus": {
+            "Cultured": ["Provides [13] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]"],
+            "Mercantile": ["Provides [3] Happiness"],
+			"Religious": ["Provides [13] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [26] [Culture] per turn"],
+            "Maritime": ["Provides [2] [Food] [in capital]", "Provides [1] [Food] [in all cities]"],
+            "Mercantile": ["Provides [3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [26] [Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+		"iconRGB": [0, 150, 136]
+		        "uniques": ["May not generate great prophet equivalents naturally",
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+            "Starting in this era disables religion"]
+    },
+]
