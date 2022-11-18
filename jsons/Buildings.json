@@ -20,7 +20,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
+        "uniques": ["[+1 Science] from [Land] tiles in this city",
 		"+3 Science once [Dust Purifier] is discovered"],
         "requiredTech": "Arcana of Matter"
     },
@@ -30,7 +30,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
+        "uniques": ["[+1 Science] from [Land] tiles in this city",
 		"+3 Science once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Knowledge"],
         "requiredTech": "Dust Mechanics"
@@ -41,7 +41,7 @@
         "isNationalWonder": true,
 		"cost": 175,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
+        "uniques": ["[+1 Science] from [Land] tiles in this city",
 		"+3 Science once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Knowledge II"],
         "requiredTech": "Secrets of the Virtuals"
@@ -52,7 +52,7 @@
         "isNationalWonder": true,
 		"cost": 240,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
+        "uniques": ["[+1 Science] from [Land] tiles in this city",
 		"+3 Science once [Painosphere] is discovered",
 		"Not displayed as an available construction without Pillar of Knowledge III"],
         "requiredTech": "Secrets of the Virtuals"
@@ -63,7 +63,7 @@
         "isNationalWonder": true,
 		"cost": 275,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Grassland] tiles in this city","[+1 Science] from [Plains] tiles in this city","[+1 Science] from [Desert] tiles in this city","[+1 Science] from [Hill] tiles in this city","[+1 Science] from [Tundra] tiles in this city","[+1 Science] from [Snow] tiles in this city",
+        "uniques": ["[+1 Science] from [Land] tiles in this city",
 		"Not displayed as an available construction without Pillar of Knowledge IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
@@ -122,7 +122,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
+        "uniques": ["[+1 Culture] from [Land] tiles in this city",
 		"+3 Culture once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Authority"
     },
@@ -132,7 +132,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
+        "uniques": ["[+1 Culture] from [Land] tiles in this city",
 		"+3 Culture once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Influence"],
         "requiredTech": "Dust Mechanics"
@@ -143,7 +143,7 @@
         "isNationalWonder": true,
 		"cost": 175,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
+        "uniques": ["[+1 Culture] from [Land] tiles in this city",
 		"+3 Culture once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Influence II"],
         "requiredTech": "Secrets of the Virtuals"
@@ -154,7 +154,7 @@
         "isNationalWonder": true,
 		"cost": 240,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
+        "uniques": ["[+1 Culture] from [Land] tiles in this city",
 		"+3 Culture once [Painosphere] is discovered",
 		"Not displayed as an available construction without Pillar of Influence III"],
         "requiredTech": "Secrets of the Virtuals"
@@ -165,7 +165,7 @@
         "isNationalWonder": true,
 		"cost": 275,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Grassland] tiles in this city","[+1 Culture] from [Plains] tiles in this city","[+1 Culture] from [Desert] tiles in this city","[+1 Culture] from [Hill] tiles in this city","[+1 Culture] from [Tundra] tiles in this city","[+1 Culture] from [Snow] tiles in this city",
+        "uniques": ["[+1 Culture] from [Land] tiles in this city",
 		"Not displayed as an available construction without Pillar of Influence IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
@@ -175,7 +175,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
+        "uniques": ["[+1 Gold] from [Land] tiles in this city",
 		"+3 Gold once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Materializing"
     },
@@ -185,7 +185,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
+        "uniques": ["[+1 Gold] from [Land] tiles in this city",
 		"+3 Gold once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Extraction"],
         "requiredTech": "Dust Mechanics"
@@ -196,7 +196,7 @@
         "isNationalWonder": true,
 		"cost": 175,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
+        "uniques": ["[+1 Gold] from [Land] tiles in this city",
 		"+3 Gold once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Extraction II"],
         "requiredTech": "Secrets of the Virtuals"
@@ -207,7 +207,7 @@
         "isNationalWonder": true,
 		"cost": 240,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
+        "uniques": ["[+1 Gold] from [Land] tiles in this city",
 		"+3 Gold once [Painosphere] is discovered",
 		"Not displayed as an available construction without Pillar of Extraction III"],
         "requiredTech": "Secrets of the Virtuals"
@@ -218,7 +218,7 @@
         "isNationalWonder": true,
 		"cost": 275,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Grassland] tiles in this city","[+1 Gold] from [Plains] tiles in this city","[+1 Gold] from [Desert] tiles in this city","[+1 Gold] from [Hill] tiles in this city","[+1 Gold] from [Tundra] tiles in this city","[+1 Gold] from [Snow] tiles in this city",
+        "uniques": ["[+1 Gold] from [Land] tiles in this city",
 		"Not displayed as an available construction without Pillar of Extraction IV"],
         "requiredTech": "Sacrificial Amplifiers"
     },
@@ -228,7 +228,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
+        "uniques": ["[+1 Food] from [Land] tiles in this city",
 		"+3 Food once [Dust Mechanics] is discovered"],
 		"requiredTech": "Arcana of Renewal"
     },
@@ -238,7 +238,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
+        "uniques": ["[+1 Food] from [Land] tiles in this city",
 		"+3 Food once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Regeneration"],
 		"requiredTech": "Dust Mechanics"
@@ -249,7 +249,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
+        "uniques": ["[+1 Food] from [Land] tiles in this city",
 		"+3 Food once [Secrets of the Virtuals] is discovered",
 		"Not displayed as an available construction without Pillar of Regeneration II"],
 		"requiredTech": "Secrets of the Virtuals"
@@ -260,7 +260,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
+        "uniques": ["[+1 Food] from [Land] tiles in this city",
 		"+3 Food once [Painosphere] is discovered",
 		"Not displayed as an available construction without Pillar of Regeneration III"],
 		"requiredTech": "Secrets of the Virtuals"
@@ -271,7 +271,7 @@
         "isNationalWonder": true,
 		"cost": 120,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Grassland] tiles in this city","[+1 Food] from [Plains] tiles in this city","[+1 Food] from [Desert] tiles in this city","[+1 Food] from [Hill] tiles in this city","[+1 Food] from [Tundra] tiles in this city","[+1 Food] from [Snow] tiles in this city",
+        "uniques": ["[+1 Food] from [Land] tiles in this city",
 		"Not displayed as an available construction without Pillar of Regeneration IV"],
 		"requiredTech": "Sacrificial Amplifiers"
     },
