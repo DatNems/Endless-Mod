@@ -9,7 +9,7 @@
 		"unitType": "Civilian",
 		"movement": 4,
 		"cost": 110,
-		"uniques": ["Founds a new city"],
+		"uniques": ["Founds a new city","Uncapturable"],
 		"hurryCostModifier": 20
 	},
 	//Infantry
@@ -630,7 +630,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 100,
-		"uniques": ["Can construct [Living Dust]"]
+		"uniques": ["Can construct [Living Dust]","Uncapturable"]
 	},
 	
 	
