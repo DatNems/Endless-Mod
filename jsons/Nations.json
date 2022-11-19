@@ -113,7 +113,7 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Born of Ash",
 	"uniqueText": "Only receives Food from Desert. +2 Science from resources. Can terraform."
-    "uniques": ["[-10 Food] from every [Land]","[+5 Food] from every [Desert]",
+    "uniques": ["[-5 Food] from every [Land]","[+7 Food] from every [Desert]",
 	//science from every resources
 	"[+2 Science] from every [Luxury resource]","[+2 Science] from every [Bonus resource]","[+2 Science] from every [Strategic resource]",
 	"Starts with [Topography]","Starts with [Alchemist's Furnace]","Starts with [Golem Camp]","Starts with [Age of Discovery]"],
