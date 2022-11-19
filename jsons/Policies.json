@@ -89,7 +89,7 @@
 	{
 		"name": "Expansion",
 		"era": "Era I",
-		"uniques": ["+[1] Movement for all [Military] units"],
+		"uniques": ["[+1] Movement <for [Military] units>"],
 		"policies": [
 			{
 				"name": "Expansion II",
@@ -99,7 +99,7 @@
 			},
 			{
 				"name": "Expansion III",
-				"uniques": ["+[1] Movement for all [Military] units"],
+				"uniques": ["[+1] Movement <for [Military] units>"],
 				"row": 2,
 				"column": 1
 			},

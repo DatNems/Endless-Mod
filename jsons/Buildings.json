@@ -37,11 +37,11 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units",
-		"+[1] Movement for all [Military] units <after discovering [Dust Mechanics]>",
-		"+[1] Movement for all [Military] units <after discovering [Secrets of the Virtuals]>",
-		"+[1] Movement for all [Military] units <after discovering [Painosphere]>",
-		"+[1] Movement for all [Military] units <after discovering [Sacrificial Amplifiers]>"],
+        "uniques": ["[+1] Movement for all [Military] units",
+		"[+1] Movement <for [Military] units> <after discovering [Dust Mechanics]>",
+		"[+1] Movement <for [Military] units> <after discovering [Secrets of the Virtuals]>",
+		"[+1] Movement <for [Military] units> <after discovering [Painosphere]>",
+		"[+1] Movement <for [Military] units> <after discovering [Sacrificial Amplifiers]>"],
 		"requiredTech": "Arcana of Agility"
     }, 
 	{
@@ -531,89 +531,78 @@
         "name": "Dye Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dye] within [3] tiles","+50% Culture [in this city]"],
+        "uniques": ["[+4 Happiness] from [Dye] tiles [in this city]","Must have an owned [Dye] within [3] tiles","+50% Culture [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Emerald Extractor",  //defense bonus not working?
         "hurryCostModifier": 20,
 		"cost": 60,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Emerald] within [3] tiles","Defensive buildings in this city are 30% more effective"],
+        "uniques": ["[+4 Happiness] from [Emerald] tiles [in this city]","Must have an owned [Emerald] within [3] tiles","Defensive buildings in this city are 30% more effective"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Bronze Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Bronze] within [3] tiles","+50% Gold [in this city]"],
+        "uniques": ["[+4 Happiness] from [Bronze] tiles [in this city]","Must have an owned [Bronze] within [3] tiles","+50% Gold [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Spice Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Spice] within [3] tiles","+50% Food [in this city]"],
+        "uniques": ["[+4 Happiness] from [Spice] tiles [in this city]","Must have an owned [Spice] within [3] tiles","+50% Food [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Wine Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "resourceBonusStats": {"happiness": 2},
 		"happiness": 10,
-        "uniques": ["Must have an owned [Wine] within [3] tiles"],
+        "uniques": ["[+4 Happiness] from [Wine] tiles [in this city]","Must have an owned [Wine] within [3] tiles"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Blood Crystal Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Blood Crystal] within [3] tiles","All newly-trained [All] units in this city receive the [Blood Crystal] promotion"],
+        "uniques": ["[+4 Happiness] from [Blood] tiles [in this city]","Must have an owned [Blood Crystal] within [3] tiles","All newly-trained [All] units in this city receive the [Blood Crystal] promotion"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Grassilk Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Grassilk] within [3] tiles","[+1 Gold] per [1] population [in this city]"],
+        "uniques": ["[+4 Happiness] from [Grassilk] tiles [in this city]","Must have an owned [Grassilk] within [3] tiles","[+1 Gold] per [1] population [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Moon Leaf Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Moon Leaf] within [3] tiles","+50% Science [in this city]"],
+        "uniques": ["[+4 Happiness] from [Moon Leaf] tiles [in this city]","Must have an owned [Moon Leaf] within [3] tiles","+50% Science [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Quicksilver Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Quicksilver] within [3] tiles","New [Military] units start with [30] Experience in this city"],
+        "uniques": ["[+4 Happiness] from [Quicksilver] tiles [in this city]","Must have an owned [Quicksilver] within [3] tiles","New [Military] units start with [30] Experience in this city"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Titan Bones Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Titan Bones] within [3] tiles","+50% Production [in this city]"],
+        "uniques": ["[+4 Happiness] from [Titan Bones] tiles [in this city]","Must have an owned [Titan Bones] within [3] tiles","+50% Production [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Dust Orchid Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dust Orchid] within [3] tiles","+10% Production [in this city]","+10% Science [in this city]",
+        "uniques": ["[+4 Happiness] from [Dust Orchid] tiles [in this city]","Must have an owned [Dust Orchid] within [3] tiles","+10% Production [in this city]","+10% Science [in this city]",
 		"+10% Gold [in this city]","+10% Culture [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
@@ -621,16 +610,14 @@
         "name": "Dustwater Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Dustwater] within [3] tiles","+100% Gold [in this city]"],
+        "uniques": ["[+4 Happiness] from [Dustwater] tiles [in this city]","Must have an owned [Dustwater] within [3] tiles","+100% Gold [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
 	{
         "name": "Hydromiel Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Hydromiel] within [3] tiles","-25% [Military] unit maintenance costs"],
+        "uniques": ["[+4 Happiness] from [Hydromiel] tiles [in this city]","Must have an owned [Hydromiel] within [3] tiles","-25% [Military] unit maintenance costs"],
         "requiredTech": "Advanced Harvester"
     },
 	{
@@ -638,16 +625,14 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"cityStrength": 50,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Pixie Blood] within [3] tiles"],
+        "uniques": ["[+4 Happiness] from [Pixie Blood] tiles [in this city]","Must have an owned [Pixie Blood] within [3] tiles"],
         "requiredTech": "Advanced Harvester"
     },
 	{
         "name": "Redsang Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "resourceBonusStats": {"happiness": 2},
-        "uniques": ["Must have an owned [Redsang] within [3] tiles","[Military] units gain [20]% more Experience from combat"],
+        "uniques": ["[+4 Happiness] from [Redsang] tiles [in this city]","Must have an owned [Redsang] within [3] tiles","[Military] units gain [20]% more Experience from combat"],
         "requiredTech": "Advanced Harvester"
     },
 	

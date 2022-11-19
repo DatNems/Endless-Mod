@@ -291,42 +291,42 @@
 		"name": "Glassteel",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	{
 		"name": "Titanium",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	{
 		"name": "Adamantian",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	{
 		"name": "Palladian",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	{
 		"name": "Mithrite",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	{
 		"name": "Hyperium",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
 	},
 	
@@ -336,7 +336,7 @@
 		"name": "Dye",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Dye Extractor"
 	},
@@ -344,7 +344,7 @@
 		"name": "Emerald",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Emerald Extractor"
 	},
@@ -352,7 +352,7 @@
 		"name": "Bronze",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Bronze Extractor"
 	},
@@ -360,7 +360,7 @@
 		"name": "Spice",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Spice Extractor"
 	},
@@ -368,7 +368,7 @@
 		"name": "Wine",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Discovery",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Wine Extractor"
 	},
@@ -376,7 +376,7 @@
 		"name": "Blood Crystal",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Blood Crystal Extractor"
 	},
@@ -384,7 +384,7 @@
 		"name": "Grassilk",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Grassilk Extractor"
 	},
@@ -392,7 +392,7 @@
 		"name": "Moon Leaf",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Moon Leaf Extractor"
 	},
@@ -400,7 +400,7 @@
 		"name": "Quicksilver",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Quicksilver Extractor"
 	},
@@ -408,7 +408,7 @@
 		"name": "Titan Bones",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Enlightenment",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Titan Bones Extractor"
 	},
@@ -416,7 +416,7 @@
 		"name": "Dust Orchid",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Dust Orchid Extractor"
 	},
@@ -424,7 +424,7 @@
 		"name": "Dustwater",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Dustwater Extractor"
 	},
@@ -432,7 +432,7 @@
 		"name": "Hydromiel",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Hydromiel Extractor"
 	},
@@ -440,7 +440,7 @@
 		"name": "Pixie Blood",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Pixie Blood Extractor"
 	},
@@ -448,7 +448,7 @@
 		"name": "Redsang",
 		"resourceType": "Strategic",
 		"revealedBy": "Age of Industry",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"gold": 1,
 		"building": "Redsang Extractor"
 	},

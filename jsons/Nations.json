@@ -29,7 +29,7 @@
     "outerColor": [255, 150, 75],
     "innerColor": [255,255,255],
 	"uniqueName": "Call of Auriga",
-    "uniques": ["+[1] Movement for all [Military] units","-15% Culture cost of adopting new Policies","Unhappiness from number of Cities doubled","[-1 Food] per [1] population in all cities",
+    "uniques": ["[+1] Movement <for [Military] units>","-15% Culture cost of adopting new Policies","Unhappiness from number of Cities doubled","[-1 Food] per [1] population in all cities",
 	"Starts with [Garth of the Allayi]","Starts with [Shipyard]",
 	"Starts with [Age of Discovery]"],
 	"cities":["Epistles","Garth","Breyos","Eayos","Rabos","Samos","Xoyos","Ystros","Braxos","Auriga"]
