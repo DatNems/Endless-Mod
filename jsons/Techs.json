@@ -469,7 +469,7 @@
 				"name": "Search Party",
 				"row": 16,
 				"prerequisites": ["Age of Discovery"], 
-				"uniques": ["Earn [10]% of [Military] opponent's [Cost] as [Gold] for kills","Earn [10]% of [Military] opponent's [Cost] as [Culture] for kills","Earn [10]% of [Military] opponent's [Cost] as [Science] for kills"]
+				"uniques": ["Earn [10]% of killed [Military] unit's [Strength] as [Gold]","Earn [10]% of killed [Military] unit's [Strength] as [Culture]","Earn [10]% of killed [Military] unit's [Strength] as [Science]"]
 			},
 			{
 				"name": "Sewer System",
