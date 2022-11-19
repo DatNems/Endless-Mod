@@ -679,7 +679,7 @@
 		"replaces": "Settler",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"]
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable","Uncapturable"]
 	},
 	{
 		"name": "Cultist",   
@@ -687,7 +687,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can construct [District]"]
+		"uniques": ["Can construct [District]","Uncapturable"]
 	},
 	//Cultist Units
 	{
@@ -815,7 +815,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can build [Desertification] improvements on tiles"]
+		"uniques": ["Can build [Desertification] improvements on tiles","Uncapturable"]
 	},
 	//Kapaku Units
 	{
