@@ -21,7 +21,7 @@
 		"type": "Land",
 		"food": 2,
 		"gold": 1,
-		"movementCost": 1,
+		"movementCost": 2,
 		"defenceBonus": -0.1,
 		"RGB": [168,185,102],
 	},
@@ -30,7 +30,7 @@
 		"type": "Land",
 		"gold": 1,
 		"food": 1,
-		"movementCost": 1,
+		"movementCost": 3,
 		"defenceBonus": -0.1,
 		"RGB": [ 230, 230, 113],
 	},
@@ -47,7 +47,7 @@
 		"type": "Land",
 		"food": 2,
 		"science": 1,
-		"movementCost": 1,
+		"movementCost": 2,
 		"defenceBonus": -0.1,
 		"RGB": [ 230, 230, 113],
 	},
@@ -70,7 +70,7 @@
 		"name": "Snow",  //Dry Soil
 		"type": "Land",
 		"production": 1,
-		"movementCost": 1,
+		"movementCost": 3,
 		"defenceBonus": -0.1,
 		"RGB": [210, 155, 135],
 	},
@@ -147,7 +147,7 @@
 		"name": "Flood plains", //Wetland
 		"type": "TerrainFeature",
 		"production": 1,
-		"movementCost": 2,
+		"movementCost": 1,
 		"defenceBonus": 0.25,
 		"occursOn": ["Desert"]
 	},
@@ -161,7 +161,7 @@
 	{
 		"name": "Atoll", //Enchanted Forest
 		"type": "TerrainFeature",
-		"movementCost": 2,
+		"movementCost": 1,
 		"unbuildable": true,
 		"overrideStats": true,
 		"food": 1,

@@ -37,7 +37,11 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["+1 Movement for all [Military] units"],
+        "uniques": ["+[1] Movement for all [Military] units"],
+		"+[1] Movement for all [Military] units <after discovering [Dust Mechanics]>",
+		"+[1] Movement for all [Military] units <after discovering [Secrets of the Virtuals]>",
+		"+[1] Movement for all [Military] units <after discovering [Painosphere]>",
+		"+[1] Movement for all [Military] units <after discovering [Sacrificial Amplifiers]>"],
 		"requiredTech": "Arcana of Agility"
     }, 
 	{
@@ -47,7 +51,14 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Culture] from [Land] tiles [in this city]",
-		"[+3 Culture] <after discovering [Dust Mechanics]>"],
+		"[+1 Culture] from [Land] tiles [in this city] <after discovering [Dust Mechanics]>",
+		"[+1 Culture] from [Land] tiles [in this city] <after discovering [Secrets of the Virtuals]>",
+		"[+1 Culture] from [Land] tiles [in this city] <after discovering [Painosphere]>",
+		"[+1 Culture] from [Land] tiles [in this city] <after discovering [Sacrificial Amplifiers]>",
+		"[+3 Culture] <after discovering [Dust Mechanics]>",
+		"[+3 Culture] <after discovering [Secrets of the Virtuals]>",
+		"[+3 Culture] <after discovering [Painosphere]>",
+		"[+3 Culture] <after discovering [Sacrificial Amplifiers]>"],
 		"requiredTech": "Arcana of Authority"
     },
 	{
@@ -57,7 +68,14 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Gold] from [Land] tiles [in this city]",
-		"[+3 Gold] <after discovering [Dust Mechanics]>"],
+		"[+1 Gold] from [Land] tiles [in this city] <after discovering [Dust Mechanics]>",
+		"[+1 Gold] from [Land] tiles [in this city] <after discovering [Secrets of the Virtuals]>",
+		"[+1 Gold] from [Land] tiles [in this city] <after discovering [Painosphere]>",
+		"[+1 Gold] from [Land] tiles [in this city] <after discovering [Sacrificial Amplifiers]>",
+		"[+3 Gold] <after discovering [Dust Mechanics]>",
+		"[+3 Gold] <after discovering [Secrets of the Virtuals]>",
+		"[+3 Gold] <after discovering [Painosphere]>",
+		"[+3 Gold] <after discovering [Sacrificial Amplifiers]>"],
 		"requiredTech": "Arcana of Materializing"
     },
 	{
@@ -67,7 +85,14 @@
 		"cost": 75,
         "hurryCostModifier": 20,
         "uniques": ["[+1 Food] from [Land] tiles [in this city]",
-		"[+3 Food] <after discovering [Dust Mechanics]>"],
+		"[+1 Food] from [Land] tiles [in this city] <after discovering [Dust Mechanics]>",
+		"[+1 Food] from [Land] tiles [in this city] <after discovering [Secrets of the Virtuals]>",
+		"[+1 Food] from [Land] tiles [in this city] <after discovering [Painosphere]>",
+		"[+1 Food] from [Land] tiles [in this city] <after discovering [Sacrificial Amplifiers]>",
+		"[+3 Food] <after discovering [Dust Mechanics]>",
+		"[+3 Food] <after discovering [Secrets of the Virtuals]>",
+		"[+3 Food] <after discovering [Painosphere]>",
+		"[+3 Food] <after discovering [Sacrificial Amplifiers]>"],
 		"requiredTech": "Arcana of Renewal"
     },
 	//rest of Ardent Mage
