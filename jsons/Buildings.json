@@ -37,7 +37,7 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["+[1] Movement for all [Military] units"],
+        "uniques": ["+[1] Movement for all [Military] units",
 		"+[1] Movement for all [Military] units <after discovering [Dust Mechanics]>",
 		"+[1] Movement for all [Military] units <after discovering [Secrets of the Virtuals]>",
 		"+[1] Movement for all [Military] units <after discovering [Painosphere]>",
