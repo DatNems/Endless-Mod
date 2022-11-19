@@ -20,52 +20,16 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Land] tiles in this city",
-		"+3 Science once [Dust Purifier] is discovered"],
+        "uniques": ["[+1 Science] from [Land] tiles [in this city]",
+		"[+1 Science] from [Land] tiles [in this city] <after discovering [Dust Mechanics]>",
+		"[+1 Science] from [Land] tiles [in this city] <after discovering [Secrets of the Virtuals]>",
+		"[+1 Science] from [Land] tiles [in this city] <after discovering [Painosphere]>",
+		"[+1 Science] from [Land] tiles [in this city] <after discovering [Sacrificial Amplifiers]>",
+		"[+3 Science] <after discovering [Dust Mechanics]>",
+		"[+3 Science] <after discovering [Secrets of the Virtuals]>",
+		"[+3 Science] <after discovering [Painosphere]>",
+		"[+3 Science] <after discovering [Sacrificial Amplifiers]>"],
         "requiredTech": "Arcana of Matter"
-    },
-	{
-        "name": "Pillar of Knowledge II",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Land] tiles in this city",
-		"+3 Science once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Knowledge"],
-        "requiredTech": "Dust Mechanics"
-    },
-	{
-        "name": "Pillar of Knowledge III",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 175,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Land] tiles in this city",
-		"+3 Science once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Knowledge II"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Knowledge IV",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 240,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Land] tiles in this city",
-		"+3 Science once [Painosphere] is discovered",
-		"Not displayed as an available construction without Pillar of Knowledge III"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Knowledge V",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 275,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Science] from [Land] tiles in this city",
-		"Not displayed as an available construction without Pillar of Knowledge IV"],
-        "requiredTech": "Sacrificial Amplifiers"
     },
 	{
         "name": "Pillar of Speed",  
@@ -75,99 +39,16 @@
         "hurryCostModifier": 20,
         "uniques": ["+1 Movement for all [Military] units"],
 		"requiredTech": "Arcana of Agility"
-    },
-	{
-        "name": "Pillar of Speed II",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["+1 Movement for all [Military] units",
-		"Not displayed as an available construction without Pillar of Speed"],
-        "requiredTech": "Dust Mechanics"
-    },
-	{
-        "name": "Pillar of Speed III",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 175,
-        "hurryCostModifier": 20,
-        "uniques": ["+1 Movement for all [Military] units",
-		"Not displayed as an available construction without Pillar of Speed II"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Speed IV",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 240,
-        "hurryCostModifier": 20,
-        "uniques": ["+1 Movement for all [Military] units",
-		"Not displayed as an available construction without Pillar of Speed III"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Speed V",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 275,
-        "hurryCostModifier": 20,
-        "uniques": ["+1 Movement for all [Military] units",
-		"Not displayed as an available construction without Pillar of Speed IV"],
-        "requiredTech": "Sacrificial Amplifiers"
-    },
+    }, 
 	{
         "name": "Pillar of Influence",  
 		"uniqueTo": "Ardent Mages",
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Land] tiles in this city",
-		"+3 Culture once [Dust Mechanics] is discovered"],
+        "uniques": ["[+1 Culture] from [Land] tiles [in this city]",
+		"[+3 Culture] <after discovering [Dust Mechanics]>"],
 		"requiredTech": "Arcana of Authority"
-    },
-	{
-        "name": "Pillar of Influence II",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Land] tiles in this city",
-		"+3 Culture once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Influence"],
-        "requiredTech": "Dust Mechanics"
-    },
-	{
-        "name": "Pillar of Influence III",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 175,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Land] tiles in this city",
-		"+3 Culture once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Influence II"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Influence IV",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 240,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Land] tiles in this city",
-		"+3 Culture once [Painosphere] is discovered",
-		"Not displayed as an available construction without Pillar of Influence III"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Influence V",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 275,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Culture] from [Land] tiles in this city",
-		"Not displayed as an available construction without Pillar of Influence IV"],
-        "requiredTech": "Sacrificial Amplifiers"
     },
 	{
         "name": "Pillar of Extraction",  
@@ -175,52 +56,9 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Land] tiles in this city",
-		"+3 Gold once [Dust Mechanics] is discovered"],
+        "uniques": ["[+1 Gold] from [Land] tiles [in this city]",
+		"[+3 Gold] <after discovering [Dust Mechanics]>"],
 		"requiredTech": "Arcana of Materializing"
-    },
-	{
-        "name": "Pillar of Extraction II",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Land] tiles in this city",
-		"+3 Gold once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Extraction"],
-        "requiredTech": "Dust Mechanics"
-    },
-	{
-        "name": "Pillar of Extraction III",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 175,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Land] tiles in this city",
-		"+3 Gold once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Extraction II"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Extraction IV",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 240,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Land] tiles in this city",
-		"+3 Gold once [Painosphere] is discovered",
-		"Not displayed as an available construction without Pillar of Extraction III"],
-        "requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Extraction V",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 275,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Gold] from [Land] tiles in this city",
-		"Not displayed as an available construction without Pillar of Extraction IV"],
-        "requiredTech": "Sacrificial Amplifiers"
     },
 	{
         "name": "Pillar of Regeneration",  
@@ -228,52 +66,9 @@
         "isNationalWonder": true,
 		"cost": 75,
         "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Land] tiles in this city",
-		"+3 Food once [Dust Mechanics] is discovered"],
+        "uniques": ["[+1 Food] from [Land] tiles [in this city]",
+		"[+3 Food] <after discovering [Dust Mechanics]>"],
 		"requiredTech": "Arcana of Renewal"
-    },
-	{
-        "name": "Pillar of Regeneration II",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Land] tiles in this city",
-		"+3 Food once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Regeneration"],
-		"requiredTech": "Dust Mechanics"
-    },
-	{
-        "name": "Pillar of Regeneration III",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Land] tiles in this city",
-		"+3 Food once [Secrets of the Virtuals] is discovered",
-		"Not displayed as an available construction without Pillar of Regeneration II"],
-		"requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Regeneration IV",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Land] tiles in this city",
-		"+3 Food once [Painosphere] is discovered",
-		"Not displayed as an available construction without Pillar of Regeneration III"],
-		"requiredTech": "Secrets of the Virtuals"
-    },
-	{
-        "name": "Pillar of Regeneration V",  
-		"uniqueTo": "Ardent Mages",
-        "isNationalWonder": true,
-		"cost": 120,
-        "hurryCostModifier": 20,
-        "uniques": ["[+1 Food] from [Land] tiles in this city",
-		"Not displayed as an available construction without Pillar of Regeneration IV"],
-		"requiredTech": "Sacrificial Amplifiers"
     },
 	//rest of Ardent Mage
 	{

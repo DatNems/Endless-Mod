@@ -5,12 +5,6 @@
         "uniques": ["Gain [20] [Culture]"]
     },
     {
-        "name": "joinSettler",
-        "notification": "A [Settler] has joined us!",
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
-    },
-    {
         "name": "freeXP",
         "notification": "An ancient tribe trained us in their ways of combat!",
         "uniques": ["This Unit gains [10] XP"]
@@ -34,10 +28,5 @@
         "name": "barbCampsRevealed",
         "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
         "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
-    },
-    {
-        "name": "crudelyDrawnMap",
-        "notification": "We have found a crudely-drawn map in the ruins!",
-        "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
     },
 ]

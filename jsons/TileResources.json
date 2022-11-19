@@ -26,7 +26,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"food": 4,
 		"science": 4,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Caldera Lake",
@@ -65,7 +65,7 @@
 		"science": 2,
 		"gold": 2,
 		"production": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Earthspine",
@@ -73,7 +73,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Hill","Plains"],
 		"gold": 4,
 		"science": 4,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Earth Tower",
@@ -81,7 +81,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Hill","Plains"],
 		"production": 4,
 		"science": 4,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Escaped Specimens",
@@ -116,7 +116,7 @@
 		"terrainsCanBeFoundOn": ["Desert"],
 		"production": 2,
 		"gold": 8,
-		"happiness": 20,
+		"happiness": 4,
 	},
 	{
 		"name": "Hidden Springs",
@@ -157,7 +157,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Forest"],
 		"food": 6,
 		"science": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Massive Tree",
@@ -199,7 +199,7 @@
 		"terrainsCanBeFoundOn": ["Forest"],
 		"food": 2,
 		"science": 6,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Northern Loam",
@@ -213,7 +213,7 @@
 		"terrainsCanBeFoundOn": ["Flood plains"],
 		"food": 6,
 		"gold": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Ruby Cactus Fields",
@@ -242,7 +242,7 @@
 		"terrainsCanBeFoundOn": ["Plains"],
 		"science": 2,
 		"production": 6,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Stasis Pillar",
@@ -250,7 +250,7 @@
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"science": 6,
 		"gold": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Steel Stalks",
@@ -258,7 +258,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"production": 6,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Steppe Soil",
@@ -266,7 +266,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Jungle"],
 		"food": 6,
 		"production": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Weaver Worms",
@@ -274,7 +274,7 @@
 		"terrainsCanBeFoundOn": ["Snow"],
 		"gold": 6,
 		"production": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	{
 		"name": "Wizard Stone",
@@ -282,7 +282,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert"],
 		"science": 6,
 		"production": 2,
-		"happiness": 10,
+		"happiness": 4,
 	},
 	
 	
