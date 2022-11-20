@@ -878,6 +878,7 @@
         "name": "Irrigation Network",
         "hurryCostModifier": 20,
 		"cost": 250,
+		"food": 8,
         "uniques": ["Must have an owned [River] within [3] tiles","[+3 Food] from [River] tiles in this city"],
         "requiredTech": "Aquacultural Science"
     },
