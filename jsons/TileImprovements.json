@@ -19,7 +19,7 @@
     {
 		"name": "Desertification", 
 		"uniqueTo": "Kapaku",
-		"food": 3,
+		"food": 5,
 		"production": 1,
 		"science": 1,
 		"turnsToBuild": 3,
