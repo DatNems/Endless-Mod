@@ -963,7 +963,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 4,
-		"uniques": ["Consumes [4] [Titanium]","[+5 production] from every [Engineer]"],
+		"uniques": ["Consumes [4] [Titanium]","[+5 Production] from every [Engineer]"],
         "requiredTech": "Hydrology"
     },
 	{
@@ -1005,7 +1005,7 @@
 		"cost": 250,
 		"food": 15,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Glassteel]","[+5 food] from every [Farmer]"],
+		"uniques": ["Consumes [4] [Glassteel]","[+5 Food] from every [Farmer]"],
         "requiredTech": "Public Granary"
     },
 	
