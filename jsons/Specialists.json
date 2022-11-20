@@ -1,0 +1,28 @@
+
+[
+	{
+		"name": "Scientist",
+		"science": 4,
+		"color": [0,0,255]
+	},
+	{
+		"name": "Merchant",
+		"gold": 4,
+		"color": [255,215,0]
+	},
+	{
+		"name": "Artist",
+		"culture": 2,
+		"color": [160,32,240]
+	},
+	{
+		"name": "Engineer",
+		"production": 4,
+		"color": [139,69,19]
+	}
+	{
+		"name": "Farmer",
+		"food": 4,
+		"color": [70,173,48]
+	}
+]

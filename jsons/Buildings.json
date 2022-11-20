@@ -7,9 +7,46 @@
 		"science": 2,
 		"cost": 1,
 		"cityStrength":50,
-        "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]"]
+        "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]",
+		"[-90]% growth [in all cities]"],
     },
-	
+	//specialists  Y U NO WORK
+	{
+        "name": "Specialists", 
+		"cost": 1,
+        "uniques": ["Provides a [Artists] in each of your first [25] cities for free",
+		"Unsellable","Unbuildable"],
+    },
+	{
+        "name": "Scientists", 
+		"cost": 1,
+		"specialistSlots": {"Scientist": 20},
+        "uniques": ["Unsellable"],
+    },
+	{
+        "name": "Merchants", 
+		"cost": 1,
+		"specialistSlots": {"Merchant": 20},
+        "uniques": ["Unsellable"],
+    },
+	{
+        "name": "Artists", 
+		"cost": 1,
+		"specialistSlots": {"Artist": 20},
+        "uniques": ["Unsellable"],
+    },
+	{
+        "name": "Engineers", 
+		"cost": 1,
+		"specialistSlots": {"Engineer": 20},
+        "uniques": ["Unsellable"],
+    },
+	{
+        "name": "Farmers", 
+		"cost": 1,
+		"specialistSlots": {"Farmer": 20},
+        "uniques": ["Unsellable"],
+    },
 	
 	//Faction Specials
 	
@@ -164,6 +201,96 @@
 		"requiredTech": "Synchronic Temple",
         "uniques": ["Unsellable","All newly-trained [All] units in this city receive the [Synchronized] promotion"]
     },
+	
+	//population thingy
+	{
+        "name": "Buy Population1",    
+		"uniqueTo": "Broken Lords",
+		"cost": 100,
+		"food": 2,
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population2",    
+		"uniqueTo": "Broken Lords",
+		"cost": 150,
+		"food": 2,
+        "requiredBuilding": "Buy Population1",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population3",    
+		"uniqueTo": "Broken Lords",
+		"cost": 225,
+		"food": 2,
+        "requiredBuilding": "Buy Population2",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population4",    
+		"uniqueTo": "Broken Lords",
+		"cost": 340,
+		"food": 2,
+        "requiredBuilding": "Buy Population3",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population5",    
+		"uniqueTo": "Broken Lords",
+		"cost": 490,
+		"food": 2,
+        "requiredBuilding": "Buy Population4",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population6",    
+		"uniqueTo": "Broken Lords",
+		"cost": 735,
+		"food": 2,
+        "requiredBuilding": "Buy Population5",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population7",    
+		"uniqueTo": "Broken Lords",
+		"cost": 1070,
+		"food": 2,
+        "requiredBuilding": "Buy Population6",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population8",    
+		"uniqueTo": "Broken Lords",
+		"cost": 1535,
+		"food": 2,
+        "requiredBuilding": "Buy Population7",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population9",    
+		"uniqueTo": "Broken Lords",
+		"cost": 2270,
+		"food": 2,
+        "requiredBuilding": "Buy Population8",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	{
+        "name": "Buy Population10",    
+		"uniqueTo": "Broken Lords",
+		"cost": 3335,
+		"food": 2,
+        "requiredBuilding": "Buy Population9",
+        "uniques": ["Unsellable","[+1] population [in this city]"]
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//others
 	{
         "name": "Altar of Channeling",   
@@ -175,6 +302,7 @@
 		"uniques": ["[+5 Gold] per [1] population [in this city]"],
         "requiredTech": "Altar of Channeling"
     },
+	
 	//Cultist Walls   
 	{
         "name": "Walls of Faith", 
@@ -567,7 +695,7 @@
         "name": "Blood Crystal Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "uniques": ["[+4 Happiness] from [Blood] tiles [in this city]","Must have an owned [Blood Crystal] within [3] tiles","All newly-trained [All] units in this city receive the [Blood Crystal] promotion"],
+        "uniques": ["[+4 Happiness] from [Blood Crystal] tiles [in this city]","Must have an owned [Blood Crystal] within [3] tiles","All newly-trained [All] units in this city receive the [Blood Crystal] promotion"],
         "requiredTech": "Reaping Station"
     },
 	{
@@ -646,7 +774,7 @@
         "name": "Dust Filtration",
         "hurryCostModifier": 20,
 		"cost": 75,
-        "uniques": ["Must have an owned [Water] within [3] tiles","[+3 Gold] from [Coast] tiles in this city","[+3 Gold] from [Lakes] tiles in this city","[+3 Gold] from [Ocean] tiles in this city"],
+        "uniques": ["Must have an owned [Water] within [3] tiles","[+3 Gold] from [Water] tiles in this city"],
         "requiredTech": "Aquapulvistics"
     },
 	{
@@ -757,7 +885,7 @@
         "name": "Fish Farm",
         "hurryCostModifier": 20,
 		"cost": 250,
-        "uniques": ["Must have an owned [Water] within [3] tiles","[+3 Food] from [Coast] tiles in this city","[+3 Food] from [Lakes] tiles in this city","[+3 Food] from [Ocean] tiles in this city"],
+        "uniques": ["Must have an owned [Water] within [3] tiles","[+3 Food] from [Water] tiles in this city"],
         "requiredTech": "Aquacultural Science"
     },
 	{

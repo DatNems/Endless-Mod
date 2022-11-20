@@ -45,8 +45,10 @@
 	"uniqueName": "Appetite for Dust",  
 	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Living Armor which will grant tile yields. All Food buildings provide Dust instead."
     "uniques": [
+	//specialists
+	"[-4 Food] from every [Farmer]","[+4 Gold] from every [Farmer]",
 	//-food from all sources
-	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]"
+	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]", 
 	//+gold from every gold tile
 	"[+2 Gold] from every [Land]","[+2 Gold] from every [Water]",
 	"[+1 Gold] from every [Black Dust]","[+1 Gold] from every [Botanical Garden]","[+1 Gold] from every [Caldera Lake]","[+1 Gold] from every [Chromatic Land]","[+1 Gold] from every [Clay]","[+1 Gold] from every [Crystal Flowers]","[+1 Gold] from every [Dragon Tree]","[+1 Gold] from every [Earthspine]","[+1 Gold] from every [Escaped Specimens]","[+1 Gold] from every [Golden Tree]","[+1 Gold] from every [Hidden Springs]","[+1 Gold] from every [Lava Chimneys]","[+1 Gold] from every [Mutant Marsh]","[+1 Gold] from every [Hidden Oasis]","[+1 Gold] from every [Ruby Cactus Fields]","[+1 Gold] from every [Rumbling Stones]","[+1 Gold] from every [Salt Desert]","[+1 Gold] from every [Stasis Pillar]","[+1 Gold] from every [Steel Stalks]","[+1 Gold] from every [Weaver Worms]",

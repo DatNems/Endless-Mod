@@ -26,13 +26,6 @@
 		"uniques": ["Unpillagable", "Irremovable"],
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"]
 	},
-    {
-		"name": "Living Dust", 
-		"uniqueTo": "Broken Lords",
-		"gold": 1,
-		"uniques": ["Great Improvement","Tile provides yield without assigned population"]
-		"terrainsCanBeBuiltOn": ["Land"]
-	},
 	
 
 	// Military improvements

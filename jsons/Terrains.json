@@ -6,6 +6,7 @@
 		"food": 1,
 		"gold": 2,
 		"movementCost": 1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [45,108,145]
 	},
 	{
@@ -14,6 +15,7 @@
 		"food": 1,
 		"gold": 2,
 		"movementCost": 1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [107,167,193]
 	},
 	{
@@ -23,6 +25,7 @@
 		"gold": 1,
 		"movementCost": 2,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [168,185,102],
 	},
 	{
@@ -32,6 +35,7 @@
 		"food": 1,
 		"movementCost": 3,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [ 230, 230, 113],
 	},
 	{
@@ -40,6 +44,7 @@
 		"food": 3,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [ 230, 230, 113],
 	},
 	{
@@ -49,6 +54,7 @@
 		"science": 1,
 		"movementCost": 2,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [ 230, 230, 113],
 	},
 	{
@@ -57,13 +63,14 @@
 		"food": 2,
 		"gold": 2,
 		"RGB": [ 123, 202, 226],
-		"uniques": ["Fresh water"]
+		"uniques": ["Fresh water","Tile provides yield without assigned population"]
 	},
 	
 	{
 		"name": "Mountain",
 		"type": "Land",
 		"impassable": true,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [120, 120, 120]
 	},
 	{
@@ -72,6 +79,7 @@
 		"production": 1,
 		"movementCost": 3,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [210, 155, 135],
 	},
 	{
@@ -81,6 +89,7 @@
 		"production": 1,
 		"movementCost": 1,
 		"defenceBonus": -0.1,
+		"uniques": ["Tile provides yield without assigned population"],
 		"RGB": [ 230, 230, 113],
 	},
 	
@@ -95,6 +104,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
+		"uniques": ["Tile provides yield without assigned population"],
 		"occursOn": ["Grassland"],
 		"rough": true,
 	},
@@ -108,6 +118,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
+		"uniques": ["Tile provides yield without assigned population"],
 		"occursOn": ["Plains","Desert"],
 		"rough": true
 	},
@@ -120,6 +131,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
+		"uniques": ["Tile provides yield without assigned population"],
 		"occursOn": ["Tundra","Snow"],
 	},
 	{
@@ -141,6 +153,7 @@
 		"unbuildable": true,
 		"overrideStats": true,
 		"defenceBonus": 0.25,
+		"uniques": ["Tile provides yield without assigned population"],
 		"occursOn": ["Hill"],
 	},
 	{
@@ -149,6 +162,7 @@
 		"production": 1,
 		"movementCost": 1,
 		"defenceBonus": 0.25,
+		"uniques": ["Tile provides yield without assigned population"],
 		"occursOn": ["Desert"]
 	},
 	{
@@ -169,7 +183,7 @@
 		"science": 1,
 		"defenceBonus": 0.25,
 		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature"]
+		"uniques": ["Rare feature","Tile provides yield without assigned population"]
 	},
 	
  

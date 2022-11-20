@@ -623,15 +623,6 @@
 		"uniques": ["+50% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
 		"attackSound": "horse"
 	},
-	//Broken Lords pop increase thingy
-	{
-		"name": "Living Armor",   
-		"uniqueTo": "Broken Lords",
-		"unitType": "Civilian",
-		"movement": 2,
-		"cost": 100,
-		"uniques": ["Can construct [Living Dust]","Uncapturable"]
-	},
 	
 	
 	//Broken Lords
