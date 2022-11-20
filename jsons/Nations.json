@@ -55,7 +55,7 @@
 	//+gold from every lux
 	"[+1 Gold] from every [Luxury resource]",
 	//-food from food buildings
-	"[-5 Food] from every [Seed Storage]","[-8 Food] from every [Irrigation Network]","[-8 Food] from every [Fish Farm]","[-15 Food] from every [Public Granary]","[-3 Food] from every [Plow Factory]","[-15 Food] from every [Refrigeration Plant]","[-10 Food] from every [Fertilizer Plant]","[-5 Food] [in all cities] from every [Hothouses]","[-10 Food] from every [Imperial News Network]",
+	"[-5 Food] from every [Seed Storage]","[-15 Food] from every [Public Granary]","[-15 Food] from every [Refrigeration Plant]","[-5 Food] [in all cities] from every [Hothouses]","[-10 Food] from every [Imperial News Network]",
 	//+gold from food buildings
 	"[+5 Gold] from every [Seed Storage]","[+8 Gold] from every [Irrigation Network]","[+8 Gold] from every [Fish Farm]","[+15 Gold] from every [Public Granary]","[+3 Gold] from every [Plow Factory]","[+15 Gold] from every [Refrigeration Plant]","[+10 Gold] from every [Fertilizer Plant]","[+5 Gold] [in all cities] from every [Hothouses]","[+10 Gold] from every [Imperial News Network]",
 	"Starts with [Soul Burn]","Starts with [Empire Mint]","Starts with [Open-Pit Mine]",
