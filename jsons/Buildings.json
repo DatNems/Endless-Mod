@@ -2,13 +2,33 @@
     {
         "name": "Palace",  
         "isNationalWonder": true,
-		"culture": 1,
-		"production": 5,
-		"science": 2,
-		"cost": 1,
+		"cost": 1, 
+		"gold" : 22, 
 		"cityStrength":50,
-        "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]",
-		"[-90]% growth [in all cities]"],
+        "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]",	
+		"[-90]% growth [in all cities]"]
+		},
+	{
+        "name": "Founder's Memorial",  
+		"food" : 2, 
+		"production" : 2, 
+		"gold" : 2, 
+		"science" : 2, 
+		"culture" : 1,
+		"cost": 60,
+    },
+	{
+        "name": "City Halls",
+        "isNationalWonder": true,
+		"maintenance": 10,  
+		"cost": 60,
+		"uniques" : [
+		"[+4 Science] from every [Scientist]",
+		"[+4 Gold] from every [Merchant]"
+		"[+4 Culture] from every [Artist]"
+		"[+4 Production] from every [Engineer]",
+		"[+4 Food] from every [Farmer]"],
+    
     },
 	//specialists  Y U NO WORK
 	{
@@ -139,6 +159,7 @@
         "isNationalWonder": true,
 		"cost": 400,
         "hurryCostModifier": 20,
+		"maintenance": 2,  
 		"uniques": ["[+2 Science] from [Tundra] tiles in this city","[+2 Science] from [Glassteel] tiles in this city","[+2 Science] from [Titanium] tiles in this city","[+2 Science] from [Adamantian] tiles in this city","[+2 Science] from [Palladian] tiles in this city","[+2 Science] from [Mithrite] tiles in this city","[+2 Science] from [Hyperium] tiles in this city",
 		"[+2 Science] from [Azotic Exotics] tiles in this city","[+2 Science] from [Black Dust] tiles in this city","[+2 Science] from [Botanical Garden] tiles in this city","[+2 Science] from [Chromatic Land] tiles in this city","[+2 Science] from [Crystal Flowers] tiles in this city","[+2 Science] from [Dragon Tree] tiles in this city","[+2 Science] from [Earthspine] tiles in this city","[+2 Science] from [Earth Tower] tiles in this city","[+2 Science] from [Geothermal Pit] tiles in this city","[+2 Science] from [Geysers] tiles in this city","[+2 Science] from [Ice Sculptures] tiles in this city","[+2 Science] from [Lava Chimneys] tiles in this city","[+2 Science] from [Lava Geyser] tiles in this city","[+2 Science] from [Life Tree] tiles in this city","[+2 Science] from [Meteor Fields] tiles in this city","[+2 Science] from [Moss Pearls] tiles in this city","[+2 Science] from [Mutant Marsh] tiles in this city","[+2 Science] from [Mychordia] tiles in this city","[+2 Science] from [Spiral Rock Peel] tiles in this city","[+2 Science] from [Stasis Pillar] tiles in this city","[+2 Science] from [Wizard Stone] tiles in this city"],
         "requiredTech": "Verda's Temple"
@@ -370,7 +391,7 @@
 		"uniqueTo": "Drakken",
 		"cost": 400,
 		"food": 10,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [8] Glassteel","New [Military] units start with [15] Experience in this city"],
+		"uniques": ["Consumes [8] [Titanium]","Consumes [8] Glassteel","New [Military] units start with [15] Experience in this city"],
         "requiredTech": "Oologic Nursery"
     },
 	{
@@ -790,7 +811,7 @@
 		"cost": 75,
 		"maintenance": 1,
 		"happiness": 5,
-		"culture": 2,
+		"culture": 1,
         "requiredTech": "Sewer System"
     },
 	{
@@ -798,7 +819,7 @@
         "hurryCostModifier": 20,
 		"cost": 75,
 		"maintenance": 1,
-		"food": 5,
+		"food": 10,
 		"uniques": ["+15% Food [in this city]"],
         "requiredTech": "Cultivation"
     },
@@ -808,7 +829,7 @@
         "hurryCostModifier": 20,
 		"cost": 150,
 		"maintenance": 4,
-		"uniques": ["[+1 Food] per [2] population [in this city]"],
+		"uniques": ["[+5 Food] from every [Farmer]"],
         "requiredTech": "Cultivation"
     },
 	{
@@ -831,7 +852,7 @@
         "name": "Mill Foundry",
         "hurryCostModifier": 20,
 		"cost": 75,
-		"production": 5,
+		"production": 6,
 		"maintenance": 1,
 		"uniques": ["+15% Production [in this city]"],
         "requiredTech": "Mill Foundry"
@@ -840,7 +861,7 @@
         "name": "Public Library",
         "hurryCostModifier": 20,
 		"cost": 75,
-		"science": 5,
+		"science": 10,
 		"maintenance": 1,
 		"uniques": ["+15% Science [in this city]"],
         "requiredTech": "Public Library"
@@ -851,7 +872,7 @@
         "hurryCostModifier": 20,
 		"cost": 150,
 		"maintenance": 4,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+5 Science] from every [Scientist]"],
         "requiredTech": "Topography"
     },
 	{
@@ -869,7 +890,7 @@
         "name": "Alchemy Workshop",
         "hurryCostModifier": 20,
 		"cost": 250,
-		"science": 10,
+		"science": 15,
 		"maintenance": 2,
 		"uniques": ["Consumes [4] [Titanium]","+20% Science [in this city]"],
         "requiredTech": "Alchemy Workshop"
@@ -878,13 +899,15 @@
         "name": "Irrigation Network",
         "hurryCostModifier": 20,
 		"cost": 250,
-        "uniques": ["Must have an owned [River] within [3] tiles","[+3 Food] from [River] tiles in this city"],
+		"maintenance": 2,
+        "uniques": ["Consumes [4] [Glassteel]","Must have an owned [River] within [3] tiles","[+3 Food] from [River] tiles in this city"],
         "requiredTech": "Aquacultural Science"
     },
 	{
         "name": "Fish Farm",
         "hurryCostModifier": 20,
 		"cost": 250,
+		"maintenance": 2,
         "uniques": ["Must have an owned [Water] within [3] tiles","[+3 Food] from [Water] tiles in this city"],
         "requiredTech": "Aquacultural Science"
     },
@@ -919,9 +942,8 @@
         "name": "Glory of Empire",
         "hurryCostModifier": 20,
 		"cost": 250,
-		"culture": 5,
 		"maintenance": 3,
-		"uniques": ["[+1 Culture] per [2] population [in this city]"],
+		"uniques": ["[+1 Culture] from every [Artist]","[+2 Culture] [in all cities]"],
         "requiredTech": "Glory of Empire"
     },
 	{
@@ -929,8 +951,10 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["[+2 Production] from [Snow] tiles in this city","[+2 Production] from [Forest] tiles in this city","[+2 Production] from [Jungle] tiles in this city","[+2 Production] from [Marsh] tiles in this city","[+2 Production] from [Oasis] tiles in this city","[+2 Production] from [Flood plains] tiles in this city","[+2 Production] from [Atoll] tiles in this city",
-		"[+2 Production] from [Caldera Lake] tiles in this city","[+2 Production] from [Clay] tiles in this city","[+2 Production] from [Dragon Tree] tiles in this city","[+2 Production] from [Earth Tower] tiles in this city","[+2 Production] from [Fumarole] tiles in this city","[+2 Production] from [Geothermal Pit] tiles in this city","[+2 Production] from [Geysers] tiles in this city","[+2 Production] from [Golden Tree] tiles in this city","[+2 Production] from [Igloo Larvae] tiles in this city","[+2 Production] from [Lava Geyser] tiles in this city","[+2 Production] from [Massive Tree] tiles in this city","[+2 Production] from [Meteor Fields] tiles in this city","[+2 Production] from [Mineral Rich] tiles in this city","[+2 Production] from [Ruby Cactus Fields] tiles in this city","[+2 Production] from [Rumbling Stones] tiles in this city","[+2 Production] from [Spiral Rock Peel] tiles in this city","[+2 Production] from [Steel Stalks] tiles in this city","[+2 Production] from [Steppe Soil] tiles in this city","[+2 Production] from [Weaver Worms] tiles in this city","[+2 Production] from [Wizard Stone] tiles in this city"],
+		"uniques": ["[+1 Production] from [Snow] tiles in this city","[+1 Production] from [Forest] tiles in this city","[+1 Production] from [Jungle] tiles in this city","[+1 Production] from [Marsh] tiles in this city","[+1 Production] from [Oasis] tiles in this city","[+1 Production] from [Flood plains] tiles in this city","[+1 Production] from [Atoll] tiles in this city",
+		"[+1 Production] from [Caldera Lake] tiles in this city","[+1 Production] from [Clay] tiles in this city","[+1 Production] from [Dragon Tree] tiles in this city","[+1 Production] from [Earth Tower] tiles in this city","[+1 Production] from [Fumarole] tiles in this city","[+1 Production] from [Geothermal Pit] tiles in this city","[+1 Production] from [Geysers] tiles in this city",
+		"[+1 Production] from [Golden Tree] tiles in this city","[+1 Production] from [Igloo Larvae] tiles in this city","[+1 Production] from [Lava Geyser] tiles in this city","[+1 Production] from [Massive Tree] tiles in this city","[+1 Production] from [Meteor Fields] tiles in this city","[+1 Production] from [Mineral Rich] tiles in this city","[+1 Production] from [Ruby Cactus Fields] tiles in this city",
+		"[+1 Production] from [Rumbling Stones] tiles in this city","[+1 Production] from [Spiral Rock Peel] tiles in this city","[+1 Production] from [Steel Stalks] tiles in this city","[+1 Production] from [Steppe Soil] tiles in this city","[+1 Production] from [Weaver Worms] tiles in this city","[+1 Production] from [Wizard Stone] tiles in this city"],
         "requiredTech": "Hydrology"
     },
 	{
@@ -939,16 +963,15 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 4,
-		"uniques": ["Consumes [4] [Titanium]","[+2 Production] per [1] population [in this city]"],
+		"uniques": ["Consumes [4] [Titanium]","[+5 production] from every [Engineer]"],
         "requiredTech": "Hydrology"
     },
 	{
         "name": "Right of Way",
-        "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 3,
-		"uniques": ["-10% [Military] unit maintenance costs"]
+		"uniques": ["Connects trade routes over water"]  //land still WIP I guess, wack
         "requiredTech": "Imperial Highways"
     },
 	{
@@ -964,25 +987,25 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]","[+2 Production] from [Forest] tiles in this city","[+2 Production] from [Jungle] tiles in this city","[+2 Production] from [Marsh] tiles in this city","[+2 Production] from [Oasis] tiles in this city","[+2 Production] from [Atoll] tiles in this city"]
+		"uniques": ["Consumes [4] [Titanium]","[+1 Production] from [Forest] tiles in this city","[+1 Production] from [Jungle] tiles in this city","[+1 Production] from [Marsh] tiles in this city","[+1 Production] from [Oasis] tiles in this city","[+1 Production] from [Atoll] tiles in this city"]
 		"requiredTech": "Management Sciences"
     },
 	{
         "name": "Apprenticeship Registry",
         "hurryCostModifier": 20,
 		"cost": 250,
-		"production": 5,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]"],
+		"uniques": ["Consumes [4] [Titanium]","[+1 production] from every [Bonus resource] [in this city]"],
         "requiredTech": "Management Sciences"
     },
 	{
         "name": "Public Granary",
+        "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
 		"food": 15,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Glassteel]"],
+		"uniques": ["Consumes [4] [Glassteel]","[+5 food] from every [Farmer]"],
         "requiredTech": "Public Granary"
     },
 	

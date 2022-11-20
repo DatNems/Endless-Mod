@@ -46,7 +46,8 @@
 	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Living Armor which will grant tile yields. All Food buildings provide Dust instead."
     "uniques": [
 	//specialists
-	"[-4 Food] from every [Farmer]","[+4 Gold] from every [Farmer]",
+	"[-11 Food] from every [Farmer]",
+	"[+4 Gold] from every [Farmer]",
 	//-food from all sources
 	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]", 
 	//+gold from every gold tile
