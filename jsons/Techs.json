@@ -4,6 +4,7 @@
 		"era": "Tribes of Auriga",
 		"techCost": 10000000, 
 		"buildingCost": 40,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Arcana of Agility",  
@@ -56,6 +57,7 @@
 		"era": "Tribes of Auriga",
 		"techCost": 192, 
 		"buildingCost": 80,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Verda's Temple",  
@@ -154,6 +156,7 @@
 		"era": "Tribes of Auriga",
 		"techCost": 381, 
 		"buildingCost": 120,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Arcana of Materializing",  
@@ -242,6 +245,7 @@
 		"era": "Tribes of Auriga",
 		"techCost": 668, 
 		"buildingCost": 160,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Arcana of Renewal",  
@@ -308,6 +312,7 @@
 		"era": "Tribes of Auriga",
 		"techCost": 1038, 
 		"buildingCost": 200,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Sacrificial Amplifiers",   //+1 pillar level
@@ -376,6 +381,7 @@
 		"era": "Era I",
 		"techCost": 48,
 		"buildingCost": 40,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Age of Discovery",  //reveals T1 ressources
@@ -388,6 +394,7 @@
 		"era": "Era I",
 		"techCost": 48,
 		"buildingCost": 40,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Advanced Alloys",  //???
@@ -494,6 +501,7 @@
 		"era": "Era II",
 		"techCost": 192,
 		"buildingCost": 80,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Age of Glory", 
@@ -508,6 +516,7 @@
 		"era": "Era II",
 		"techCost": 192, 
 		"buildingCost": 80,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Alchemical Alloys",   //Glassteel units +uniques
@@ -617,6 +626,7 @@
 		"era": "Era III",
 		"techCost": 381,
 		"buildingCost": 120,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Age of Enlightenment", 
@@ -631,6 +641,7 @@
 		"era": "Era III",
 		"techCost": 381, 
 		"buildingCost": 120,
+		"wonderCost": 25000,
 		"techs": [
 		    {
 				"name": "Artillery Ship",  //ship
@@ -744,6 +755,7 @@
 		"era": "Era IV",
 		"techCost": 668,
 		"buildingCost": 160,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Age of Industry", 
@@ -758,6 +770,7 @@
 		"era": "Era IV",
 		"techCost": 668, 
 		"buildingCost": 160,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Advanced Harvester",   // T3 Luxes Extractors 
@@ -867,6 +880,7 @@
 		"era": "Era V",
 		"techCost": 1038,
 		"buildingCost": 200,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Age of Heroes", 
@@ -881,6 +895,7 @@
 		"era": "Era V",
 		"techCost": 1038, 
 		"buildingCost": 200,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Advanced Quarry",  //production building
@@ -989,6 +1004,7 @@
 		"era": "Era VI",
 		"techCost": 1489,
 		"buildingCost": 500,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "End of Ages", 
@@ -1003,6 +1019,7 @@
 		"era": "Era VI",
 		"techCost": 1489, 
 		"buildingCost": 500,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Arcane Alloys",   //???
@@ -1061,6 +1078,7 @@
 		"era": "Era VI",
 		"techCost": 1489, 
 		"buildingCost": 500,
+		"wonderCost": 25000,
 		"techs": [
 			{
 				"name": "Temple of the Earth's Core",

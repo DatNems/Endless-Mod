@@ -25,49 +25,18 @@
 		"uniques" : [
 		"[+4 Science] from every [Scientist]",
 		"[+4 Gold] from every [Merchant]"
-		"[+4 Culture] from every [Artist]"
+		"[+2 Culture] from every [Artist]"
 		"[+4 Production] from every [Engineer]",
 		"[+4 Food] from every [Farmer]"],
     
     },
-	//specialists  Y U NO WORK
+	//specialists  U WOOOOOOOOORRRRRRRRRRRRRKKKKKKKKKKKKK
 	{
         "name": "Specialists", 
 		"cost": 1,
-        "uniques": ["Provides a [Artists] in each of your first [25] cities for free",
-		"Unsellable","Unbuildable"],
-    },
-	{
-        "name": "Scientists", 
-		"cost": 1,
-		"specialistSlots": {"Scientist": 20},
+		"specialistSlots": {"Scientist": 20,"Merchant": 20,"Artist": 20, "Engineer": 20,"Farmer": 20},
         "uniques": ["Unsellable"],
-    },
-	{
-        "name": "Merchants", 
-		"cost": 1,
-		"specialistSlots": {"Merchant": 20},
-        "uniques": ["Unsellable"],
-    },
-	{
-        "name": "Artists", 
-		"cost": 1,
-		"specialistSlots": {"Artist": 20},
-        "uniques": ["Unsellable"],
-    },
-	{
-        "name": "Engineers", 
-		"cost": 1,
-		"specialistSlots": {"Engineer": 20},
-        "uniques": ["Unsellable"],
-    },
-	{
-        "name": "Farmers", 
-		"cost": 1,
-		"specialistSlots": {"Farmer": 20},
-        "uniques": ["Unsellable"],
-    },
-	
+	},
 	//Faction Specials
 	
 	//Ardent Mage Pillars
@@ -1440,7 +1409,7 @@
         "isWonder": true,
         "hurryCostModifier": 20,
 		"cost": 8000,
-		"uniques": ["Triggers victory"],
+		"uniques": ["Triggers a global alert upon build start","Triggers victory"],
         "requiredTech": "Temple of the Earth's Core"
     },
 	
@@ -1524,7 +1493,7 @@
         "requiredTech": "Age of Industry",
 		"cost": 3000,
 		"gold": 20,
-		"uniques": ["+50% Gold [in this city]"],
+		"uniques": ["+50% Gold [in this city]","Triggers voting for the Diplomatic Victory"],
     },
 	{
         "name": "Immovable Force",

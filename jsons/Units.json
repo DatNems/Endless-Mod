@@ -678,7 +678,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can construct [District]","Uncapturable"]
+		"uniques": ["Can instantly construct a [District] improvement <by consuming this unit>","Uncapturable"]
 	},
 	//Cultist Units
 	{

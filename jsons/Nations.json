@@ -16,8 +16,12 @@
 	"uniqueName": "Power through Pain",
 	"uniqueText": "Units always fight with full Strength. Can construct Pillars to boost Tile Yields in Cities."
     "uniques": ["Damage is ignored when determining unit Strength",
+	//Techs
 	"Starts with [Arcana of Agility]","Starts with [Arcana of Matter]",
-	"Starts with [Age of Discovery]"],
+	"Starts with [Age of Discovery]",
+	//Buildings
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Telsem","Ateshi","Eneqa","Argbadh","Asalah Arca","Zakiya","Wadeha","Zarcha","Attinul","Faresh"]
   },
   {
@@ -31,7 +35,9 @@
 	"uniqueName": "Call of Auriga",
     "uniques": ["[+1] Movement <for [Military] units>","-15% Culture cost of adopting new Policies","Unhappiness from number of Cities doubled","[-1 Food] per [1] population in all cities",
 	"Starts with [Garth of the Allayi]","Starts with [Shipyard]",
-	"Starts with [Age of Discovery]"],
+	"Starts with [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Epistles","Garth","Breyos","Eayos","Rabos","Samos","Xoyos","Ystros","Braxos","Auriga"]
   },
   {
@@ -43,10 +49,9 @@
     "outerColor": [255, 235, 170],
     "innerColor": [128,128,128],
 	"uniqueName": "Appetite for Dust",  
-	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Living Armor which will grant tile yields. All Food buildings provide Dust instead."
-    "uniques": [
+	"uniqueText": "Cannot gain Food. Instead, must use Gold to purchase Population. All Food buildings provide Dust instead."
+    "uniques": ["Nullifies Growth [in all cities]",
 	//specialists
-	"[-11 Food] from every [Farmer]",
 	"[+4 Gold] from every [Farmer]",
 	//-food from all sources
 	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]", 
@@ -60,7 +65,9 @@
 	//+gold from food buildings
 	"[+5 Gold] from every [Seed Storage]","[+8 Gold] from every [Irrigation Network]","[+8 Gold] from every [Fish Farm]","[+15 Gold] from every [Public Granary]","[+3 Gold] from every [Plow Factory]","[+15 Gold] from every [Refrigeration Plant]","[+10 Gold] from every [Fertilizer Plant]","[+5 Gold] [in all cities] from every [Hothouses]","[+10 Gold] from every [Imperial News Network]",
 	"Starts with [Soul Burn]","Starts with [Empire Mint]","Starts with [Open-Pit Mine]",
-	"Starts with [Age of Discovery]"],
+	"Starts with [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Broken Spire","Dust Castle","Golden River","Deyval","Whitechapel","Port John","Peyton","Crumbling Fort","Weybridge","Suluzzo"]
   },
   {
@@ -75,7 +82,9 @@
 	"uniqueText": "Cannot train Settlers. Can construct Districts around the City to boost Tile Yields. Starts with Walls of Faith in Capital."
     "uniques": ["Defensive buildings in all cities are 50% more effective","Gain a free [Walls of Faith] [in capital]",
 	"Starts with [Language Square]","Starts with [Military Science]","Starts with [High Seat of the Queen]",
-	"Starts with [Age of Discovery]","Receive free [Settler] when you discover [Age of Discovery]"],
+	"Starts with [Age of Discovery]","Receive free [Settler] when you discover [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["The Eternal End"]
   },
   {
@@ -89,7 +98,9 @@
 	"uniqueName": "Diplomatic Pressure",
 	"uniqueText": "Starts the Game with the entire Map revealed. Generates Culture from every City and has a huge discount on policies."
     "uniques": ["[+1 Culture] [in all cities]","-50% Culture cost of adopting new Policies",
-	"Starts with [Empire Mint]","Starts with [Language Square]","Starts with [Protectors of Auriga]","Starts with [Age of Discovery]"],
+	"Starts with [Empire Mint]","Starts with [Language Square]","Starts with [Protectors of Auriga]","Starts with [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Jiraduvejy","Nachampassese","Lakaspassar","Masargaka","Jayawardene","Semsanitnwona","Namkang","Sadunitne","Maspa","Leyasa"]
   },
   {
@@ -103,7 +114,9 @@
 	"uniqueName": "Science Phobic",
 	"uniqueText": "Generates 50% less Science. Gains 100% of Enemy Strength as Dust & Science. Starts with 3 free units in capital."
     "uniques": ["-50% Science [in all cities]","-50% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
-	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]"],
+	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },
   {
@@ -119,7 +132,9 @@
     "uniques": ["[-5 Food] from every [Land]","[+7 Food] from every [Desert]",
 	//science from every resources
 	"[+2 Science] from every [Luxury resource]","[+2 Science] from every [Bonus resource]","[+2 Science] from every [Strategic resource]",
-	"Starts with [Topography]","Starts with [Alchemist's Furnace]","Starts with [Golem Camp]","Starts with [Age of Discovery]"],
+	"Starts with [Topography]","Starts with [Alchemist's Furnace]","Starts with [Golem Camp]","Starts with [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
   
