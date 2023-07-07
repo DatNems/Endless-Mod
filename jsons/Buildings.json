@@ -647,7 +647,7 @@
         "name": "Dye Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["[+4 Happiness] from [Dye] tiles [in this city]","Must have an owned [Dye] within [3] tiles","+50% Culture [in this city]"],
+        "uniques": ["[+4 Happiness] from [Dye] tiles [in this city]","Must have an owned [Dye] within [3] tiles","[+50]% [Culture] [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
@@ -661,14 +661,14 @@
         "name": "Bronze Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["[+4 Happiness] from [Bronze] tiles [in this city]","Must have an owned [Bronze] within [3] tiles","+50% Gold [in this city]"],
+        "uniques": ["[+4 Happiness] from [Bronze] tiles [in this city]","Must have an owned [Bronze] within [3] tiles","[+50]% [Gold] [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
         "name": "Spice Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["[+4 Happiness] from [Spice] tiles [in this city]","Must have an owned [Spice] within [3] tiles","+50% Food [in this city]"],
+        "uniques": ["[+4 Happiness] from [Spice] tiles [in this city]","Must have an owned [Spice] within [3] tiles","[+50]% [Food] [in this city]"],
         "requiredTech": "Open-Pit Mine"
     },
 	{
@@ -697,7 +697,7 @@
         "name": "Moon Leaf Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "uniques": ["[+4 Happiness] from [Moon Leaf] tiles [in this city]","Must have an owned [Moon Leaf] within [3] tiles","+50% Science [in this city]"],
+        "uniques": ["[+4 Happiness] from [Moon Leaf] tiles [in this city]","Must have an owned [Moon Leaf] within [3] tiles","[+50]% [Science] [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
@@ -711,14 +711,14 @@
         "name": "Titan Bones Extractor",
         "hurryCostModifier": 20,
 		"cost": 300,
-        "uniques": ["[+4 Happiness] from [Titan Bones] tiles [in this city]","Must have an owned [Titan Bones] within [3] tiles","+50% Production [in this city]"],
+        "uniques": ["[+4 Happiness] from [Titan Bones] tiles [in this city]","Must have an owned [Titan Bones] within [3] tiles","[+50]% [Production] [in this city]"],
         "requiredTech": "Reaping Station"
     },
 	{
         "name": "Dust Orchid Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "uniques": ["[+4 Happiness] from [Dust Orchid] tiles [in this city]","Must have an owned [Dust Orchid] within [3] tiles","+10% Production [in this city]","+10% Science [in this city]",
+        "uniques": ["[+4 Happiness] from [Dust Orchid] tiles [in this city]","Must have an owned [Dust Orchid] within [3] tiles","[+10]% [Production] [in this city]","[+10]% [Science] [in this city]",
 		"+10% Gold [in this city]","+10% Culture [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
@@ -726,7 +726,7 @@
         "name": "Dustwater Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "uniques": ["[+4 Happiness] from [Dustwater] tiles [in this city]","Must have an owned [Dustwater] within [3] tiles","+100% Gold [in this city]"],
+        "uniques": ["[+4 Happiness] from [Dustwater] tiles [in this city]","Must have an owned [Dustwater] within [3] tiles","[+100]% [Gold] [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
 	{
