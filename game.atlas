@@ -236,14 +236,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Guardian of Water
   rotate: false
-  xy: 1968, 1745
+  xy: 312, 44
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
   index: -1
 UnitIcons/Water Guardian
   rotate: false
-  xy: 1968, 1745
+  xy: 312, 44
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
@@ -257,21 +257,21 @@ NationIcons/Allayi
   index: -1
 NationIcons/Ardent Mages
   rotate: false
-  xy: 1047, 1092
+  xy: 1010, 730
   size: 26, 26
   orig: 26, 26
   offset: 0, 0
   index: -1
 NationIcons/Broken Lords
   rotate: false
-  xy: 938, 702
+  xy: 492, 446
   size: 23, 22
   orig: 23, 22
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Synchronized
   rotate: false
-  xy: 938, 702
+  xy: 492, 446
   size: 23, 22
   orig: 23, 22
   offset: 0, 0
@@ -285,77 +285,77 @@ NationIcons/Cultists
   index: -1
 NationIcons/Drakken
   rotate: false
-  xy: 1044, 900
+  xy: 268, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Forgotten
   rotate: false
-  xy: 778, 508
+  xy: 492, 414
   size: 23, 24
   orig: 23, 24
   offset: 0, 0
   index: -1
 NationIcons/The Forgotten
   rotate: false
-  xy: 778, 508
+  xy: 492, 414
   size: 23, 24
   orig: 23, 24
   offset: 0, 0
   index: -1
 NationIcons/Kapaku
   rotate: false
-  xy: 1008, 732
+  xy: 260, 316
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Mezari
   rotate: false
-  xy: 874, 604
+  xy: 452, 380
   size: 21, 24
   orig: 21, 24
   offset: 0, 0
   index: -1
 NationIcons/Morgawr
   rotate: false
-  xy: 810, 668
+  xy: 292, 316
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Mykara
   rotate: false
-  xy: 842, 700
+  xy: 388, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Necrophages
   rotate: false
-  xy: 778, 604
+  xy: 356, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Roving Clans
   rotate: false
-  xy: 842, 636
+  xy: 356, 348
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Vaulters
   rotate: false
-  xy: 874, 636
+  xy: 388, 348
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 NationIcons/Wild Walkers
   rotate: false
-  xy: 906, 668
+  xy: 356, 316
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
@@ -614,42 +614,42 @@ ResourceIcons/Wine
   index: -1
 StatIcons/Culture
   rotate: false
-  xy: 1606, 1778
+  xy: 808, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 StatIcons/Food
   rotate: false
-  xy: 906, 640
+  xy: 420, 352
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 StatIcons/Gold
   rotate: false
-  xy: 938, 674
+  xy: 388, 320
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 StatIcons/Happiness
   rotate: false
-  xy: 842, 574
+  xy: 292, 222
   size: 22, 22
   orig: 22, 22
   offset: 0, 0
   index: -1
 StatIcons/Production
   rotate: false
-  xy: 969, 704
+  xy: 354, 288
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
   index: -1
 StatIcons/Science
   rotate: false
-  xy: 872, 576
+  xy: 324, 259
   size: 20, 20
   orig: 20, 20
   offset: 0, 0
@@ -663,35 +663,35 @@ TileSets/FantasyHex/Tiles/District
   index: -1
 UnitIcons/Adamantian Cavalry
   rotate: false
-  xy: 997, 708
+  xy: 1806, 1778
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Adamantian Flying
   rotate: false
-  xy: 279, 44
+  xy: 1968, 1713
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Adamantian Infantry
   rotate: false
-  xy: 1047, 1028
+  xy: 2008, 1821
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Adamantian Ranger
   rotate: false
-  xy: 1114, 1094
+  xy: 2008, 1789
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Adamantian Support
   rotate: false
-  xy: 311, 44
+  xy: 1582, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
@@ -712,175 +712,196 @@ BuildingIcons/Guardian of Air
   index: -1
 UnitIcons/Ancient
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Dust Bishop
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Geomancer
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Preacher
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Skyfin
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Support Special
   rotate: false
-  xy: 1146, 1094
+  xy: 1614, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Artillery Ship
   rotate: false
-  xy: 1968, 1713
+  xy: 1646, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Assassin
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Drakkenling
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Infantry Special
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Stalwart
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Stone Sentinel
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Telsem Warlock
   rotate: false
-  xy: 2008, 1821
+  xy: 1678, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Ateshi Zealot
   rotate: false
-  xy: 1047, 996
+  xy: 1710, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Nameless Guard
   rotate: false
-  xy: 1047, 996
+  xy: 1710, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Predatore
   rotate: false
-  xy: 1047, 996
+  xy: 1710, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Ranged Special
   rotate: false
-  xy: 1047, 996
+  xy: 1710, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
+UnitIcons/Awakened Chaka
+  rotate: false
+  xy: 1832, 1717
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Awakened Fakir
+  rotate: false
+  xy: 212, 76
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+UnitIcons/Awakened Kazar
+  rotate: false
+  xy: 1047, 1126
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
 UnitIcons/Bathysphere
   rotate: false
-  xy: 1044, 964
+  xy: 1742, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Boarding Vessel
   rotate: false
-  xy: 1044, 932
+  xy: 1774, 1770
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Cavalry
   rotate: false
-  xy: 1021, 708
+  xy: 448, 356
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Cavalry Special
   rotate: false
-  xy: 1582, 1778
+  xy: 784, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Fanatec
   rotate: false
-  xy: 1582, 1778
+  xy: 784, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Golem Rider
   rotate: false
-  xy: 1582, 1778
+  xy: 784, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Ryder
   rotate: false
-  xy: 1582, 1778
+  xy: 784, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Seeker
   rotate: false
-  xy: 1582, 1778
+  xy: 784, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
@@ -915,301 +936,301 @@ BuildingIcons/Guardian of Dust
   index: -1
 UnitIcons/Earth Guardian
   rotate: false
-  xy: 1047, 1060
+  xy: 1968, 1745
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
   index: -1
 BuildingIcons/Guardian of Earth
   rotate: false
-  xy: 1047, 1060
+  xy: 1968, 1745
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
   index: -1
 UnitIcons/Eneqa Wing
   rotate: false
-  xy: 1044, 868
+  xy: 300, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Flying Special
   rotate: false
-  xy: 1044, 868
+  xy: 300, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Monk
   rotate: false
-  xy: 1044, 868
+  xy: 300, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Myst
   rotate: false
-  xy: 1044, 868
+  xy: 300, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Wyvern
   rotate: false
-  xy: 1044, 868
+  xy: 300, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Fire Guardian
   rotate: false
-  xy: 1081, 1094
+  xy: 279, 44
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
   index: -1
 BuildingIcons/Guardian of Fire
   rotate: false
-  xy: 1081, 1094
+  xy: 279, 44
   size: 25, 24
   orig: 25, 24
   offset: 0, 0
   index: -1
 UnitIcons/Fire Ship
   rotate: false
-  xy: 1044, 836
+  xy: 332, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Flying
   rotate: false
-  xy: 1044, 804
+  xy: 364, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Glassteel Cavalry
   rotate: false
-  xy: 1630, 1778
+  xy: 832, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Glassteel Flying
   rotate: false
-  xy: 1044, 772
+  xy: 396, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Glassteel Infantry
   rotate: false
-  xy: 2008, 1789
+  xy: 428, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Glassteel Ranger
   rotate: false
-  xy: 784, 732
+  xy: 460, 444
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Glassteel Support
   rotate: false
-  xy: 816, 732
+  xy: 260, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Gorgon
   rotate: false
-  xy: 1832, 1717
+  xy: 1047, 990
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Hyperium Cavalry
   rotate: false
-  xy: 1654, 1778
+  xy: 856, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Hyperium Flying
   rotate: false
-  xy: 848, 732
+  xy: 260, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Hyperium Infantry
   rotate: false
-  xy: 880, 732
+  xy: 292, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Hyperium Ranger
   rotate: false
-  xy: 912, 732
+  xy: 260, 348
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Hyperium Support
   rotate: false
-  xy: 944, 732
+  xy: 292, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Infantry
   rotate: false
-  xy: 976, 732
+  xy: 324, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Ipotane
   rotate: false
-  xy: 212, 76
+  xy: 1044, 854
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Mithrite Cavalry
   rotate: false
-  xy: 1678, 1778
+  xy: 880, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Mithrite Flying
   rotate: false
-  xy: 778, 700
+  xy: 292, 348
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Mithrite Infantry
   rotate: false
-  xy: 778, 668
+  xy: 356, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Mithrite Ranger
   rotate: false
-  xy: 810, 700
+  xy: 324, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Mithrite Support
   rotate: false
-  xy: 778, 636
+  xy: 260, 284
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Palladian Cavalry
   rotate: false
-  xy: 1702, 1778
+  xy: 904, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Palladian Flying
   rotate: false
-  xy: 810, 636
+  xy: 324, 348
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Palladian Infantry
   rotate: false
-  xy: 842, 668
+  xy: 260, 252
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Palladian Ranger
   rotate: false
-  xy: 874, 700
+  xy: 292, 284
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Palladian Support
   rotate: false
-  xy: 778, 572
+  xy: 420, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Ranger
   rotate: false
-  xy: 810, 604
+  xy: 388, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Shambler
   rotate: false
-  xy: 1047, 1126
+  xy: 1044, 718
   size: 128, 128
   orig: 128, 128
   offset: 0, 0
   index: -1
 UnitIcons/Support
   rotate: false
-  xy: 874, 668
+  xy: 324, 316
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Titanium Cavalry
   rotate: false
-  xy: 1726, 1778
+  xy: 928, 740
   size: 16, 16
   orig: 16, 16
   offset: 0, 0
   index: -1
 UnitIcons/Titanium Flying
   rotate: false
-  xy: 906, 700
+  xy: 260, 220
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Titanium Infantry
   rotate: false
-  xy: 778, 540
+  xy: 292, 252
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Titanium Ranger
   rotate: false
-  xy: 810, 572
+  xy: 452, 412
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitIcons/Titanium Support
   rotate: false
-  xy: 842, 604
+  xy: 420, 380
   size: 24, 24
   orig: 24, 24
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Endless Eye
   rotate: false
-  xy: 810, 543
+  xy: 324, 287
   size: 22, 21
   orig: 22, 21
   offset: 0, 0
