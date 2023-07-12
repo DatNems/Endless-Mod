@@ -147,7 +147,7 @@
     "innerColor": [128,128,128],
 	"uniqueName": "Walls of Faith",
 	"uniqueText": "Cannot train Settlers. Can construct Fungal Bloom around the World to increase Territory."
-    "uniques": ["May not annex cities","Nullifies [Culture] [in all cities]","Quantity of strategic resources produced by the empire [-50]%",
+    "uniques": ["May not annex cities","[+5000]% Culture cost of natural border growth [in all cities]","Quantity of strategic resources produced by the empire [-50]%",
 	"[-2 Happiness] from every [Luxury resource]",
 	"Starts with [Search Party]","Starts with [Cultivation]",
 	"Starts with [Age of Discovery]","Starts with [Creeping Presence]",

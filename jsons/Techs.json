@@ -151,6 +151,9 @@
 		        //"uniqueTo": "Mykara",
 				"row": 17,
 				"prerequisites": ["Creeping Presence"],
+				"uniques": ["[+10 Food, +10 Production, +10 Science] from every [Awakening Ritual (Kazar)]",
+				"[+10 Food, +10 Production, +10 Science] from every [Awakening Ritual (Chaka)]",
+				"[+10 Food, +10 Production, +10 Science] from every [Awakening Ritual (Fakir)]"]
 			},
 			
 			
@@ -251,6 +254,7 @@
 		        //"uniqueTo": "Mykara",
 				"row": 17,
 				"prerequisites": ["Urkan Encampment"],
+				"uniques": ["[+20 Culture] from every [Natural Wonder] <after discovering [Urkan Politics]>"]
 			},
 			
 			
