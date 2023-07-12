@@ -146,6 +146,12 @@
 				"row": 16,
 				"prerequisites": ["Golem Camp"],  
 			},
+			{
+				"name": "Urkan Encampment", //TO DO URKAN BUFF
+		        //"uniqueTo": "Mykara",
+				"row": 17,
+				"prerequisites": ["Creeping Presence"],
+			},
 			
 			
 			
@@ -240,6 +246,12 @@
 				"row": 15,
 				"prerequisites": ["Shaman's Insight","Siege Engineering"],   
 			},
+			{
+				"name": "Urkan Politics", //TO DO URKAN BUFF
+		        //"uniqueTo": "Mykara",
+				"row": 17,
+				"prerequisites": ["Urkan Encampment"],
+			},
 			
 			
 			
@@ -307,6 +319,12 @@
 		        //"uniqueTo": "Kapaku",
 				"row": 15,
 				"prerequisites": ["Koni School of Elite Riders"],   
+			},
+			{
+				"name": "Kernel of Plentitude", //TO DO URKAN BUFF
+		        //"uniqueTo": "Mykara",
+				"row": 17,
+				"prerequisites": ["Urkan Politics"],
 			},
 			
 			

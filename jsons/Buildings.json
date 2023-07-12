@@ -450,8 +450,16 @@
 		"uniques": ["Costs [15] [Mithrite]","Costs [15] [Hyperium]","[+3 Science] from every [Bonus resource] [in all cities]"],
         "requiredTech": "Aurigan Archive"
     },
-	
-	
+	//Mykara buildings
+	{
+        "name": "Kernel of Plentitude",
+		"uniqueTo": "Mykara",
+        "isNationalWonder": true, 
+		"cost": 800,
+		"maintenance": 6,
+		"uniques": ["Costs [15] [Palladian]","[+10 Science, +10 Food, +10 Gold] [in all cities]"],
+        "requiredTech": "Kernel of Plentitude"
+    },
 	
 	
 	

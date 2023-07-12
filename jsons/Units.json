@@ -553,7 +553,7 @@
 		"movement": 4,
 		"strength": 40,
 		"cost": 60,
-		"uniques": ["-50% Strength"],
+		"uniques": ["-50% Strength <when defending>"],
 	},
     {
 		"name": "Ateshi Zealot",
@@ -594,7 +594,7 @@
 		"strength": 22,
 		"cost": 80,
 		"requiredTech": "Mercenary Market",
-		"uniques": ["+50% Strength","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+		"uniques": ["+50% Strength <when defending>","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
 	},
     {
 		"name": "Skyfin",
@@ -620,7 +620,7 @@
 		"strength": 34,
 		"cost": 90,
 		"requiredTech": "Alchemical Alloys",
-		"uniques": ["+50% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
+		"uniques": ["+50% Strength <when defending>","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
 		"attackSound": "horse"
 	},
 	
@@ -634,7 +634,7 @@
 		"movement": 4,
 		"strength": 22,
 		"cost": 60,
-		"uniques": ["+100% Strength"],
+		"uniques": ["+100% Strength <when defending>"],
 	},
 	{   
 		"name": "Ryder",
@@ -645,7 +645,7 @@
 		"strength": 28,
 		"cost": 60,
 		"requiredTech": "Mercenary Market",
-		"uniques": ["+10% Strength","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+		"uniques": ["+10% Strength <when defending>","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
 	},
 	{
 		"name": "Dust Bishop",  //Era II
@@ -705,7 +705,7 @@
 		"strength": 22,
 		"cost": 80,
 		"requiredTech": "Mercenary Market",
-		"uniques": ["+30% Strength","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
+		"uniques": ["+30% Strength <when defending>","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
 	},
 	{
 		"name": "Nameless Guard",    //Era II
@@ -731,7 +731,7 @@
 		"movement": 4,
 		"strength": 22,
 		"cost": 90,
-		"uniques": ["+100% Strength"],
+		"uniques": ["+100% Strength <when defending>"],
 	},
 	{
 		"name": "Wyvern",
@@ -770,7 +770,7 @@
 		"movement": 4,
 		"strength": 34,
 		"cost": 80,
-		"uniques": ["-40% Strength"],
+		"uniques": ["-40% Strength <when defending>"],
 	},
 	{
 		"name": "Predatore",   
@@ -817,7 +817,7 @@
 		"movement": 4,
 		"strength": 28,
 		"cost": 80,
-		"uniques": ["+100% Strength"],
+		"uniques": ["+100% Strength <when defending>"],
 	},
 	{
 		"name": "Geomancer",
@@ -864,8 +864,42 @@
 		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable","May enter foreign tiles without open borders"]
 	},
 	//Mykara
-	
-	
-	
+	{
+		"name": "Shambler",   
+		"uniqueTo": "Mykara",
+		"replaces": "Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 22,
+		"cost": 80,
+		"requiredTech": "Pillage",
+		"uniques": ["[+130]% Strength <when defending>"],
+	},
+	{
+		"name": "Gorgon",
+		"uniqueTo": "Mykara",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 28,
+		"cost": 80,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%",
+		"[+10]% Strength <when defending>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Ipotane",
+		"uniqueTo": "Mykara",
+		"replaces": "Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 80,
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
 	
 ]
