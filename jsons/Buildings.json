@@ -752,7 +752,7 @@
         "name": "Redsang Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-        "uniques": ["[+4 Happiness] from [Redsang] tiles [in this city]","Must have an owned [Redsang] within [3] tiles","[Military] units gain [20]% more Experience from combat"],
+        "uniques": ["[+4 Happiness] from [Redsang] tiles [in this city]","Must have an owned [Redsang] within [3] tiles","[20]% XP gained from combat <for [Military] units>"],
         "requiredTech": "Advanced Harvester"
     },
 	
