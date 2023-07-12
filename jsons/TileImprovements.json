@@ -14,7 +14,7 @@
 		"science": 3,
 		"gold": 3,
 		"uniques": ["Great Improvement","Gives a defensive bonus of [50]%"]
-		"terrainsCanBeBuiltOn": ["Land"]
+		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Flood plains","Marsh"]
 	},
     {
 		"name": "Desertification", 

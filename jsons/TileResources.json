@@ -333,6 +333,9 @@
 		"revealedBy": "Age of Discovery",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
 		"name": "Titanium",
@@ -340,6 +343,9 @@
 		"revealedBy": "Age of Discovery",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
 		"name": "Adamantian",
@@ -347,6 +353,9 @@
 		"revealedBy": "Age of Enlightenment",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
 		"name": "Palladian",
@@ -354,6 +363,9 @@
 		"revealedBy": "Age of Enlightenment",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
 		"name": "Mithrite",
@@ -361,6 +373,9 @@
 		"revealedBy": "Age of Industry",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	{
 		"name": "Hyperium",
@@ -368,6 +383,9 @@
 		"revealedBy": "Age of Industry",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"uniques": ["Stockpiled"],
+		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
+		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
 	},
 	
 	

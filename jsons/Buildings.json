@@ -171,7 +171,7 @@
 		"uniqueTo": "Allayi",
         "isNationalWonder": true,
 		"cost": 1,
-        "uniques": ["Unsellable","Provides [4] [Glassteel]","Provides [4] [Titanium]","Provides [4] [Adamantian]","Provides [4] [Palladian]","Provides [4] [Mithrite]","Provides [4] [Hyperium]"],
+        "uniques": ["Unsellable","Instantly provides [4] [Glassteel]","Instantly provides [4] [Titanium]","Instantly provides [4] [Adamantian]","Instantly provides [4] [Palladian]","Instantly provides [4] [Mithrite]","Instantly provides [4] [Hyperium]"],
         "requiredTech": "Blessings of the Mother"
     },
 	//Broken Lords Tech Boosts
@@ -314,7 +314,7 @@
         "isNationalWonder": true,
 		"cost": 800,
 		"maintenance": 4,
-		"uniques": ["+30% Science [in this city]",
+		"uniques": ["[+30]% [Science] [in this city]",
 		"Consumes [5] [Hyperium]"],
         "requiredTech": "Shrine of Whispers"
     },
@@ -365,7 +365,7 @@
 		"uniqueTo": "Drakken",
 		"cost": 400,
 		"food": 10,
-		"uniques": ["Consumes [8] [Titanium]","Consumes [8] Glassteel","New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Instantly consumes [8] [Titanium]","Instantly consumes [8] [Glassteel]","New [Military] units start with [15] Experience [in this city]"],
         "requiredTech": "Oologic Nursery"
     },
 	{
@@ -382,7 +382,7 @@
 		"cost": 800,
 		"culture": 10,
 		"happiness": 10,
-		"uniques": ["Consumes [4] [Mithrite]"],
+		"uniques": ["Instantly consumes [4] [Mithrite]"],
         "requiredTech": "Auriga Institute"
     },
 	{
@@ -407,7 +407,7 @@
 		"uniqueTo": "The Forgotten",
 		"cost": 600,
 		"maintenance": 2,
-		"uniques": ["Provides 2 extra copy of each improved strategy resource near this City"]
+		"uniques": ["Quantity of strategic resources produced by the empire [+33]%"]
         "requiredTech": "Tower of the Consencrate"
     },
 	{
@@ -422,7 +422,7 @@
 		"uniqueTo": "The Forgotten",
 		"cost": 2000,
 		"maintenance": 7,
-		"uniques": ["Consumes [10] [Titanium]","+20% Gold [in this city]"],
+		"uniques": ["Instantly consumes [10] [Titanium]","[+20]% [Gold] [in this city]"],
         "requiredTech": "Commercial Espionage"
     },
 	//kapaku buildings
@@ -430,7 +430,7 @@
         "name": "Golem Camp", 
 		"uniqueTo": "Kapaku",
 		"cost": 250,
-		"uniques": ["Consumes [5] [Titanium]","Consumes [5] [Glassteel]","[+1] population [in this city]"],
+		"uniques": ["Instantly consumes [5] [Titanium]","Instantly consumes [5] [Glassteel]","[+1] population [in this city]"],
         "requiredTech": "Golem Camp"
     },
 	{
@@ -439,7 +439,7 @@
 		"cost": 800,
 		"maintenance": 6,
 		"cityHealth": 100,
-		"uniques": ["Consumes [15] [Palladian]","New [Military] units start with [30] Experience [in this city]"],
+		"uniques": ["Instantly consumes [15] [Palladian]","New [Military] units start with [30] Experience [in this city]"],
         "requiredTech": "Koni School of Elite Riders"
     },
 	{
@@ -447,7 +447,7 @@
 		"uniqueTo": "Kapaku",
         "isNationalWonder": true, 
 		"cost": 1200,
-		"uniques": ["Consumes [15] [Mithrite]","Consumes [15] [Hyperium]","[+3 Science] from every [Bonus resource] [in all cities]"],
+		"uniques": ["Instantly consumes [15] [Mithrite]","Instantly consumes [15] [Hyperium]","[+3 Science] from every [Bonus resource] [in all cities]"],
         "requiredTech": "Aurigan Archive"
     },
 	
@@ -464,42 +464,42 @@
         "name": "Glassteel Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Glassteel]"],
+        "uniques": ["Instantly provides [20] [Glassteel]"],
         "requiredTech": "Exotic Alloys"
     },
 	{
         "name": "Titanium Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Titanium]"],
+        "uniques": ["Instantly provides [20] [Titanium]"],
         "requiredTech": "Exotic Armor"
     },
 	{
         "name": "Adamantian Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Adamantian]"],
+        "uniques": ["Instantly provides [20] [Adamantian]"],
         "requiredTech": "Exceptional Alloys"
     },
 	{
         "name": "Palladian Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Palladian]"],
+        "uniques": ["Instantly provides [20] [Palladian]"],
         "requiredTech": "Exceptional Armor"
     },
 	{
         "name": "Mithrite Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Mithrite]"],
+        "uniques": ["Instantly provides [20] [Mithrite]"],
         "requiredTech": "Marvelous Alloys"
     },
 	{
         "name": "Hyperium Factory", 
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Provides [20] [Hyperium]"],
+        "uniques": ["Instantly provides [20] [Hyperium]"],
         "requiredTech": "Marvelous Armor"
     },
 	{
@@ -552,25 +552,25 @@
 	{
         "name": "Difference Engine",
 		"cost": 1,
-		"uniques": ["+50% Science [in this city]","Automatically built in all cities where it is buildable"],
+		"uniques": ["[+50]% [Science] [in this city]","Automatically built in all cities where it is buildable"],
         "requiredTech": "Difference Engine"
     },
 	{
         "name": "Dust-Driven Distillery",
 		"cost": 1,
-		"uniques": ["+50% Gold [in this city]","Automatically built in all cities where it is buildable"],
+		"uniques": ["[+50]% [Gold] [in this city]","Automatically built in all cities where it is buildable"],
         "requiredTech": "Dust-Driven Distillery"
     },
 	{
         "name": "Endless Alloys",
 		"cost": 1,
-		"uniques": ["+50% Production [in this city]","Automatically built in all cities where it is buildable"],
+		"uniques": ["[+50]% [Production] [in this city]","Automatically built in all cities where it is buildable"],
         "requiredTech": "Endless Alloys"
     },
 	{
         "name": "Self-Driving Plows",
 		"cost": 1,
-		"uniques": ["+50% Food [in this city]","Automatically built in all cities where it is buildable"],
+		"uniques": ["[+50]% [Food] [in this city]","Automatically built in all cities where it is buildable"],
         "requiredTech": "Self-Driving Plows"
     },
 	{
@@ -583,7 +583,7 @@
 	{
         "name": "United Empires Council",
 		"cost": 1,
-		"uniques": ["+50% Culture [in this city]","Automatically built in all cities where it is buildable"],
+		"uniques": ["[+50]% [Culture] [in this city]","Automatically built in all cities where it is buildable"],
         "requiredTech": "United Empires Council"
     },
 	
@@ -598,48 +598,44 @@
         "name": "Titanium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [23] [Titanium]",
-		"+20% Science [in this city]"],
+        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [1] [Titanium]","[+20]% [Science] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Glassteel Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [23] [Glassteel]",
-		"+20% Gold [in this city]"],
+        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [1] [Glassteel]","[+20]% [Gold] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Adamantian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [23] [Adamantian]",
-		"+20% Production [in this city]"],
+        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [1] [Adamantian]","[+20]% [Production] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Palladian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [23] [Palladian]",
-		"+20% Food [in this city]"],
+        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [1] [Palladian]","[+20]% [Food] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Mithrite Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [23] [Mithrite]",
-		"+15% Production [in this city]","+15% Gold [in this city]"],
+        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [1] [Mithrite]",
+		"[+15]% [Production] [in this city]","[+15]% [Gold] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
 	{
         "name": "Hyperium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [23] [Hyperium]",
-		"+15% Science [in this city]","+15% Food [in this city]"],
+        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [1] [Hyperium]",
+		"[+15]% [Science] [in this city]","[+15]% [Food] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
 	//"Luxes"
@@ -719,7 +715,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
         "uniques": ["[+4 Happiness] from [Dust Orchid] tiles [in this city]","Must have an owned [Dust Orchid] within [3] tiles","[+10]% [Production] [in this city]","[+10]% [Science] [in this city]",
-		"+10% Gold [in this city]","+10% Culture [in this city]"],
+		"[+10]% [Gold] [in this city]","[+10]% [Culture] [in this city]"],
         "requiredTech": "Advanced Harvester"
     },
 	{
@@ -787,7 +783,7 @@
 		"cost": 75,
 		"maintenance": 1,
 		"food": 10,
-		"uniques": ["+15% Food [in this city]"],
+		"uniques": ["[+15]% [Food] [in this city]"],
         "requiredTech": "Cultivation"
     },
 	{
@@ -804,7 +800,7 @@
         "hurryCostModifier": 20,
 		"cost": 75,
 		"gold": 5,
-		"uniques": ["+15% Gold [in this city]"],
+		"uniques": ["[+15]% [Gold] [in this city]"],
         "requiredTech": "Empire Mint"
     },
 	{
@@ -821,7 +817,7 @@
 		"cost": 75,
 		"production": 6,
 		"maintenance": 1,
-		"uniques": ["+15% Production [in this city]"],
+		"uniques": ["[+15]% [Production] [in this city]"],
         "requiredTech": "Mill Foundry"
     },
 	{
@@ -830,7 +826,7 @@
 		"cost": 75,
 		"science": 10,
 		"maintenance": 1,
-		"uniques": ["+15% Science [in this city]"],
+		"uniques": ["[+15]% [Science] [in this city]"],
         "requiredTech": "Public Library"
     },
 	{
@@ -866,7 +862,7 @@
 		"cost": 250,
 		"science": 15,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]","+20% Science [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","[+20]% [Science] [in this city]"],
         "requiredTech": "Alchemy Workshop"
     },
 	{
@@ -874,7 +870,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-        "uniques": ["Consumes [4] [Glassteel]","Must have an owned [River] within [3] tiles","[+3 Food] from [River] tiles [in this city]"],
+        "uniques": ["Instantly consumes [4] [Glassteel]","Must have an owned [River] within [3] tiles","[+3 Food] from [River] tiles [in this city]"],
         "requiredTech": "Aquacultural Science"
     },
 	{
@@ -891,7 +887,7 @@
 		"cost": 250,
 		"happiness": 5,
 		"maintenance": 2,
-		"uniques": ["Consumes [2] [Glassteel]","+10% Food [in this city]","+10% Gold [in this city]"],
+		"uniques": ["Instantly consumes [2] [Glassteel]","[+10]% [Food] [in this city]","[+10]% [Gold] [in this city]"],
         "requiredTech": "Central Market"
     },
 	{
@@ -909,7 +905,7 @@
 		"cost": 600,
         "cityHealth": 100,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Glassteel]"]
+		"uniques": ["Instantly consumes [4] [Glassteel]"]
         "requiredTech": "Citizin Armies"
     },
 	{
@@ -942,7 +938,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 4,
-		"uniques": ["Consumes [4] [Titanium]","[+5 Production] from every [Engineer]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","[+5 Production] from every [Engineer]"],
         "requiredTech": "Hydrology"
     },
 	{
@@ -966,7 +962,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]",
+		"uniques": ["Instantly consumes [4] [Titanium]","[+1 Production] from [Forest] tiles [in this city]","[+1 Production] from [Jungle] tiles [in this city]",
 		"[+1 Production] from [Marsh] tiles [in this city]","[+1 Production] from [Oasis] tiles [in this city]","[+1 Production] from [Atoll] tiles [in this city]"]
 		"requiredTech": "Management Sciences"
     },
@@ -975,7 +971,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Titanium]","[+1 production] from every [Bonus resource] [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","[+1 production] from every [Bonus resource] [in this city]"],
         "requiredTech": "Management Sciences"
     },
 	{
@@ -985,7 +981,7 @@
 		"cost": 250,
 		"food": 15,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Glassteel]","[+5 Food] from every [Farmer]"],
+		"uniques": ["Instantly consumes [4] [Glassteel]","[+5 Food] from every [Farmer]"],
         "requiredTech": "Public Granary"
     },
 	
@@ -1002,7 +998,7 @@
 		"cost": 600,
         "cityHealth": 200,
 		"maintenance": 1,
-		"uniques": ["Consumes [4] [Titanium]","New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","New [Military] units start with [15] Experience [in this city]"],
         "requiredTech": "Borough Government"
     },
 	{
@@ -1012,7 +1008,7 @@
         "cityHealth": 200,
 		"cityStrength": 20,
 		"maintenance": 1,
-		"uniques": ["Consumes [4] [Titanium]"],
+		"uniques": ["Instantly consumes [4] [Titanium]"],
         "requiredTech": "Borough Government"
     },
 	{
@@ -1020,7 +1016,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 2,
-		"uniques": ["Consumes [4] [Palladian]","+15% growth [in this city]"],
+		"uniques": ["Instantly consumes [4] [Palladian]","[+15]% growth [in this city]"],
         "requiredTech": "Borough Government"
     },
 	{
@@ -1034,14 +1030,14 @@
 	{
         "name": "Dust Depository", 
 		"cost": 600,
-        "uniques": ["Consumes [4] [Glassteel]","[+2 Gold] per [1] population [in this city]"],
+        "uniques": ["Instantly consumes [4] [Glassteel]","[+2 Gold] per [1] population [in this city]"],
         "requiredTech": "Dust Alchemy"
     },
 	{
         "name": "Dust Transmuter",    
 		"cost": 600,
         "isNationalWonder": true,
-        "uniques": ["Consumes [6] [Glassteel]",
+        "uniques": ["Instantly consumes [6] [Glassteel]",
 		"[+2 Gold] from every [Coast]","[+2 Gold] from every [River]","[+2 Gold] from every [Jungle]","[+2 Gold] from every [Desert]","[+2 Gold] from every [Lakes]","[+2 Gold] from every [Plains]","[+2 Gold] from every [Ocean]",
 		"[+1 Gold] from every [Dye]","[+1 Gold] from every [Emerald]","[+1 Gold] from every [Bronze]","[+1 Gold] from every [Spice]","[+1 Gold] from every [Wine]",
 		"[+1 Gold] from every [Blood Crystal]","[+1 Gold] from every [Grassilk]","[+1 Gold] from every [Moon Leaf]","[+1 Gold] from every [Quicksilver]","[+1 Gold] from every [Titan Bones]",
@@ -1053,14 +1049,14 @@
         "name": "Dust Refinery", 
 		"cost": 600,
 		"gold": 15,
-        "uniques": ["Consumes [6] [Glassteel]"],
+        "uniques": ["Instantly consumes [6] [Glassteel]"],
         "requiredTech": "Dust Refinery"
     },
 	{
         "name": "Large-Scale Aquatic Center", 
 		"cost": 600,
 		"maintenance": 4,
-        "uniques": ["Must have an owned [Water] within [3] tiles","Consumes [6] [Titanium]","[+2 Science] from [Water] tiles [in this city]"],
+        "uniques": ["Instantly consumes [6] [Titanium]","Must have an owned [Water] within [3] tiles","[+2 Science] from [Water] tiles [in this city]"],
         "requiredTech": "Fluid Biomechanics"
     },
 	{
@@ -1068,7 +1064,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
 		"maintenance": 4,
-        "uniques": ["Must have an owned [River] within [3] tiles","Consumes [6] [Titanium]","[+3 Science] from [River] tiles [in this city]"],
+        "uniques": ["Instantly consumes [6] [Titanium]","Must have an owned [River] within [3] tiles","[+3 Science] from [River] tiles [in this city]"],
         "requiredTech": "Fluid Biomechanics"
     },
 	{
@@ -1083,7 +1079,7 @@
         "name": "Lava Works", 
 		"cost": 600,
 		"maintenance": 4,
-        "uniques": ["Must have an owned [Desert] within [3] tiles","Consumes [4] [Titanium]","Consumes [4] [Glassteel]",
+        "uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [6] [Glassteel]","Must have an owned [Desert] within [3] tiles",
 		"[+3 Production] from [Desert] tiles [in this city]","[+3 Science] from [Desert] tiles [in this city]"],
         "requiredTech": "Magma Hydraulics"
     },
@@ -1091,7 +1087,7 @@
         "name": "Plow Factory",   
         "hurryCostModifier": 20,
 		"cost": 600,
-		"uniques": ["Consumes [6] [Glassteel]","Consumes [4] [Palladian]","[+1 Food] from [Land]"],
+		"uniques": ["Instantly consumes [6] [Glassteel]","Instantly consumes [4] [Palladian]","[+1 Food] from [Land]"],
         "requiredTech": "Plow Factory"
     },
 	{
@@ -1100,7 +1096,7 @@
 		"cost": 600,
 		"culture": 10,
 		"maintenance": 4,
-		"uniques": ["[+1 Culture] per [1] population [in this city]","Consumes [4] [Palladian]","Consumes [4] [Adamantian]"],
+		"uniques": ["Instantly consumes [4] [Palladian]","Instantly consumes [4] [Adamantian]","[+1 Culture] per [1] population [in this city]"],
         "requiredTech": "Public Works"
     },
 	{
@@ -1109,7 +1105,7 @@
 		"cost": 1200,
         "isNationalWonder": true,
 		"maintenance": 8,
-		"uniques": ["Consumes [6] [Titanium]","+50% Culture [in this city]"],
+		"uniques": ["Instantly consumes [6] [Titanium]","[+50]% [Culture] [in this city]"],
         "requiredTech": "Public Works"
     },
 	{
@@ -1118,7 +1114,7 @@
 		"cost": 600,
 		"maintenance": 4,
 		"science": 5,
-		"uniques": ["Consumes [4] [Titanium]","[+1 Science] per [1] population [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","[+1 Science] per [1] population [in this city]"],
         "requiredTech": "Statistical Methods"
     },
 	{
@@ -1137,7 +1133,7 @@
         "cityHealth": 50,
 		"cityStrength": 30,
 		"maintenance": 6,
-		"uniques": ["Consumes [4] [Palladian]"],
+		"uniques": ["Instantly consumes [4] [Palladian]"],
 		"requiredTech": "Unexpected Allies"
     },
 	
@@ -1151,7 +1147,7 @@
 		"cost": 1200,
 		"maintenance": 7,
 		"food": 10,
-		"uniques": ["Consumes [4] [Adamantian]","Consumes [4] [Palladian]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [4] [Palladian]"],
         "requiredTech": "Anaerobic Mycrobiology"
     },
 	{
@@ -1159,7 +1155,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [8] [Adamantian]",
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [8] [Adamantian]",
 		"[+3 Production] from [Snow] tiles [in this city]","[+3 Production] from [Forest] tiles [in this city]","[+3 Production] from [Jungle] tiles [in this city]","[+3 Production] from [Marsh] tiles [in this city]",
 		"[+3 Production] from [Oasis] tiles [in this city]","[+3 Production] from [Flood plains] tiles [in this city]","[+3 Production] from [Atoll] tiles [in this city]",
 		"[+3 Production] from [Caldera Lake] tiles [in this city]","[+3 Production] from [Clay] tiles [in this city]","[+3 Production] from [Dragon Tree] tiles [in this city]",
@@ -1176,7 +1172,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [8] [Adamantian]",
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [8] [Adamantian]",
 		"Provides [10] [Glassteel]","Provides [10] [Titanium]","Provides [10] [Adamantian]","Provides [10] [Palladian]","Provides [10] [Mithrite]","Provides [10] [Hyperium]"],
         "requiredTech": "Borer's Guild"
     },
@@ -1185,7 +1181,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [2] [Hyperium]","New [Military] units start with [30] Experience [in this city]"],
+		"uniques": ["Instantly consumes [2] [Hyperium]","New [Military] units start with [30] Experience [in this city]"],
         "requiredTech": "Civic Instruction"
     },
 	{
@@ -1194,7 +1190,7 @@
 		"cost": 2500,
         "isNationalWonder": true,
 		"maintenance": 15,
-		"uniques": ["Consumes [6] [Palladian]","All newly-trained [All] units in this city receive the [Trained] promotion"],
+		"uniques": ["Instantly consumes [6] [Palladian]","All newly-trained [All] units in this city receive the [Trained] promotion"],
         "requiredTech": "Civic Instruction"
     },
 	{
@@ -1202,7 +1198,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [2] [Hyperium]","Consumes [12] [Titanium]",
+		"uniques": ["Instantly consumes [2] [Hyperium]","Instantly consumes [12] [Titanium]",
 		"[+2 Science] from [Tundra] tiles [in this city]","[+2 Science] from [Glassteel] tiles [in this city]","[+2 Science] from [Titanium] tiles [in this city]","[+2 Science] from [Adamantian] tiles [in this city]",
 		"[+2 Science] from [Palladian] tiles [in this city]","[+2 Science] from [Mithrite] tiles [in this city]","[+2 Science] from [Hyperium] tiles [in this city]",
 		"[+2 Science] from [Azotic Exotics] tiles [in this city]","[+2 Science] from [Black Dust] tiles [in this city]","[+2 Science] from [Botanical Garden] tiles [in this city]",
@@ -1219,7 +1215,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [4] [Adamantian]","[+2 Production] per [1] population [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [4] [Adamantian]","[+2 Production] per [1] population [in this city]"],
         "requiredTech": "Industrial Processing"
     },
 	{
@@ -1228,7 +1224,7 @@
 		"cost": 2500,
         "isNationalWonder": true,
 		"maintenance": 15,
-		"uniques": ["Consumes [8] [Adamantian]",
+		"uniques": ["Instantly consumes [8] [Adamantian]",
 		"[+3 Science] from every [Dye Extractor]","[+3 Production] from every [Emerald Extractor]","[+3 Gold] from every [Bronze Extractor]","[+3 Food] from every [Spice Extractor]","[+3 Culture] from every [Wine Extractor]",
 		"[+3 Culture] from every [Blood Crystal Extractor]","[+3 Gold] from every [Grassilk Extractor]","[+3 Science] from every [Moon Leaf Extractor]","[+3 Food] from every [Quicksilver Extractor]","[+3 Production] from every [Titan Bones Extractor]",
 		"[+3 Science] from every [Dust Orchid Extractor]","[+3 Gold] from every [Dustwater Extractor]","[+3 Food] from every [Hydromiel Extractor]","[+3 Culture] from every [Pixie Blood Extractor]","[+3 Production] from every [Redsang Extractor]"],
@@ -1240,7 +1236,7 @@
 		"cost": 1200,
 		"maintenance": 7,
 		"food": 15,
-		"uniques": ["Consumes [8] [Glassteel]","Consumes [2] [Palladian]"],
+		"uniques": ["Instantly consumes [8] [Glassteel]","Instantly consumes [2] [Palladian]"],
         "requiredTech": "Isolation Sciences"
     },
 	{
@@ -1248,7 +1244,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [8] [Palladian]","Consumes [2] [Glassteel]","+25% growth [in this city]"],
+		"uniques": ["Instantly consumes [8] [Palladian]","Instantly consumes [2] [Glassteel]","+25% growth [in this city]"],
         "requiredTech": "Isolation Sciences"
     },
 	{
@@ -1256,7 +1252,7 @@
         "hurryCostModifier": 20,
 		"cost": 1200,
 		"maintenance": 7,
-		"uniques": ["Consumes [8] [Glassteel]","Consumes [4] [Palladian]",
+		"uniques": ["Instantly consumes [8] [Glassteel]","Instantly consumes [4] [Palladian]",
 		"[+2 Food] from [Ocean] tiles [in this city]","[+2 Food] from [Coast] tiles [in this city]","[+2 Food] from [Plains] tiles [in this city]","[+2 Food] from [Desert] tiles [in this city]",
 		"[+2 Food] from [Grassland] tiles [in this city]","[+2 Food] from [Tundra] tiles [in this city]","[+2 Food] from [Lakes] tiles [in this city]","[+2 Food] from [Hill] tiles [in this city]",
 		"[+2 Food] from [Forest] tiles [in this city]","[+2 Food] from [Jungle] tiles [in this city]","[+2 Food] from [Oasis] tiles [in this city]","[+2 Food] from [Atoll] tiles [in this city]",
@@ -1273,7 +1269,7 @@
 		"cost": 1200,
         "isNationalWonder": true,
 		"maintenance": 7,
-		"uniques": ["Consumes [8] [Palladian]","Consumes [4] [Palladian]","[+5 Food] [in all cities]"],
+		"uniques": ["Instantly consumes [8] [Glassteel]","Instantly consumes [4] [Palladian]","[+5 Food] [in all cities]"],
         "requiredTech": "Nutrition Chemistry"
     },
 	
@@ -1285,7 +1281,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 10,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [10] [Adamantian]","[+5 Production] from [Bonus resource] tiles [in this city]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [10] [Adamantian]","[+5 Production] from [Bonus resource] tiles [in this city]"],
         "requiredTech": "Advanced Quarry"
     },
 	{
@@ -1295,7 +1291,7 @@
         "isNationalWonder": true,
 		"maintenance": 10,
 		"happiness": 10,
-		"uniques": ["Consumes [4] [Glassteel]","Consumes [2] [Mithrite]"],
+		"uniques": ["Instantly consumes [4] [Glassteel]","Consumes [2] [Mithrite]"],
         "requiredTech": "Arts Council"
     },
 	{
@@ -1304,7 +1300,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 20,
-		"uniques": ["Consumes [4] [Adamantian]","Consumes [4] [Palladian]","+50% Culture [in this city]"],
+		"uniques": ["Instantly consumes [4] [Adamantian]","Instantly consumes [4] [Palladian]","[+50]% [Culture] [in this city]"],
         "requiredTech": "Dust-Enhanced Building"
     },
 	{
@@ -1313,7 +1309,7 @@
 		"cost": 4000,
         "isNationalWonder": true,
 		"maintenance": 40,
-		"uniques": ["Consumes [10] [Mithrite]","New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Instantly consumes [10] [Mithrite]","New [Military] units start with [15] Experience [in this city]"],
         "requiredTech": "Dust-Enhanced Building"
     },
 	{
@@ -1335,14 +1331,14 @@
 		"science": 10,
 		"culture": 10,
 		"maintenance": 10,
-		"uniques": ["Consumes [4] [Mithrite]","Consumes [2] [Glassteel]"],
+		"uniques": ["Instantly consumes [4] [Mithrite]","Instantly consumes [2] [Glassteel]"],
         "requiredTech": "Imperial News Network"
     },
 	{
         "name": "Dust Revitalizer",
         "hurryCostModifier": 20,
 		"cost": 2000,
-		"uniques": ["Consumes [14] [Glassteel]","Consumes [2] [Mithrite]",
+		"uniques": ["Instantly consumes [14] [Glassteel]","Instantly consumes [2] [Mithrite]",
 		"[+2 Gold] from every [Coast]","[+2 Gold] from every [River]","[+2 Gold] from every [Jungle]","[+2 Gold] from every [Desert]","[+2 Gold] from every [Lakes]","[+2 Gold] from every [Plains]","[+2 Gold] from every [Ocean]",
 		"[+1 Gold] from every [Dye]","[+1 Gold] from every [Emerald]","[+1 Gold] from every [Bronze]","[+1 Gold] from every [Spice]","[+1 Gold] from every [Wine]",
 		"[+1 Gold] from every [Blood Crystal]","[+1 Gold] from every [Grassilk]","[+1 Gold] from every [Moon Leaf]","[+1 Gold] from every [Quicksilver]","[+1 Gold] from every [Titan Bones]",
@@ -1355,7 +1351,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
 		"maintenance": 7,
-		"uniques": ["Consumes [20] [Glassteel]",
+		"uniques": ["Instantly consumes [20] [Glassteel]",
 		"[+5 Science] from every [Dye Extractor]","[+5 Production] from every [Emerald Extractor]","[+5 Gold] from every [Bronze Extractor]","[+5 Food] from every [Spice Extractor]","[+5 Culture] from every [Wine Extractor]",
 		"[+5 Culture] from every [Blood Crystal Extractor]","[+5 Gold] from every [Grassilk Extractor]","[+5 Science] from every [Moon Leaf Extractor]","[+5 Food] from every [Quicksilver Extractor]","[+5 Production] from every [Titan Bones Extractor]",
 		"[+5 Science] from every [Dust Orchid Extractor]","[+5 Gold] from every [Dustwater Extractor]","[+5 Food] from every [Hydromiel Extractor]","[+5 Culture] from every [Pixie Blood Extractor]","[+5 Production] from every [Redsang Extractor]"],
@@ -1368,7 +1364,7 @@
         "cityHealth": 50,
         "cityStrength": 50,
 		"maintenance": 5,
-		"uniques": ["Consumes [6] [Palladian]","Consumes [2] [Hyperium]","New [Military] units start with [45] Experience [in this city]"],
+		"uniques": ["Instantly consumes [6] [Palladian]","Instantly consumes [2] [Hyperium]","New [Military] units start with [45] Experience [in this city]"],
         "requiredTech": "Inoculation Station"
     },
 	{
@@ -1377,7 +1373,7 @@
 		"cost": 2000,
         "cityHealth": 400,
 		"maintenance": 2,
-		"uniques": ["Consumes [2] [Adamantian]","Consumes [4] [Titanium]"],
+		"uniques": ["Instantly consumes [2] [Adamantian]","Instantly consumes [4] [Titanium]"],
         "requiredTech": "Military Reserves"
     },
 	{
@@ -1386,7 +1382,7 @@
 		"cost": 2000,
 		"culture": 15,
 		"maintenance": 10,
-		"uniques": ["[+2 Culture] per [1] population [in this city]","Consumes [4] [Palladian]","Consumes [4] [Adamantian]"],
+		"uniques": ["Instantly consumes [4] [Adamantian]","Instantly consumes [4] [Palladian]","[+2 Culture] per [1] population [in this city]"],
         "requiredTech": "Modernized Administration"
     },
 	{
@@ -1395,7 +1391,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 20,
-		"uniques": ["Consumes [12] [Titanium]","Consumes [4] [Hyperium]","+50% Science [in this city]"],
+		"uniques": ["Instantly consumes [12] [Titanium]","Instantly consumes [4] [Hyperium]","[+50]% [Science] [in this city]"],
         "requiredTech": "Scientific Specialization"
     },
 	{
@@ -1404,7 +1400,7 @@
 		"cost": 3000,
         "isNationalWonder": true,
 		"maintenance": 20,
-		"uniques": ["Consumes [16] [Titanium]","Consumes [4] [Hyperium]","[+10 Science] [in all cities]"],
+		"uniques": ["Instantly consumes [16] [Titanium]","Instantly consumes [4] [Hyperium]","[+10 Science] [in all cities]"],
         "requiredTech": "Scientific Specialization"
     },
 	{
@@ -1413,7 +1409,7 @@
 		"cost": 2000,
         "cityStrength": 50,
 		"maintenance": 7,
-		"uniques": ["Consumes [4] [Titanium]","Consumes [2] [Mithrite]"],
+		"uniques": ["Instantly consumes [4] [Titanium]","Instantly consumes [2] [Mithrite]"],
         "requiredTech": "Security Theory"
     },
 	{
@@ -1421,7 +1417,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
 		"gold": 20,
-		"uniques": ["+50% Gold [in this city]"],
+		"uniques": ["[+50]% [Gold] [in this city]"],
         "requiredTech": "Town Criers"
     },
 	{
@@ -1429,7 +1425,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
         "isNationalWonder": true,
-        "uniques": ["Must have an owned [Desert] within [3] tiles","Provides [10] [Glassteel]","Provides [10] [Titanium]","Provides [10] [Adamantian]","Provides [10] [Palladian]","Provides [10] [Mithrite]","Provides [10] [Hyperium]"],
+        "uniques": ["Quantity of strategic resources produced by the empire [+25]%","Must have an owned [Desert] within [3] tiles"],
         "requiredTech": "Volcanic Leecher"
     },
 	
@@ -1468,7 +1464,7 @@
         "requiredTech": "Age of Discovery",
 		"cost": 500,
 		"happiness": 10,
-		"uniques": ["+10% Science [in all cities]","+10% Gold [in all cities]","Cost of purchasing items in cities reduced by [25]%"],
+		"uniques": ["[+10]% [Science] [in all cities]","[+10]% [Gold] [in all cities]","Cost of purchasing items in cities reduced by [25]%"],
     },
 	//Legendary Deeds Era II
 	{
@@ -1524,7 +1520,7 @@
         "requiredTech": "Age of Industry",
 		"cost": 3000,
 		"gold": 20,
-		"uniques": ["+50% Gold [in this city]","Triggers voting for the Diplomatic Victory"],
+		"uniques": ["[+50]% [Gold] [in this city]","Triggers voting for the Diplomatic Victory"],
     },
 	{
         "name": "Immovable Force",
