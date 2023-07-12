@@ -28,7 +28,7 @@
 		"cost": 60,
 		"requiredTech": "Alchemical Alloys",
 		"promotions": ["Glassteel"],
-		"uniques": ["Consumes [1] [Glassteel]"],
+		"uniques": ["Costs [3] [Glassteel]"],
 	},
 	{
 		"name": "Titanium Infantry",
@@ -38,7 +38,7 @@
 		"cost": 60,
 		"requiredTech": "Alchemical Armor",
 		"promotions": ["Titanium"],
-		"uniques": ["Consumes [1] [Titanium]"],
+		"uniques": ["Costs [3] [Titanium]"],
 	},
 	{
 		"name": "Adamantian Infantry",
@@ -48,7 +48,7 @@
 		"cost": 60,
 		"requiredTech": "Uncommon Alloys",
 		"promotions": ["Adamantian"],
-		"uniques": ["Consumes [1] [Adamantian]"],
+		"uniques": ["Costs [3] [Adamantian]"],
 	},
 	{
 		"name": "Palladian Infantry",
@@ -58,7 +58,7 @@
 		"cost": 60,
 		"requiredTech": "Uncommon Armor",
 		"promotions": ["Palladian"],
-		"uniques": ["Consumes [1] [Palladian]"],
+		"uniques": ["Costs [3] [Palladian]"],
 	},
 	{
 		"name": "Mithrite Infantry",
@@ -68,7 +68,7 @@
 		"cost": 60,
 		"requiredTech": "Rare Alloys",
 		"promotions": ["Mithrite"],
-		"uniques": ["Consumes [1] [Mithrite]"],
+		"uniques": ["Costs [3] [Mithrite]"],
 	},
 	{
 		"name": "Hyperium Infantry",
@@ -78,7 +78,7 @@
 		"cost": 60,
 		"requiredTech": "Rare Armor",
 		"promotions": ["Hyperium"],
-		"uniques": ["Consumes [1] [Hyperium]"],
+		"uniques": ["Costs [3] [Hyperium]"],
 	},
 	//Ranged
     {
@@ -103,7 +103,7 @@
 		"cost": 60,
 		"requiredTech": "Alchemical Alloys",
 		"promotions": ["Glassteel"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Glassteel]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Glassteel]"],
 		"attackSound": "arrow"
 	},
     {
@@ -116,7 +116,7 @@
 		"cost": 60,
 		"requiredTech": "Alchemical Armor",
 		"promotions": ["Titanium"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Titanium]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Titanium]"],
 		"attackSound": "arrow"
 	},
     {
@@ -129,7 +129,7 @@
 		"cost": 60,
 		"requiredTech": "Uncommon Alloys",
 		"promotions": ["Adamantian"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Adamantian]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Adamantian]"],
 		"attackSound": "arrow"
 	},
     {
@@ -142,7 +142,7 @@
 		"cost": 60,
 		"requiredTech": "Uncommon Armor",
 		"promotions": ["Palladian"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Palladian]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Palladian]"],
 		"attackSound": "arrow"
 	},
     {
@@ -155,7 +155,7 @@
 		"cost": 60,
 		"requiredTech": "Rare Alloys",
 		"promotions": ["Mithrite"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Mithrite]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Mithrite]"],
 		"attackSound": "arrow"
 	},
     {
@@ -168,7 +168,7 @@
 		"cost": 60,
 		"requiredTech": "Rare Armor",
 		"promotions": ["Hyperium"],
-		"uniques": ["Penalty vs City 50%","Consumes [1] [Hyperium]"],
+		"uniques": ["Penalty vs City 50%","Costs [3] [Hyperium]"],
 		"attackSound": "arrow"
 	},
 	//Support
@@ -195,7 +195,7 @@
 		"cost": 250,
 		"requiredTech": "Alchemical Alloys",
 		"promotions": ["Glassteel","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Glassteel]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Glassteel]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -208,7 +208,7 @@
 		"cost": 250,
 		"requiredTech": "Alchemical Armor",
 		"promotions": ["Titanium","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Titanium]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Titanium]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -221,7 +221,7 @@
 		"cost": 250,
 		"requiredTech": "Uncommon Alloys",
 		"promotions": ["Adamantian","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Adamantian]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Adamantian]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -234,7 +234,7 @@
 		"cost": 250,
 		"requiredTech": "Uncommon Armor",
 		"promotions": ["Palladian","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Palladian]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Palladian]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -247,7 +247,7 @@
 		"cost": 250,
 		"requiredTech": "Rare Alloys",
 		"promotions": ["Mithrite","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Mithrite]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Mithrite]"],
 		"attackSound": "arrow"
 	},
 	{
@@ -260,7 +260,7 @@
 		"cost": 250,
 		"requiredTech": "Rare Armor",
 		"promotions": ["Hyperium","Medic","Medic II"],
-		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Consumes [1] [Hyperium]"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Costs [3] [Hyperium]"],
 		"attackSound": "arrow"
 	},
 	//Cavalry
@@ -282,7 +282,7 @@
 		"cost": 100,
 		"requiredTech": "Alchemical Alloys",
 		"promotions": ["Glassteel"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Glassteel]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Glassteel]"],
 		"attackSound": "horse"
 	},
 	{
@@ -293,7 +293,7 @@
 		"cost": 100,
 		"requiredTech": "Alchemical Armor",
 		"promotions": ["Titanium"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Titanium]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Titanium]"],
 		"attackSound": "horse"
 	},
 	{
@@ -304,7 +304,7 @@
 		"cost": 100,
 		"requiredTech": "Uncommon Alloys",
 		"promotions": ["Adamantian"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Adamantian]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Adamantian]"],
 		"attackSound": "horse"
 	},
 	{
@@ -315,7 +315,7 @@
 		"cost": 100,
 		"requiredTech": "Uncommon Armor",
 		"promotions": ["Palladian"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Palladian]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Palladian]"],
 		"attackSound": "horse"
 	},
 	{
@@ -326,7 +326,7 @@
 		"cost": 100,
 		"requiredTech": "Rare Alloys",
 		"promotions": ["Mithrite"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Mithrite]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Mithrite]"],
 		"attackSound": "horse"
 	},
 	{
@@ -337,7 +337,7 @@
 		"cost": 100,
 		"requiredTech": "Rare Armor",
 		"promotions": ["Hyperium"],
-		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Consumes [1] [Hyperium]"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","Costs [3] [Hyperium]"],
 		"attackSound": "horse"
 	},
 	//Flying
@@ -360,7 +360,7 @@
 		"requiredTech": "Alchemical Alloys",
 		"promotions": ["Glassteel"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Glassteel]"],
+		"Costs [3] [Glassteel]"],
 		"attackSound": "horse"
 	},
     {
@@ -372,7 +372,7 @@
 		"requiredTech": "Alchemical Armor",
 		"promotions": ["Titanium"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Titanium]"],
+		"Costs [3] [Titanium]"],
 		"attackSound": "horse"
 	},
     {
@@ -384,7 +384,7 @@
 		"requiredTech": "Uncommon Alloys",
 		"promotions": ["Adamantian"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Adamantian]"],
+		"Costs [3] [Adamantian]"],
 		"attackSound": "horse"
 	},
     {
@@ -396,7 +396,7 @@
 		"requiredTech": "Uncommon Armor",
 		"promotions": ["Palladian"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Palladian]"],
+		"Costs [3] [Palladian]"],
 		"attackSound": "horse"
 	},
     {
@@ -408,7 +408,7 @@
 		"requiredTech": "Rare Alloys",
 		"promotions": ["Mithrite"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Mithrite]"],
+		"Costs [3] [Mithrite]"],
 		"attackSound": "horse"
 	},
     {
@@ -420,7 +420,7 @@
 		"requiredTech": "Rare Armor",
 		"promotions": ["Hyperium"],
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles",
-		"Consumes [1] [Hyperium]"],
+		"Costs [3] [Hyperium]"],
 		"attackSound": "horse"
 	},
 	
@@ -439,7 +439,7 @@
 	//	"strength": 40,
 	//	"cost": 250,
 	//	"requiredTech": "Scyther",
-	//	"uniques": ["Consumes [2] [Glassteel]","Consumes [2] [Titanium]",
+	//	"uniques": ["Costs [2] [Glassteel]","Costs [2] [Titanium]",
 	//	"+25% Strength","Can move after attacking","Unable to capture cities","Can pass through impassable tiles"],
 	//	"attackSound": "horse"
 	//},
@@ -845,9 +845,25 @@
 		"requiredTech": "Mercenary Market",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%"]
 	},
-	
-	
-	
+	//Mykara "Settler"
+	{
+		"name": "Mykara Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Mykara",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 110,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable","Uncapturable"]
+	},
+	{
+		"name": "Fungal Spore",   
+		"uniqueTo": "Mykara",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 110,
+		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable"]
+	},
+	//Mykara
 	
 	
 	
