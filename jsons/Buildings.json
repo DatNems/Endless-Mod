@@ -979,7 +979,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["Costs [4] [Titanium]","[+1 production] from every [Bonus resource] [in this city]"],
+		"uniques": ["Costs [4] [Titanium]","[+1 Production] from every [Bonus resource] [in this city]"],
         "requiredTech": "Management Sciences"
     },
 	{

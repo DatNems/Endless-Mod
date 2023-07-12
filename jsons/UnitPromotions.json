@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"effect": "Heal this Unit by 50 HP; Doing so will consume this opportunity to choose a Promotion",
+		"effect": "Heal this unit by [50] HP",
 		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Armor","WaterMelee","WaterRanged","WaterSubmarine"]
 	},
 	
@@ -138,13 +138,13 @@
 	{
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP per turn",
+		"effect": "All adjacent units heal [10] HP when healing",
 		"unitTypes": ["Melee","Mounted","Scout"]
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
-		"effect": "This unit and all others in adjacent tiles heal 5 additional HP. This unit heals 5 additional HP outside of friendly territory.",
+		"effect": "All adjacent units heal [10] HP when healing",
 		"unitTypes": ["Melee","Mounted","Scout"]
 	},
 	
