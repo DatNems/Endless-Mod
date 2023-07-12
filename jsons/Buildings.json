@@ -992,8 +992,35 @@
 		"uniques": ["Costs [4] [Glassteel]","[+5 Food] from every [Farmer]"],
         "requiredTech": "Public Granary"
     },
+	//URKAN "RITUALS"
 	
-	
+	{
+        "name": "Awakening Ritual (Kazar)",
+        "hurryCostModifier": 20,
+		"cost": 250,
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Kazar] within [3] tiles",
+		"Unbuildable <when above [1] [Urkan Kazar]>",
+		"Provides [1] [Urkan Kazar]"],
+        "requiredTech": "Native District"
+    },
+	{
+        "name": "Awakening Ritual (Chaka)",
+        "hurryCostModifier": 20,
+		"cost": 250,
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Chaka] within [3] tiles",
+		"Unbuildable <when above [1] [Urkan Chaka]>",
+		"Provides [1] [Urkan Chaka]"],
+        "requiredTech": "Native District"
+    },
+	{
+        "name": "Awakening Ritual (Fakir)",
+        "hurryCostModifier": 20,
+		"cost": 250,
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Fakir] within [3] tiles",
+		"Unbuildable <when above [1] [Urkan Fakir]>",
+		"Provides [1] [Urkan Fakir]"],
+        "requiredTech": "Native District"
+    },
 	
 	
 	
