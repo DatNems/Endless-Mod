@@ -861,7 +861,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable"]
+		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable","May enter foreign tiles without open borders"]
 	},
 	//Mykara
 	

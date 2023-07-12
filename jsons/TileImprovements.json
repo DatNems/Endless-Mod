@@ -32,7 +32,7 @@
 		"production": 1,
 		"turnsToBuild": 3,
 		"uniques": ["Can be built outside your borders","Constructing it will take over the tiles around it and assign them to your closest city",
-		"Adjacent enemy units ending their turn take [10] damage"]
+		"Adjacent enemy units ending their turn take [10] damage","Costs [1] [Food] per turn","Pillaging this improvement yields [+25 Food, +10 Production]"]
 		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Flood plains","Marsh"]
 	},
 
