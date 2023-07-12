@@ -50,6 +50,12 @@
 		        //"uniqueTo": "Kapaku",
 				"row": 15,
 			},
+			{
+				"name": "Creeping Presence",
+		        //"uniqueTo": "Mykara",
+				"uniques": ["[+10]% [Production] [in all cities]"],
+				"row": 17,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs

@@ -23,10 +23,18 @@
 		"production": 1,
 		"science": 1,
 		"turnsToBuild": 3,
-		"uniques": ["Unpillagable", "Irremovable"],
+		"uniques": ["Unpillagable"],
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"]
 	},
-	
+	{
+		"name": "Fungal Bloom", 
+		"uniqueTo": "Mykara",
+		"production": 1,
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders","Constructing it will take over the tiles around it and assign them to your closest city",
+		"Adjacent enemy units ending their turn take [10] damage"]
+		"terrainsCanBeBuiltOn": ["Land","Forest","Jungle","Flood plains","Marsh"]
+	},
 
 	// Military improvements
 	

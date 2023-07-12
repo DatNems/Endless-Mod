@@ -137,7 +137,23 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
-  
+  {
+    "name": "Mykara",   //Light Green
+    "leaderName": "Ancient Shroom",  //Unique Settler = Great Person
+    "adjective": ["Cultists"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [133, 237, 136],
+    "innerColor": [128,128,128],
+	"uniqueName": "Walls of Faith",
+	"uniqueText": "Cannot train Settlers. Can construct Fungal Bloom around the World to increase Territory."
+    "uniques": ["May not annex cities","Nullifies [Culture] [in all cities]",
+	"Starts with [Age of Discovery]","Starts with [Creeping Presence]",
+	"Receive free [Settler] when you discover [Age of Discovery]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["Giant Fungi"]
+  },
   
   
   
