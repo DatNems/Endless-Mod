@@ -1005,27 +1005,30 @@
 	
 	{
         "name": "Awakening Ritual (Kazar)",
+        "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Kazar] within [3] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Kazar] within [15] tiles",
 		"Unbuildable <when above [1] [Urkan Kazar]>",
 		"Provides [1] [Urkan Kazar]"],
         "requiredTech": "Native District"
     },
 	{
         "name": "Awakening Ritual (Chaka)",
+        "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Chaka] within [3] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Chaka] within [15] tiles",
 		"Unbuildable <when above [1] [Urkan Chaka]>",
 		"Provides [1] [Urkan Chaka]"],
         "requiredTech": "Native District"
     },
 	{
         "name": "Awakening Ritual (Fakir)",
+        "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Fakir] within [3] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Fakir] within [15] tiles",
 		"Unbuildable <when above [1] [Urkan Fakir]>",
 		"Provides [1] [Urkan Fakir]"],
         "requiredTech": "Native District"

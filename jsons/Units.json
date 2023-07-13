@@ -21,7 +21,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Kazar]","[-25]% Strength <when defending>","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Kazar]>"],
+		"Unbuildable <without [Urkan Kazar]>", "Provides [1] [Urkan Kazar] <upon being defeated>"],
 	},
 	{
 		"name": "Awakened Chaka",
@@ -31,7 +31,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Chaka]","[+60]% Strength <when defending>","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Chaka]>"],
+		"Unbuildable <without [Urkan Chaka]>", "Provides [1] [Urkan Chaka] <upon being defeated>"],
 	},
 	{
 		"name": "Awakened Fakir",
@@ -41,7 +41,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Fakir]","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Fakir]>"],
+		"Unbuildable <without [Urkan Fakir]>", "Provides [1] [Urkan Fakir] <upon being defeated>"],
 	},
 	
 	
