@@ -223,4 +223,22 @@
 		"unbuildable": true,
 		"weight": 10
 	},
+	
+	
+	//Citadels
+	{
+		"name": "Citadel",
+		"type": "NaturalWonder",
+		"production": 2,
+		"gold": 1,
+		"culture": 1,
+		"food": 1,
+		"occursOn": ["Coast","Ocean"],
+		"uniques": ["Neighboring tiles will convert to [Coast]",
+			"Occurs in groups of [4] to [10] tiles",
+			"Considered [Desirable] when determining start locations"],
+		"turnsInto": "Coast",
+		"unbuildable": true,
+		"weight": 10
+	},
 ]	

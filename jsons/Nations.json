@@ -138,14 +138,14 @@
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
   {
-    "name": "Mykara",   //Light Green     TO DO: TECHS, UNITS (city work range
+    "name": "Mykara",   //Light Green     (city work range
     "leaderName": "Ancient Shroom",  //Unique Settler = Great Person
-    "adjective": ["Cultists"],
+    "adjective": ["Mykara"],
     "startBias": ["Grassland"],
     "preferredVictoryType": "Domination",
     "outerColor": [133, 237, 136],
     "innerColor": [128,128,128],
-	"uniqueName": "Walls of Faith",
+	"uniqueName": "Organic Industry",
 	"uniqueText": "Cannot train Settlers. Can construct Fungal Bloom around the World to increase Territory."
     "uniques": ["May not annex cities","[+5000]% Culture cost of natural border growth [in all cities]","Quantity of strategic resources produced by the empire [-50]%",
 	"[-2 Happiness] from every [Luxury resource]",
@@ -155,6 +155,26 @@
 	"Gain a free [City Halls] [in capital]",
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Giant Fungi"]
+  },
+  {
+    "name": "Morgawr",   //Light Blue
+    "leaderName": "The Black Spot",  //Unique Settler = Great Person
+    "adjective": ["Morgawr"],
+    "startBias": ["Coast"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [63, 172, 196],
+    "innerColor": [128,128,128],
+	"uniqueName": "Seeds of Dissent",
+	"uniqueText": "Receives extra Production and Science from Water tiles and has improved movement on Water. Can recruit Barbarians. Less Movement on land before researching Dust-Mind Decoupling."
+    "uniques": ["[1] Movement point cost to disembark <for [All] units>","[1] Movement point cost to embark <for [All] units>",
+	"[+2] Movement <for [Embarked] units>","[-1] Movement in [Land] tiles <before discovering [Dust-Mind Decoupling]>",
+	"When defeating a [Barbarian] unit, earn [25] Gold and recruit it",
+	"[+2 Science, +2 Production] from every [Water]","[+1 Science, +1 Production] from every [River]","[+1 Science, +1 Production] from every [Lakes]",
+	"Starts with [Aquapulvistics]","Starts with [Shipyard]",
+	"Starts with [Age of Discovery]","Starts with [Hydrophilic]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["Cetassa", "Difore", "Iracu", "Ploria", "Sciera", "Strio"]
   },
   
   

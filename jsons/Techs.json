@@ -30,7 +30,6 @@
 			{
 				"name": "High Seat of the Queen",
 		        //"uniqueTo": "Cultists",
-				"uniques": ["[1] free [Settler] units appear"]
 				"row": 9,
 			},
 			{
@@ -55,6 +54,12 @@
 		        //"uniqueTo": "Mykara",
 				"uniques": ["[+10]% [Production] [in all cities]"],
 				"row": 17,
+			},
+			{
+				"name": "Hydrophilic",
+		        //"uniqueTo": "Morgawr",
+				"uniques": ["Enables embarkation for land units","Enables [Military] units to enter ocean tiles","Enables [Civilian] units to enter ocean tiles"],
+				"row": 18,
 			},
 		]	
 	},
@@ -155,7 +160,19 @@
 				"[+10 Food, +10 Production, +10 Science] from every [Awakening Ritual (Chaka)]",
 				"[+10 Food, +10 Production, +10 Science] from every [Awakening Ritual (Fakir)]"]
 			},
-			
+			{
+				"name": "Breaching Wave",
+		        //"uniqueTo": "Morgawr",
+				"row": 18,
+				"uniques": ["[+3 Culture] [in all cities] <within [1] tiles of a [Coast]>"]
+				"prerequisites": ["Hydrophilic"],
+			},
+			{
+				"name": "Main Maritime Academy",
+		        //"uniqueTo": "Morgawr",
+				"row": 19,
+				"prerequisites": ["Hydrophilic"],
+			},
 			
 			
 			
@@ -256,7 +273,12 @@
 				"prerequisites": ["Urkan Encampment"],
 				"uniques": ["[+20 Culture] from every [Natural Wonder] <after discovering [Urkan Politics]>"]
 			},
-			
+			{
+				"name": "Dust-Mind Decoupling", //TO DO
+		        //"uniqueTo": "Morgawr",
+				"row": 19,
+				"prerequisites": ["Breaching Wave","Main Maritime Academy"],
+			},
 			
 			
 			
@@ -315,7 +337,7 @@
 				"name": "High Seminary",  
 		        //"uniqueTo": "Forgotten",
 				"row": 13,
-				"uniques": ["+[30]% [Science] while the empire is happy"]
+				"uniques": ["[+30]% [Science] <while the empire is happy>"]
 				"prerequisites": ["Caudata Sanctuary","Tower of the Consencrate","What's Mine is Mine"],   
 			},
 			{
@@ -376,7 +398,7 @@
 				"name": "Master Deceivers",  
 		        //"uniqueTo": "Forgotten",
 				"row": 12,
-				"uniques": ["-25% unit upkeep costs"],
+				"uniques": ["[-25]% unit upkeep costs"],
 				"prerequisites": ["High Seminary"],   
 			},
 			{
@@ -399,7 +421,13 @@
 				"prerequisites": ["Kernel of Plentitude"],
 				"uniques": ["[+1 Culture, +1 Production] from every [Fungal Bloom]"]
 			},
-			
+			{
+				"name": "No More Ties",
+		        //"uniqueTo": "Morgawr",
+				"row": 19,
+				"uniques": ["[+1 Production, +1 Science] from every [Land]"]
+				"prerequisites": ["Dust-Mind Decoupling"],
+			},
 			
 			
 			

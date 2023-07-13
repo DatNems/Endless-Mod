@@ -12,7 +12,7 @@
 		"uniques": ["Founds a new city","Uncapturable"],
 		"hurryCostModifier": 20
 	},
-	//URKANS
+	//URKANS  //TO DO: CARRY UNITS
 	{
 		"name": "Awakened Kazar",
 		"unitType": "Melee",
@@ -938,5 +938,50 @@
 		"uniques": ["Penalty vs City 50%"],
 		"attackSound": "arrow"
 	},
+	//Morgawr
+	{
+		"name": "Mastermind",
+		"uniqueTo": "Morgawr",
+		"replaces": "Support",
+		"unitType": "Ranged",
+		"movement": 3,
+		"strength": 34,
+		"rangedStrength": 26,
+		"range": 3,
+		"cost": 30,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Vore",
+		"uniqueTo": "Morgawr",
+		"replaces": "Boarding Vessel",
+		"unitType": "WaterMelee",
+		"movement": 4,
+		"strength": 40,
+		"cost": 80,
+		"requiredTech": "Boarding Vessel",
+		"uniques": ["Cannot enter ocean tiles"]
+	},
+	{
+		"name": "Leviathan",
+		"uniqueTo": "Morgawr",
+		"replaces": "Bathysphere",
+		"unitType": "WaterSubmarine",
+		"movement": 5,
+		"strength": 34,
+		"rangedStrength": 50,
+		"range": 1,
+		"cost": 110,
+		"requiredTech": "Bathysphere",
+		"uniques": ["Invisible to others"]
+	},
+	
+	
+	
+	
+	
 	
 ]

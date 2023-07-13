@@ -460,6 +460,15 @@
 		"uniques": ["Costs [15] [Palladian]","[+10 Science, +10 Food, +10 Gold] [in all cities]"],
         "requiredTech": "Kernel of Plentitude"
     },
+	//Morgawr buildings
+	{
+        "name": "Main Maritime Academy",
+		"uniqueTo": "Morgawr",
+		"cost": 800,
+		"maintenance": 6,
+		"uniques": ["Costs [5] [Glassteel]","Costs [5] [Titanium]","New [Naval] units start with [45] Experience [in this city]"],
+        "requiredTech": "Main Maritime Academy"
+    },
 	
 	
 	
