@@ -157,7 +157,7 @@
 	"cities":["Giant Fungi"]
   },
   {
-    "name": "Morgawr",   //Light Blue
+    "name": "Morgawr",   //Cyan
     "leaderName": "The Black Spot",  //Unique Settler = Great Person
     "adjective": ["Morgawr"],
     "startBias": ["Coast"],
@@ -188,6 +188,7 @@
 	"uniqueText": ""
     "uniques": ["[-1 Food] from [Land] tiles [in all cities]", "[-1 Food] from [Water] tiles [in all cities]",
 	"Cities are razed [4] times as fast","Upon capturing a city, receive [1] times its [Production] production as [Culture] immediately",
+	"May not annex cities",
 	//"Gain [10] [Food] <upon defeating a [Military] unit>",
 	"Starts with [Alchemist's Furnace]",
 	"Starts with [Age of Discovery]","Starts with [Demanding Gods]",
@@ -195,7 +196,7 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["The Hive", "Feeding Grounds", "Abandoned Colony"]  //needs more names
   },
-  
+  //HOW TF DO I DO ROVIN CLAN
   
   
   //Barbarian
