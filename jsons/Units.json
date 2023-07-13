@@ -986,7 +986,6 @@
 		"movement": 4,
 		"strength": 24,
 		"cost": 60,
-		"requiredTech": "Pillage",
 		"uniques": ["[+40]% Strength <when defending>"],
 	},
 	{
