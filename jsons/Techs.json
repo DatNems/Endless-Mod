@@ -61,6 +61,12 @@
 				"uniques": ["Enables embarkation for land units","Enables [Military] units to enter ocean tiles","Enables [Civilian] units to enter ocean tiles"],
 				"row": 18,
 			},
+			{
+				"name": "Demanding Gods",
+		        //"uniqueTo": "Necrophages",
+				"uniques": ["[+10]% Strength <vs [Wounded] units>"],
+				"row": 20,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs
@@ -173,6 +179,13 @@
 				"row": 19,
 				"prerequisites": ["Hydrophilic"],
 			},
+			{
+				"name": "Cannon Fodder",
+		        //"uniqueTo": "Necrophages",
+				"uniques": ["[-50]% maintenance costs <for [Military] units>"],
+				"prerequisites": ["Demanding Gods"],
+				"row": 20,
+			},
 			
 			
 			
@@ -279,6 +292,12 @@
 				"row": 19,
 				"prerequisites": ["Breaching Wave","Main Maritime Academy"],
 			},
+			{
+				"name": "Fungal Laboratory",
+		        //"uniqueTo": "Necrophages",
+				"prerequisites": ["Cannon Fodder"],
+				"row": 20,
+			},
 			
 			
 			
@@ -351,6 +370,12 @@
 		        //"uniqueTo": "Mykara",
 				"row": 17,
 				"prerequisites": ["Urkan Politics"],
+			},
+			{
+				"name": "Givers of Remembrance",
+		        //"uniqueTo": "Necrophages",
+				"prerequisites": ["Fungal Laboratory"],
+				"row": 20,
 			},
 			
 			
@@ -427,6 +452,13 @@
 				"row": 19,
 				"uniques": ["[+1 Production, +1 Science] from every [Land]"]
 				"prerequisites": ["Dust-Mind Decoupling"],
+			},
+			{
+				"name": "Mindless Slaughter",
+		        //"uniqueTo": "Necrophages",
+				"uniques": ["[+30]% Strength <for [Military] units>"],
+				"prerequisites": ["Givers of Remembrance"],
+				"row": 20,
 			},
 			
 			

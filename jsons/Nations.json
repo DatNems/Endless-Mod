@@ -71,7 +71,7 @@
 	"cities":["Broken Spire","Dust Castle","Golden River","Deyval","Whitechapel","Port John","Peyton","Crumbling Fort","Weybridge","Suluzzo"]
   },
   {
-    "name": "Cultists",   //White
+    "name": "Cultists",   //White   TO DO: IMPROVEMENT IMPROVES STRATEGICS
     "leaderName": "The Unspoken One",  //Unique Settler = Great Person
     "adjective": ["Cultists"],
     "startBias": ["Grassland"],
@@ -120,7 +120,7 @@
 	"cities":["Mawusi","Efalo","Ayou","Napog","Ofosu","Yawa","Boakye","Tegret","Dabou","Addo"]
   },
   {
-    "name": "Kapaku",   //Red 
+    "name": "Kapaku",   //Light Red 
     "leaderName": "Grand Cleric Akuma",
     "adjective": ["Kapaku"],
     "startBias": ["Desert"],
@@ -138,7 +138,7 @@
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
   {
-    "name": "Mykara",   //Light Green     (city work range
+    "name": "Mykara",   //Light Green     TO DO: IMPROVEMENT IMPROVES STRATEGICS, URKAN BUFFS AS UNIT TYPE
     "leaderName": "Ancient Shroom",  //Unique Settler = Great Person
     "adjective": ["Mykara"],
     "startBias": ["Grassland"],
@@ -176,6 +176,25 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Cetassa", "Difore", "Iracu", "Ploria", "Sciera", "Strio"]
   },
+  {
+    "name": "Necrophages",   //Dark Red
+    "leaderName": "Ka-Riss",  //Unique Settler = Great Person
+    "adjective": ["Necrophage"],
+    "startBias": ["Plains"],
+    "preferredVictoryType": "Domination",
+    "outerColor": [87, 13, 9],
+    "innerColor": [255,255,255],
+	"uniqueName": "Cull the Herd",
+	"uniqueText": ""
+    "uniques": ["[-1 Food] from [Land] tiles [in all cities]", "[-1 Food] from [Water] tiles [in all cities]",
+	"Cities are razed [4] times as fast","Upon capturing a city, receive [1] times its [Production] production as [Culture] immediately",
+	//"Gain [10] [Food] <upon defeating a [Military] unit>",
+	"Starts with [Alchemist's Furnace]",
+	"Starts with [Age of Discovery]","Starts with [Demanding Gods]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["The Hive", "Feeding Grounds", "Abandoned Colony"]  //needs more names
+  },
   
   
   
@@ -183,6 +202,6 @@
   {
 		"name": "Barbarians",
 		"outerColor": [205,205,205],
-		"innerColor": [0,0,0]
+		"innerColor": [196,25,16]
   }
 ]

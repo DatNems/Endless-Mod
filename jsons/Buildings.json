@@ -469,7 +469,23 @@
 		"uniques": ["Costs [5] [Glassteel]","Costs [5] [Titanium]","New [Naval] units start with [45] Experience [in this city]"],
         "requiredTech": "Main Maritime Academy"
     },
-	
+	//Necrophages buildings
+	{
+        "name": "Fungal Laboratory",
+		"uniqueTo": "Necrophages",
+		"cost": 400,
+		"maintenance": 6,
+		"uniques": ["[+1 Food] from every [Farmer]"],
+        "requiredTech": "Fungal Laboratory"
+    },
+	{
+        "name": "Givers of Remembrance",
+		"uniqueTo": "Necrophages",
+		"cost": 1200,
+		"maintenance": 6,
+		"uniques": ["Costs [10] [Hyperium]","New [Military] units start with [60] Experience [in this city]"],
+        "requiredTech": "Givers of Remembrance"
+    },
 	
 	
 	
@@ -1008,7 +1024,7 @@
         "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Kazar] within [15] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Kazar] within [25] tiles",
 		"Unbuildable <when above [1] [Urkan Kazar]>",
 		"Provides [1] [Urkan Kazar]"],
         "requiredTech": "Native District"
@@ -1018,7 +1034,7 @@
         "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Chaka] within [15] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Chaka] within [25] tiles",
 		"Unbuildable <when above [1] [Urkan Chaka]>",
 		"Provides [1] [Urkan Chaka]"],
         "requiredTech": "Native District"
@@ -1028,7 +1044,7 @@
         "isNationalWonder": true,
         "hurryCostModifier": 20,
 		"cost": 250,
-		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Fakir] within [15] tiles",
+		"uniques": ["Triggers a global alert upon completion","Must have an owned [Urkan Fakir] within [25] tiles",
 		"Unbuildable <when above [1] [Urkan Fakir]>",
 		"Provides [1] [Urkan Fakir]"],
         "requiredTech": "Native District"

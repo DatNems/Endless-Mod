@@ -949,7 +949,6 @@
 		"rangedStrength": 26,
 		"range": 3,
 		"cost": 30,
-		"requiredTech": "Pillage",
 		"promotions": ["Medic","Medic II"],
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
 		"attackSound": "arrow"
@@ -978,9 +977,45 @@
 		"requiredTech": "Bathysphere",
 		"uniques": ["Invisible to others"]
 	},
-	
-	
-	
+	//necrophages
+	{
+		"name": "Forager",   
+		"uniqueTo": "Necrophages",
+		"replaces": "Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 24,
+		"cost": 60,
+		"requiredTech": "Pillage",
+		"uniques": ["[+40]% Strength <when defending>"],
+	},
+	{
+		"name": "Necrodrone",
+		"uniqueTo": "Necrophages",
+		"replaces": "Flying",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 36,
+		"cost": 120,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Proliferator",
+		"uniqueTo": "Necrophages",
+		"replaces": "Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 32,
+		"rangedStrength": 22,
+		"range": 3,
+		"cost": 120,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
 	
 	
 	
