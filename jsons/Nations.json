@@ -190,6 +190,7 @@
 	"Cities are razed [4] times as fast","Upon capturing a city, receive [1] times its [Production] production as [Culture] immediately",
 	"Upon capturing a city, receive [1] times its [Production] production as [Gold] immediately",
 	"May not annex cities",
+	"[+50]% [Production] <when at war>",
 	//"Gain [10] [Food] <upon defeating a [Military] unit>",
 	"Starts with [Alchemist's Furnace]",
 	"Starts with [Age of Discovery]","Starts with [Demanding Gods]",
@@ -217,7 +218,7 @@
 	"cities":["Bazi Safar", "Bahas", "Bela", "Syrav", "Mordicant", "Zeban", "Alastra"]
   },
   {
-    "name": "The Vaulters",   //Golden
+    "name": "The Vaulters",   //Golden TO DO: ADD TELEPORT
     "leaderName": "Zolya Ilona", 
     "adjective": ["Vaulters"],
     "startBias": ["Tundra"],
@@ -242,7 +243,25 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["The Vault", "Liszt", "Toth", "Zolya", "Kata", "Ajand", "Kerr"]
   },
-  
+  {
+    "name": "Wild Walkers",   //Dark Green
+    "leaderName": "The Sharing", 
+    "adjective": ["Walkers"],
+    "startBias": ["Grassland"],
+    "preferredVictoryType": "Diplomatic",
+    "outerColor": [18, 102, 35],
+    "innerColor": [255,255,255],
+	"uniqueName": "Living Towns",
+	"uniqueText": "Extra Production from Woods. Extra Movement in Woods."
+    "uniques": ["[+2] Movement <for [Military] units> <in [Forest] tiles>","[+2] Movement <for [Military] units> <in [Jungle] tiles>","[+2] Movement <for [Military] units> <in [Atoll] tiles>","[+2] Movement <for [Military] units> <in [Oasis] tiles>","[+2] Movement <for [Military] units> <in [Marsh] tiles>",
+	"[+1 Production] from [Forest] tiles [in all cities]","[+1 Production] from [Jungle] tiles [in all cities]","[+1 Production] from [Marsh] tiles [in all cities]","[+1 Production] from [Oasis] tiles [in all cities]","[+1 Production] from [Atoll] tiles [in all cities]",
+	
+    "Starts with [Cultivation]", "Starts with [Sewer System]",	
+	"Starts with [Age of Discovery]","Starts with [Visions of Glory]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["Owaci", "Ipsa", "Soyala", "Rayen", "Wayra", "Sigo", "Pakwa"]
+  },
   
   
   

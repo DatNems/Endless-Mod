@@ -77,6 +77,12 @@
 		        //"uniqueTo": "Vaulters",
 				"row": 23,
 			},
+			{
+				"name": "Visions of Glory",
+		        //"uniqueTo": "Wild Walkers",
+				"uniques": ["Gain [5] [Culture] <upon constructing [All]>"],
+				"row": 24,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs
@@ -208,6 +214,13 @@
 		        //"uniqueTo": "Vaulters",
 				"prerequisites": ["Winter Shelters"],
 				"row": 23,
+			},
+			{
+				"name": "Survival Instinct", 
+		        //"uniqueTo": "Wild Walkers",
+				"uniques": ["All newly-trained [Military] units [in all cities] receive the [Survival Instinct] promotion"],
+				"prerequisites": ["Visions of Glory"],
+				"row": 24,
 			},
 			
 			
@@ -341,6 +354,12 @@
 				"prerequisites": ["Deep Generator"],
 				"row": 23,
 			},
+			{
+				"name": "The Ogmakwan", 
+		        //"uniqueTo": "Wild Walkers",
+				"prerequisites": ["Survival Instinct"],
+				"row": 24,
+			},
 			
 			
 			
@@ -431,6 +450,14 @@
 		        //"uniqueTo": "Vaulters",
 				"prerequisites": ["Strength of the Vault","Endless Recycling"],
 				"row": 23,
+			},
+			{
+				"name": "Way of the Woodlands", 
+		        //"uniqueTo": "Wild Walkers",
+				"uniques": ["[+25]% Strength <for [Military] units> <when fighting in [Forest] tiles>","[+25]% Strength <for [Military] units> <when fighting in [Jungle] tiles>","[+25]% Strength <for [Military] units> <when fighting in [Oasis] tiles>",
+				"[+25]% Strength <for [Military] units> <when fighting in [Marsh] tiles>","[+25]% Strength <for [Military] units> <when fighting in [Atoll] tiles>"],
+				"prerequisites": ["The Ogmakwan"],
+				"row": 24,
 			},
 			
 			
@@ -528,6 +555,13 @@
 				"uniques": ["Quantity of strategic resources produced by the empire +[200]%"],
 				"prerequisites": ["Resource Magnetron"],
 				"row": 23,
+			},
+			{
+				"name": "Growing Buildings", 
+		        //"uniqueTo": "Wild Walkers",
+				"uniques": ["[+25]% Production when constructing [All] buildings [in all cities]"],
+				"prerequisites": ["Way of the Woodlands"],
+				"row": 24,
 			},
 			
 			

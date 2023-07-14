@@ -548,8 +548,16 @@
 		"Provides [10] [Adamantian]","Provides [10] [Mithrite]","Provides [10] [Hyperium]"],
 		"requiredTech": "Resource Magnetron"
     },
-	
-	
+	//Wild Walkers buildings
+	{
+        "name": "The Ogmakwan",
+		"uniqueTo": "Wild Walkers",
+        "isNationalWonder": true, 
+		"cost": 5000,
+		"maintenance": 10,
+		"happiness": 40,
+        "requiredTech": "The Ogmakwan"
+    },
 	
 	
 	

@@ -144,5 +144,9 @@
 		"name": "Endless Eye",  //BROKE +2 move
 		"uniques": ["Amphibious","No combat penalty when attacking from the sea or over a river"]
 	},
+	{
+		"name": "Survival Instinct",  
+		"uniques": ["May withdraw before melee ([10]%)"]
+	},
 	
 ]

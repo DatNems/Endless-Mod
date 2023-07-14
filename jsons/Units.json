@@ -942,7 +942,7 @@
 	{
 		"name": "Mastermind",
 		"uniqueTo": "Morgawr",
-		"replaces": "Support",
+		"replaces": "Infantry",
 		"unitType": "Ranged",
 		"movement": 3,
 		"strength": 34,
@@ -1019,7 +1019,7 @@
 	{
 		"name": "Dervish",
 		"uniqueTo": "Roving Clans",
-		"replaces": "Cavalry",
+		"replaces": "Infantry",
 		"unitType": "Mounted",
 		"movement": 6,
 		"strength": 24,
@@ -1045,7 +1045,7 @@
 	{
 		"name": "Yirmak",
 		"uniqueTo": "Roving Clans",
-		"replaces": "Infantry",
+		"replaces": "Cavalry",
 		"unitType": "Melee",
 		"movement": 5,
 		"strength": 40,
@@ -1057,7 +1057,7 @@
 	{
 		"name": "Marine",
 		"uniqueTo": "The Vaulters",
-		"replaces": "Ranger",
+		"replaces": "Infantry",
 		"unitType": "Ranged",
 		"movement": 4,
 		"strength": 18,
@@ -1083,7 +1083,7 @@
 	{
 		"name": "Titan",
 		"uniqueTo": "The Vaulters",
-		"replaces": "Infantry",
+		"replaces": "Ranger",
 		"unitType": "Melee",
 		"movement": 4,
 		"strength": 30,
@@ -1091,10 +1091,46 @@
 		"requiredTech": "Pillage",
 		"uniques": ["[+66]% Strength <when defending>"],
 	},
-	
-	
-	
-	
+	//Wild Walkers
+	{
+		"name": "Dekari Ranger",
+		"uniqueTo": "Wild Walkers",
+		"replaces": "Infantry",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 14,
+		"rangedStrength": 22,
+		"range": 4,
+		"cost": 60,
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Agache Shaman",
+		"uniqueTo": "Wild Walkers",
+		"replaces": "Support",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 30,
+		"rangedStrength": 12,
+		"range": 3,
+		"cost": 30,
+		"requiredTech": "Pillage",
+		"promotions": ["Medic","Medic II"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Tenei Walker",
+		"uniqueTo": "Wild Walkers",
+		"replaces": "Ranger",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 32,
+		"cost": 140,
+		"requiredTech": "Pillage",
+		"uniques": ["[+40]% Strength <when defending>"],
+	},
 	
 	
 	
