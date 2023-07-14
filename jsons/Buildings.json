@@ -4,7 +4,7 @@
         "isNationalWonder": true,
 		"cost": 1, 
 		"gold" : 2, 
-		"cityStrength":50,
+		"cityStrength":20,
         "uniques": ["Indicates the capital city","[-1 Gold] from every [River]","[+1 Food] from every [River]",	
 		"[-90]% growth [in all cities]"]
 		},
@@ -154,7 +154,7 @@
 	{
         "name": "Blessing of the Allayi",  
 		"uniqueTo": "Allayi",
-        "cityStrength": 25,
+        "cityStrength": 10,
         "cityHealth": 50,
 		"culture": 2,
 		"production": 2,
@@ -631,35 +631,35 @@
         "name": "Titanium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Titanium] within [3] tiles","Provides [1] [Titanium]","[+20]% [Science] [in this city]"],
+        "uniques": ["Must have an owned [Titanium] within [3] tiles","Creates a [Titanium Extractor] improvement on a specific tile","[+20]% [Science] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Glassteel Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Provides [1] [Glassteel]","[+20]% [Gold] [in this city]"],
+        "uniques": ["Must have an owned [Glassteel] within [3] tiles","Creates a [Glassteel Extractor] improvement on a specific tile","[+20]% [Gold] [in this city]"],
         "requiredTech": "Alchemist's Furnace"
     },
 	{
         "name": "Adamantian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Provides [1] [Adamantian]","[+20]% [Production] [in this city]"],
+        "uniques": ["Must have an owned [Adamantian] within [3] tiles","Creates a [Adamantian Extractor] improvement on a specific tile","[+20]% [Production] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Palladian Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Palladian] within [3] tiles","Provides [1] [Palladian]","[+20]% [Food] [in this city]"],
+        "uniques": ["Must have an owned [Palladian] within [3] tiles","Creates a [Palladian Extractor] improvement on a specific tile","[+20]% [Food] [in this city]"],
         "requiredTech": "Smelting Station"
     },
 	{
         "name": "Mithrite Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Provides [1] [Mithrite]",
+        "uniques": ["Must have an owned [Mithrite] within [3] tiles","Creates a [Mithrite Extractor] improvement on a specific tile",
 		"[+15]% [Production] [in this city]","[+15]% [Gold] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
@@ -667,7 +667,7 @@
         "name": "Hyperium Extractor",
         "hurryCostModifier": 20,
 		"cost": 60,
-        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Provides [1] [Hyperium]",
+        "uniques": ["Must have an owned [Hyperium] within [3] tiles","Creates a [Hyperium Extractor] improvement on a specific tile",
 		"[+15]% [Science] [in this city]","[+15]% [Food] [in this city]"],
         "requiredTech": "Rare Metal Foundry"
     },
@@ -769,7 +769,7 @@
         "name": "Pixie Blood Extractor",
         "hurryCostModifier": 20,
 		"cost": 600,
-		"cityStrength": 50,
+		"cityStrength": 20,
         "uniques": ["[+4 Happiness] from [Pixie Blood] tiles [in this city]","Must have an owned [Pixie Blood] within [3] tiles"],
         "requiredTech": "Advanced Harvester"
     },
@@ -979,7 +979,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 3,
-		"uniques": ["Connects trade routes over water"]  //land still WIP I guess, wack
+		"uniques": ["Creates a [Road] improvement on a specific tile"]  //land still WIP I guess, wack
         "requiredTech": "Imperial Highways"
     },
 	{
@@ -1134,7 +1134,7 @@
         "name": "Lookout Tower",   //add Mykaran Lookout!
         "hurryCostModifier": 20,
 		"cost": 350,
-		"cityStrength": 30,
+		"cityStrength": 10,
 		"uniques": ["5 tiles in every direction always visible"],
         "requiredTech": "Highway Outposts"
     },
@@ -1194,7 +1194,7 @@
         "hurryCostModifier": 20,
 		"cost": 600,
         "cityHealth": 50,
-		"cityStrength": 30,
+		"cityStrength": 20,
 		"maintenance": 6,
 		"uniques": ["Costs [4] [Palladian]"],
 		"requiredTech": "Unexpected Allies"
@@ -1425,7 +1425,7 @@
         "hurryCostModifier": 20,
 		"cost": 2000,
         "cityHealth": 50,
-        "cityStrength": 50,
+        "cityStrength": 15,
 		"maintenance": 5,
 		"uniques": ["Costs [6] [Palladian]","Costs [2] [Hyperium]","New [Military] units start with [45] Experience [in this city]"],
         "requiredTech": "Inoculation Station"
@@ -1470,7 +1470,7 @@
         "name": "Razor Palisades", 
         "hurryCostModifier": 20,
 		"cost": 2000,
-        "cityStrength": 50,
+        "cityStrength": 15,
 		"maintenance": 7,
 		"uniques": ["Costs [4] [Titanium]","Costs [2] [Mithrite]"],
         "requiredTech": "Security Theory"
@@ -1567,7 +1567,7 @@
         "isWonder": true,
         "requiredTech": "Age of Enlightenment",
 		"cost": 1500,
-		"cityStrength": 50,
+		"cityStrength": 30,
     },
 	{
         "name": "Alchemic Institute",  

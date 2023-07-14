@@ -898,7 +898,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable","May enter foreign tiles without open borders"]
+		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable"]
 	},
 	//Mykara
 	{
@@ -977,7 +977,7 @@
 		"requiredTech": "Bathysphere",
 		"uniques": ["Invisible to others"]
 	},
-	//necrophages
+	//Necrophages
 	{
 		"name": "Forager",   
 		"uniqueTo": "Necrophages",

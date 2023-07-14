@@ -333,6 +333,7 @@
 		"revealedBy": "Age of Discovery",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Glassteel Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
@@ -343,6 +344,7 @@
 		"revealedBy": "Age of Discovery",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Titanium Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
@@ -353,6 +355,7 @@
 		"revealedBy": "Age of Enlightenment",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Adamantian Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
@@ -363,6 +366,7 @@
 		"revealedBy": "Age of Enlightenment",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Palladian Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
@@ -373,6 +377,7 @@
 		"revealedBy": "Age of Industry",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Mithrite Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
@@ -383,6 +388,7 @@
 		"revealedBy": "Age of Industry",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Snow","Tundra","Desert","Marsh","Flood plains","Hill","Forest","Jungle","Oasis","Atoll","Coast","Ocean"],
 		"science": 1,
+		"improvedBy": ["Hyperium Extractor", "Fungal Bloom"],
 		"uniques": ["Stockpiled"],
 		"majorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1},
 		"minorDepositAmount": {"sparse": 1, "default": 1, "abundant": 1}
