@@ -216,7 +216,32 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Bazi Safar", "Bahas", "Bela", "Syrav", "Mordicant", "Zeban", "Alastra"]
   },
-  
+  {
+    "name": "The Vaulters",   //Golden
+    "leaderName": "Zolya Ilona", 
+    "adjective": ["Vaulters"],
+    "startBias": ["Tundra"],
+    "preferredVictoryType": "Scientific",
+    "outerColor": [163, 139, 16],
+    "innerColor": [255,255,255],
+	"uniqueName": "Knack for Knowledge",
+	"uniqueText": "+1 Science from all Science tiles. Generates more Strategic resources"
+    "uniques": ["[+1 Science] from [Tundra] tiles [in all cities]","[+1 Science] from [Glassteel] tiles [in all cities]","[+1 Science] from [Titanium] tiles [in all cities]",
+	"[+1 Science] from [Adamantian] tiles [in all cities]","[+1 Science] from [Palladian] tiles [in all cities]","[+1 Science] from [Mithrite] tiles [in all cities]","[+1 Science] from [Hyperium] tiles [in all cities]",
+	"[+1 Science] from [Azotic Exotics] tiles [in all cities]","[+1 Science] from [Black Dust] tiles [in all cities]","[+1 Science] from [Botanical Garden] tiles [in all cities]",
+	"[+1 Science] from [Chromatic Land] tiles [in all cities]","[+1 Science] from [Crystal Flowers] tiles [in all cities]","[+1 Science] from [Dragon Tree] tiles [in all cities]",
+	"[+1 Science] from [Earthspine] tiles [in all cities]","[+1 Science] from [Earth Tower] tiles [in all cities]","[+1 Science] from [Geothermal Pit] tiles [in all cities]","[+1 Science] from [Geysers] tiles [in all cities]",
+	"[+1 Science] from [Ice Sculptures] tiles [in all cities]","[+1 Science] from [Lava Chimneys] tiles [in all cities]","[+1 Science] from [Lava Geyser] tiles [in all cities]","[+1 Science] from [Life Tree] tiles [in all cities]",
+	"[+1 Science] from [Meteor Fields] tiles [in all cities]","[+1 Science] from [Moss Pearls] tiles [in all cities]","[+1 Science] from [Mutant Marsh] tiles [in all cities]","[+1 Science] from [Mychordia] tiles [in all cities]",
+	"[+1 Science] from [Spiral Rock Peel] tiles [in all cities]","[+1 Science] from [Stasis Pillar] tiles [in all cities]","[+1 Science] from [Wizard Stone] tiles [in all cities]",
+    
+	"Quantity of strategic resources produced by the empire +[100]%",
+    "Starts with [Open-Pit Mine]", "Starts with [Public Library]",	
+	"Starts with [Age of Discovery]","Starts with [Winter Shelters]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["The Vault", "Liszt", "Toth", "Zolya", "Kata", "Ajand", "Kerr"]
+  },
   
   
   

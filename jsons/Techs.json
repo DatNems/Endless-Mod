@@ -72,6 +72,11 @@
 		        //"uniqueTo": "Roving Clans",
 				"row": 21,
 			},
+			{
+				"name": "Winter Shelters",
+		        //"uniqueTo": "Vaulters",
+				"row": 23,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs
@@ -198,6 +203,12 @@
 				"prerequisites": ["High Towers"],
 				"row": 21,
 			},
+			{
+				"name": "Deep Generator",
+		        //"uniqueTo": "Vaulters",
+				"prerequisites": ["Winter Shelters"],
+				"row": 23,
+			},
 			
 			
 			
@@ -317,6 +328,19 @@
 				"prerequisites": ["Freelance Guards"],
 				"row": 21,
 			},
+			{
+				"name": "Endless Recycling",
+		        //"uniqueTo": "Vaulters",
+				"uniques": ["[+3 Science] [in all cities]", "[+3 Science] from every [Scientist]"],
+				"prerequisites": ["Deep Generator"],
+				"row": 22,
+			},
+			{
+				"name": "Strength of the Vault",
+		        //"uniqueTo": "Vaulters",
+				"prerequisites": ["Deep Generator"],
+				"row": 23,
+			},
 			
 			
 			
@@ -401,6 +425,12 @@
 		        //"uniqueTo": "Roving Clans",
 				"prerequisites": ["Traders Tents"],
 				"row": 21,
+			},
+			{
+				"name": "Resource Magnetron",
+		        //"uniqueTo": "Vaulters",
+				"prerequisites": ["Strength of the Vault","Endless Recycling"],
+				"row": 23,
 			},
 			
 			
@@ -491,6 +521,13 @@
 				"prerequisites": ["Well of Dust"],
 				"uniques": ["[+25]% [Gold] [in all cities] <when not at war>","[+25]% [Science] [in all cities] <when not at war>"]
 				"row": 21,
+			},
+			{
+				"name": "Extreme Yields",
+		        //"uniqueTo": "Vaulters",
+				"uniques": ["Quantity of strategic resources produced by the empire +[200]%"],
+				"prerequisites": ["Resource Magnetron"],
+				"row": 23,
 			},
 			
 			

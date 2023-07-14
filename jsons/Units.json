@@ -1053,10 +1053,44 @@
 		"requiredTech": "Pillage",
 		"uniques": ["[-15]% Strength <when defending>"],
 	},
-	
-	
-	
-	
+	//Vaulters
+	{
+		"name": "Marine",
+		"uniqueTo": "The Vaulters",
+		"replaces": "Ranger",
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 18,
+		"rangedStrength": 34,
+		"range": 3,
+		"cost": 80,
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Dawn Officer",
+		"uniqueTo": "The Vaulters",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 22,
+		"cost": 80,
+		"requiredTech": "Mercenary Market",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%",
+		"[+50]% Strength <when defending>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Titan",
+		"uniqueTo": "The Vaulters",
+		"replaces": "Infantry",
+		"unitType": "Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 140,
+		"requiredTech": "Pillage",
+		"uniques": ["[+66]% Strength <when defending>"],
+	},
 	
 	
 	
