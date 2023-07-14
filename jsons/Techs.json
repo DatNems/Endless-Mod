@@ -175,7 +175,7 @@
 				"name": "Breaching Wave",
 		        //"uniqueTo": "Morgawr",
 				"row": 18,
-				"uniques": ["[+3 Culture] [in all cities] <within [1] tiles of a [Coast]>"]
+				"uniques": ["[+3 Culture] [in all cities] <within [1] tiles of a [Coast]>","[+2 Culture, +1 Gold] from every [Citadel]"]
 				"prerequisites": ["Hydrophilic"],
 			},
 			{
@@ -465,7 +465,7 @@
 				"prerequisites": ["Aurigan Archive"],   
 			},
 			{
-				"name": "Iron Veins", //TO DO URKAN BUFF
+				"name": "Iron Veins", 
 		        //"uniqueTo": "Mykara",
 				"row": 17,
 				"prerequisites": ["Kernel of Plentitude"],

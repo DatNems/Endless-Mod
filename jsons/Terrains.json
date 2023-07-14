@@ -225,7 +225,7 @@
 	},
 	
 	
-	//Citadels
+	//Citadels  TO DO: CAPTURE/SETTLE
 	{
 		"name": "Citadel",
 		"type": "TerrainFeature",
@@ -239,6 +239,8 @@
 		"defenceBonus": 0.25,
 		"occursOn": ["Ocean"],
 		"uniques": ["Rare feature","Tile provides yield without assigned population",
-		"Occurs in groups of [1] to [5] tiles"],
+		"Occurs in groups of [1] to [5] tiles",
+		"Must be adjacent to [1] [Coast] tiles"],
+		"turnsInto": "Snow",
 	},
 ]	

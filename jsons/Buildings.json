@@ -469,6 +469,14 @@
 		"uniques": ["Costs [5] [Glassteel]","Costs [5] [Titanium]","New [Water] units start with [45] Experience [in this city]"],
         "requiredTech": "Main Maritime Academy"
     },
+	//Morgawr Tech boost
+	{
+        "name": "Dust-Mind Decoupling", 
+        "isNationalWonder": true, 
+		"cost": 1,
+		"uniques": ["Reveal up to [50] [Citadel] within a [30] tile radius"]
+        "requiredTech": "Dust-Mind Decoupling"
+    },
 	//Necrophages buildings
 	{
         "name": "Fungal Laboratory",
