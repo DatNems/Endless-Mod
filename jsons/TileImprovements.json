@@ -48,37 +48,37 @@
 	{
 		"name": "Titanium Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	}, 
 	{
 		"name": "Glassteel Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	},
 	{
 		"name": "Adamantian Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	},
 	{
 		"name": "Palladian Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	},
 	{
 		"name": "Mithrite Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	},
 	{
 		"name": "Hyperium Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
 		
 	},
 	
@@ -94,7 +94,6 @@
 		"name": "Road",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 1,
-		"uniques": ["Can be built outside your borders"],
 		
 	},
 	
