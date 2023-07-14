@@ -193,7 +193,7 @@
 	{
 		"name": "Urkan Kazar",
 		"type": "NaturalWonder",
-		"occursOn": ["Plains", "Desert", "Grassland", "Tundra", "Snow"],
+		"occursOn": ["Grassland",],
 		"uniques": ["Neighboring tiles will convert to [Grassland]","Provides [1] [Urkan Kazar]",
 			"Occurs in groups of [1] to [1] tiles", "Nullifies all other stats this tile provides"],
 		"turnsInto": "Grassland",
@@ -204,7 +204,7 @@
 	{
 		"name": "Urkan Chaka",
 		"type": "NaturalWonder",
-		"occursOn": ["Plains", "Desert", "Grassland", "Tundra", "Snow"],
+		"occursOn": ["Tundra", "Snow"],
 		"uniques": ["Neighboring tiles will convert to [Tundra]","Provides [1] [Urkan Chaka]",
 			"Occurs in groups of [1] to [1] tiles", "Nullifies all other stats this tile provides"],
 		"turnsInto": "Snow",
@@ -215,10 +215,10 @@
 	{
 		"name": "Urkan Fakir",
 		"type": "NaturalWonder",
-		"occursOn": ["Plains", "Desert", "Grassland", "Tundra", "Snow"],
-		"uniques": ["Neighboring tiles will convert to [Plains]","Provides [1] [Urkan Fakir]",
+		"occursOn": ["Plains", "Desert"],
+		"uniques": ["Neighboring tiles will convert to [Desert]","Provides [1] [Urkan Fakir]",
 			"Occurs in groups of [1] to [1] tiles", "Nullifies all other stats this tile provides"],
-		"turnsInto": "Hill",
+		"turnsInto": "Desert",
 		"impassable": true,
 		"unbuildable": true,
 		"weight": 10
@@ -228,17 +228,17 @@
 	//Citadels
 	{
 		"name": "Citadel",
-		"type": "NaturalWonder",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"unbuildable": true,
+		"overrideStats": true,
+		"food": 1,
 		"production": 2,
 		"gold": 1,
 		"culture": 1,
-		"food": 1,
-		"occursOn": ["Coast","Ocean"],
-		"uniques": ["Neighboring tiles will convert to [Coast]",
-			"Occurs in groups of [4] to [10] tiles",
-			"Considered [Desirable] when determining start locations"],
-		"turnsInto": "Coast",
-		"unbuildable": true,
-		"weight": 10
+		"defenceBonus": 0.25,
+		"occursOn": ["Ocean"],
+		"uniques": ["Rare feature","Tile provides yield without assigned population",
+		"Occurs in groups of [1] to [5] tiles"],
 	},
 ]	
