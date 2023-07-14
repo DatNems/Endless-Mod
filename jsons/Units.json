@@ -898,7 +898,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 110,
-		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Uncapturable"]
+		"uniques": ["Can build [Fungal Bloom] improvements on tiles","Invisible to non-adjacent units", "Uncapturable"]
 	},
 	//Mykara
 	{
@@ -1015,6 +1015,52 @@
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
 		"attackSound": "arrow"
 	},
+	//Roving Clans
+	{
+		"name": "Dervish",
+		"uniqueTo": "Roving Clans",
+		"replaces": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 24,
+		"cost": 80,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%",
+		"[+45]% Strength <when defending>"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Kassai",
+		"uniqueTo": "Roving Clans",
+		"replaces": "Ranger",
+		"unitType": "Ranged",
+		"movement": 7,
+		"strength": 30,
+		"rangedStrength": 20,
+		"range": 3,
+		"cost": 90,
+		"requiredTech": "Pillage",
+		"uniques": ["Penalty vs City 50%"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Yirmak",
+		"uniqueTo": "Roving Clans",
+		"replaces": "Infantry",
+		"unitType": "Melee",
+		"movement": 5,
+		"strength": 40,
+		"cost": 140,
+		"requiredTech": "Pillage",
+		"uniques": ["[-15]% Strength <when defending>"],
+	},
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

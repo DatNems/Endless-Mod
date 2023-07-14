@@ -88,9 +88,13 @@
 	//Broken Lords
 	{
 		"name": "Synchronized",  //Broken Lords end-game promo
-		"uniques": ["Heals [100] damage if it kills a unit"],
+		"uniques": ["Heals [50] damage if it kills a unit"],
 	},
-	
+	//Roving Clans
+	{
+		"name": "Roving",  
+		"uniques": ["[+1]Sight"],
+	},
 	//Resource related Unit Promos
 	{
 		"name": "Glassteel", 

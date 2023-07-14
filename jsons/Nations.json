@@ -71,8 +71,8 @@
 	"cities":["Broken Spire","Dust Castle","Golden River","Deyval","Whitechapel","Port John","Peyton","Crumbling Fort","Weybridge","Suluzzo"]
   },
   {
-    "name": "Cultists",   //White   TO DO: IMPROVEMENT IMPROVES STRATEGICS
-    "leaderName": "The Unspoken One",  //Unique Settler = Great Person
+    "name": "Cultists",   //White 
+    "leaderName": "The Unspoken One",  
     "adjective": ["Cultists"],
     "startBias": ["Grassland"],
     "preferredVictoryType": "Domination",
@@ -138,8 +138,8 @@
 	"cities":["Chay","Rawiri","Takari","Ululani","Mu","Raui","Makani","Inoa","Pali","Tawar"]
   },
   {
-    "name": "Mykara",   //Light Green     TO DO: IMPROVEMENT IMPROVES STRATEGICS, URKAN BUFFS AS UNIT TYPE
-    "leaderName": "Ancient Shroom",  //Unique Settler = Great Person
+    "name": "Mykara",   //Light Green    TO DO: URKAN BUFFS AS UNIT TYPE
+    "leaderName": "Ancient Shroom",  
     "adjective": ["Mykara"],
     "startBias": ["Grassland"],
     "preferredVictoryType": "Domination",
@@ -158,7 +158,7 @@
   },
   {
     "name": "Morgawr",   //Cyan
-    "leaderName": "The Black Spot",  //Unique Settler = Great Person
+    "leaderName": "The Black Spot", 
     "adjective": ["Morgawr"],
     "startBias": ["Coast"],
     "preferredVictoryType": "Domination",
@@ -178,16 +178,17 @@
   },
   {
     "name": "Necrophages",   //Dark Red
-    "leaderName": "Ka-Riss",  //Unique Settler = Great Person
+    "leaderName": "Ka-Riss", 
     "adjective": ["Necrophage"],
     "startBias": ["Plains"],
     "preferredVictoryType": "Domination",
     "outerColor": [87, 13, 9],
     "innerColor": [255,255,255],
 	"uniqueName": "Cull the Herd",
-	"uniqueText": ""
+	"uniqueText": "Gets Bonusses from capturing cities. -1 Food from all sources."
     "uniques": ["[-1 Food] from [Land] tiles [in all cities]", "[-1 Food] from [Water] tiles [in all cities]",
 	"Cities are razed [4] times as fast","Upon capturing a city, receive [1] times its [Production] production as [Culture] immediately",
+	"Upon capturing a city, receive [1] times its [Production] production as [Gold] immediately",
 	"May not annex cities",
 	//"Gain [10] [Food] <upon defeating a [Military] unit>",
 	"Starts with [Alchemist's Furnace]",
@@ -197,6 +198,28 @@
 	"cities":["The Hive", "Feeding Grounds", "Abandoned Colony"]  //needs more names
   },
   //HOW TF DO I DO ROVIN CLAN
+  {
+    "name": "Roving Clans",   //Brown
+    "leaderName": "Master Neqra", 
+    "adjective": ["Roving"],
+    "startBias": ["Desert"],
+    "preferredVictoryType": "Diplomatic",
+    "outerColor": [156, 94, 40],
+    "innerColor": [255,255,255],
+	"uniqueName": "Nomadic Cities",
+	"uniqueText": "Gold. Tons and Tons of Gold....when not at war."
+    "uniques": ["[+10% [Gold] [in all cities] <when not at war>",
+	"[-10]% maintenance cost for buildings [in all cities] <when not at war>",
+	"Starts with [Imperial Coinage]","Starts with [Mercenary Market]",
+	"Starts with [Age of Discovery]","Starts with [High Towers]",
+	"Gain a free [City Halls] [in capital]",
+	"Gain a free [Specialists] [in all cities]"],
+	"cities":["Bazi Safar", "Bahas", "Bela", "Syrav", "Mordicant", "Zeban", "Alastra"]
+  },
+  
+  
+  
+  
   
   
   //Barbarian

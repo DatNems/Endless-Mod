@@ -67,6 +67,11 @@
 				"uniques": ["[+10]% Strength <vs [Wounded] units>"],
 				"row": 20,
 			},
+			{
+				"name": "High Towers",
+		        //"uniqueTo": "Roving Clans",
+				"row": 21,
+			},
 		]	
 	},
 	{  //Civ specific Era II Techs
@@ -186,6 +191,13 @@
 				"prerequisites": ["Demanding Gods"],
 				"row": 20,
 			},
+			{
+				"name": "Freelance Guards",
+		        //"uniqueTo": "Roving Clans",
+				"uniques": ["[-20]% maintenance cost for buildings [in all cities]"],
+				"prerequisites": ["High Towers"],
+				"row": 21,
+			},
 			
 			
 			
@@ -298,6 +310,13 @@
 				"prerequisites": ["Cannon Fodder"],
 				"row": 20,
 			},
+			{
+				"name": "Traders Tents",
+		        //"uniqueTo": "Roving Clans",
+				"uniques": ["[+25]% [Gold] [in all cities] <when not at war>"],
+				"prerequisites": ["Freelance Guards"],
+				"row": 21,
+			},
 			
 			
 			
@@ -376,6 +395,12 @@
 		        //"uniqueTo": "Necrophages",
 				"prerequisites": ["Fungal Laboratory"],
 				"row": 20,
+			},
+			{
+				"name": "Well of Dust",
+		        //"uniqueTo": "Roving Clans",
+				"prerequisites": ["Traders Tents"],
+				"row": 21,
 			},
 			
 			
@@ -460,6 +485,14 @@
 				"prerequisites": ["Givers of Remembrance"],
 				"row": 20,
 			},
+			{
+				"name": "Money Talks",
+		        //"uniqueTo": "Roving Clans",
+				"prerequisites": ["Well of Dust"],
+				"uniques": ["[+25]% [Gold] [in all cities] <when not at war>","[+25]% [Science] [in all cities] <when not at war>"]
+				"row": 21,
+			},
+			
 			
 			
 			

@@ -466,7 +466,7 @@
 		"uniqueTo": "Morgawr",
 		"cost": 800,
 		"maintenance": 6,
-		"uniques": ["Costs [5] [Glassteel]","Costs [5] [Titanium]","New [Naval] units start with [45] Experience [in this city]"],
+		"uniques": ["Costs [5] [Glassteel]","Costs [5] [Titanium]","New [Water] units start with [45] Experience [in this city]"],
         "requiredTech": "Main Maritime Academy"
     },
 	//Necrophages buildings
@@ -486,6 +486,32 @@
 		"uniques": ["Costs [10] [Hyperium]","New [Military] units start with [60] Experience [in this city]"],
         "requiredTech": "Givers of Remembrance"
     },
+	//Roving clans buildings
+	{
+        "name": "High Towers",
+		"uniqueTo": "Roving Clans",
+        "isNationalWonder": true, 
+		"cost": 400,
+		"maintenance": 2,
+		"uniques": ["[+5 Science] [in all cities]","[All] units gain the [Roving] promotion"],
+        "requiredTech": "High Towers"
+    },
+	{
+        "name": "Well of Dust",
+		"uniqueTo": "Roving Clans",
+        "isNationalWonder": true, 
+		"cost": 1000,
+		"maintenance": 2,
+		"uniques": ["[+100]% [Gold] [in this city]"],
+        "requiredTech": "Well of Dust"
+    },
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -975,11 +1001,11 @@
         "requiredTech": "Hydrology"
     },
 	{
-        "name": "Right of Way",
+        "name": "Right of Way", //Sadge
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 3,
-		"uniques": ["Creates a [Road] improvement on a specific tile"]  //land still WIP I guess, wack
+		"uniques": ["Creates a [Road] improvement on a specific tile"]  
         "requiredTech": "Imperial Highways"
     },
 	{
