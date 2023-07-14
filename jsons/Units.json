@@ -519,7 +519,7 @@
 		"movement": 6,
 		"strength": 100,
 		"cost": 2000,
-		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","-[50]% Strength when defending"],
+		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","[-50]% Strength <when defending>"],
 	},
 	{
 		"name": "Air Guardian",

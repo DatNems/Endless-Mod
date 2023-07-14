@@ -187,14 +187,14 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 1,
 		"requiredTech": "Penitent Chapel",
-        "uniques": ["Unsellable","All newly-trained [All] units in this city receive the [Medic] promotion","Automatically built in all cities where it is buildable"]
+        "uniques": ["Unsellable","All newly-trained [Military] units [in this city] receive the [Medic] promotion","Automatically built in all cities where it is buildable"]
     },
 	{
         "name": "Dust Synchronizer",    
 		"uniqueTo": "Broken Lords",
 		"cost": 1,
 		"requiredTech": "Synchronic Temple",
-        "uniques": ["Unsellable","All newly-trained [All] units in this city receive the [Synchronized] promotion","Automatically built in all cities where it is buildable"]
+        "uniques": ["Unsellable","All newly-trained [Military] units [in this city] receive the [Synchronized] promotion","Automatically built in all cities where it is buildable"]
     },
 	
 	//population thingy
@@ -390,7 +390,7 @@
 		"uniqueTo": "Drakken",
         "isNationalWonder": true,
 		"cost": 1,
-		"uniques": ["All newly-trained [All] units receive the [Endless Eye] promotion","Automatically built in all cities where it is buildable"],
+		"uniques": ["All newly-trained [All] units [in all cities] receive the [Endless Eye] promotion","Automatically built in all cities where it is buildable"],
         "requiredTech": "Eye of the Endless"
     },
 	//Forgotten Boosts
@@ -447,7 +447,7 @@
 		"uniqueTo": "Kapaku",
         "isNationalWonder": true, 
 		"cost": 1200,
-		"uniques": ["Costs [15] [Mithrite]","Costs [15] [Hyperium]","[+3 Science] from every [Bonus resource] [in all cities]"],
+		"uniques": ["Costs [15] [Mithrite]","Costs [15] [Hyperium]","[+3 Science] from every [Bonus resource]"],
         "requiredTech": "Aurigan Archive"
     },
 	//Mykara buildings
@@ -972,7 +972,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 3,
-		"uniques": ["[+1 Culture] from every [Artist]","[+2 Culture] [in all cities]"],
+		"uniques": ["[+1 Culture] from every [Artist] [in this city]","[+2 Culture] [in this city]"],
         "requiredTech": "Glory of Empire"
     },
 	{
@@ -1030,7 +1030,7 @@
         "hurryCostModifier": 20,
 		"cost": 250,
 		"maintenance": 2,
-		"uniques": ["Costs [4] [Titanium]","[+1 Production] from every [Bonus resource] [in this city]"],
+		"uniques": ["Costs [4] [Titanium]","[+1 Production] from every [Bonus resource] <in this city>"],
         "requiredTech": "Management Sciences"
     },
 	{

@@ -448,7 +448,7 @@
 				"name": "Master Deceivers",  
 		        //"uniqueTo": "Forgotten",
 				"row": 12,
-				"uniques": ["[-25]% unit upkeep costs"],
+				"uniques": ["[-25]% maintenance costs <for [Military] units>"],
 				"prerequisites": ["High Seminary"],   
 			},
 			{

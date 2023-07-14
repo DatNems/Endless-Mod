@@ -6,7 +6,7 @@
 		"policies": [
 			{
 				"name": "Military II",
-				"uniques": ["New [Military] units start with [15] Experience"],
+				"uniques": ["New [Military] units start with [15] Experience [in all cities]"],
 				"row": 1,
 				"column": 1
 			},
