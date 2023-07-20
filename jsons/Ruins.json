@@ -1,32 +1,22 @@
 [
     {
-        "name": "freeCulture",
-        "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
-        "uniques": ["Gain [20] [Culture]"]
-    },
-    {
-        "name": "freeXP",
-        "notification": "An ancient tribe trained us in their ways of combat!",
-        "uniques": ["This Unit gains [10] XP"]
-    },
-    {
-        "name": "freePop",
-        "notification": "We have found survivors in the ruins! Population added to [cityName].",
-        "uniques": ["[+1] population in a random city"] // This can't be easily added to cityFilter, as it is non-deterministic
-    },
-    {
         "name": "freeGold",
         "notification": "We have found a stash of [goldAmount] Dust in the ruins!",
-        "uniques": ["Gain [50]-[100] [Gold]"]
+        "uniques": ["Gain [30]-[70] [Gold]"]
     },
     {
-        "name": "unitUpgrade",
-        "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"]
+        "name": "freeResource1",
+        "notification": "We have found a stash of Glassteel in the ruins!",
+        "uniques": ["Instantly provides [5] [Glassteel]"]
     },
     {
-        "name": "barbCampsRevealed",
-        "notification": "You find evidence of Barbarian activity. Nearby Barbarian camps are revealed!",
-        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"]
+        "name": "freeResource2",
+        "notification": "We have found a stash of Titanium in the ruins!",
+        "uniques": ["Instantly provides [5] [Titanium]"]
+    },
+	{
+		"name": "freeTech",
+		"notification": "Searching this ruin has advanced our research!",
+		"uniques": ["Gain [20] [Science]"]
     },
 ]
