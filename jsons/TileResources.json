@@ -563,6 +563,16 @@
 		"uniques": ["Not shown on world screen"],
 	},
 	
+	//hero stuff
+	
+	
+	{
+		"name": "Heroes",
+		"resourceType": "Strategic",
+	},
+	
+	
+	
 	
 	
 ]

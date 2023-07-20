@@ -17,16 +17,10 @@
         "movementType": "Land"
     },
     {
-        "name": "Hero",
-        "movementType": "Land"
-    },
-    {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
     },
-
-
     {
         "name": "Melee",
         "movementType": "Land"
@@ -55,4 +49,25 @@
         "name": "WaterSubmarine",
         "movementType": "Water"
     },
+	//heroes (for unique promos)
+	
+    {
+        "name": "Hero",
+        "movementType": "Land"
+    },
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ]

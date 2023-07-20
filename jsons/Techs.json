@@ -585,6 +585,7 @@
 			{
 				"name": "Age of Discovery",  //reveals T1 ressources
 				"row": 1,
+				"uniques": ["Provides [1] [Heroes]"]
 			},
 		]	
 	},
@@ -710,6 +711,7 @@
 				"name": "Age of Glory", 
 				"row": 1,
 				"prerequisites": ["Age of Discovery"],
+				"uniques": ["Provides [1] [Heroes]"]
 			},
 		]	
 	},
@@ -1101,6 +1103,7 @@
 				"name": "Age of Heroes", 
 				"row": 1,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["Provides [1] [Heroes]"]
 			},
 		]	
 	},
