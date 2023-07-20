@@ -568,7 +568,13 @@
 		"happiness": 40,
         "requiredTech": "The Ogmakwan"
     },
-	
+	//neutral buildings
+	{
+        "name": "Minor Faction Boost",
+		"cost": 5,
+		"production": 5,
+		"uniques": ["Unbuildable <for [Major]>","Cannot be purchased","[2] free [Infantry] units appear","Destroyed when the city is captured"],
+    },
 	
 	
 	
@@ -1319,7 +1325,7 @@
 		"cost": 1200,
 		"maintenance": 7,
 		"uniques": ["Costs [4] [Titanium]","Costs [8] [Adamantian]",
-		"Provides [10] [Glassteel]","Provides [10] [Titanium]","Provides [10] [Adamantian]","Provides [10] [Palladian]","Provides [10] [Mithrite]","Provides [10] [Hyperium]"],
+		"Provides [1] [Glassteel]","Provides [1] [Titanium]","Provides [1] [Adamantian]","Provides [1] [Palladian]","Provides [1] [Mithrite]","Provides [1] [Hyperium]"],
         "requiredTech": "Borer's Guild"
     },
 	{

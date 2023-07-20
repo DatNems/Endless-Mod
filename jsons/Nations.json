@@ -53,6 +53,7 @@
     "uniques": ["Nullifies Growth [in all cities]",
 	//specialists
 	"[+4 Gold] from every [Farmer]",
+	"[-4 Food] from every [Farmer]",
 	//-food from all sources
 	"[-10 Food] from [Land] tiles [in all cities]","[-10 Food] from [Water] tiles [in all cities]", 
 	//+gold from every gold tile
@@ -61,7 +62,7 @@
 	//+gold from every lux
 	"[+1 Gold] from every [Luxury resource]",
 	//-food from food buildings
-	"[-2 Food] from every [Founder's Memorial]","[-5 Food] from every [Seed Storage]","[-15 Food] from every [Public Granary]","[-15 Food] from every [Refrigeration Plant]","[-5 Food] [in all cities] from every [Hothouses]","[-10 Food] from every [Imperial News Network]",
+	"[-2 Food] from every [Founder's Memorial]","[-5 Food] from every [Seed Storage]","[-15 Food] from every [Public Granary]","[-15 Food] from every [Refrigeration Plant]","[-5 Food] [in all cities] from every [Hothouses]","[-10 Food] from every [Imperial News Network]","[-10 Food] from every [Wyrm Farm]",
 	//+gold from food buildings
 	"[+5 Gold] from every [Seed Storage]","[+8 Gold] from every [Irrigation Network]","[+8 Gold] from every [Fish Farm]","[+15 Gold] from every [Public Granary]","[+3 Gold] from every [Plow Factory]","[+15 Gold] from every [Refrigeration Plant]","[+10 Gold] from every [Fertilizer Plant]","[+5 Gold] [in all cities] from every [Hothouses]","[+10 Gold] from every [Imperial News Network]",
 	"Starts with [Soul Burn]","Starts with [Empire Mint]","Starts with [Open-Pit Mine]",
@@ -113,7 +114,7 @@
     "innerColor": [255,255,255],
 	"uniqueName": "Science Phobic",
 	"uniqueText": "Generates 50% less Science. Gains 100% of Enemy Strength as Dust & Science. Starts with 3 free units in capital."
-    "uniques": ["[-50]% [Science] [in all cities]","-50% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
+    "uniques": ["[-50]% [Science] [in all cities]","[-50]% unit upkeep costs",//"Gain a free [Dust Opportunists] [in capital]",
 	"Starts with [Search Party]","Starts with [Pillage]","Starts with [Learn from Others]","Starts with [Age of Discovery]",
 	"Gain a free [City Halls] [in capital]",
 	"Gain a free [Specialists] [in all cities]"],
@@ -187,8 +188,8 @@
 	"uniqueName": "Cull the Herd",
 	"uniqueText": "Gets Bonusses from capturing cities. -1 Food from all sources."
     "uniques": ["[-1 Food] from [Land] tiles [in all cities]", "[-1 Food] from [Water] tiles [in all cities]",
-	"Cities are razed [4] times as fast","Upon capturing a city, receive [1] times its [Production] production as [Culture] immediately",
-	"Upon capturing a city, receive [1] times its [Production] production as [Gold] immediately",
+	"Cities are razed [4] times as fast","Upon capturing a city, receive [3] times its [Production] production as [Culture] immediately",
+	"Upon capturing a city, receive [3] times its [Production] production as [Gold] immediately",
 	"May not annex cities",
 	"[+50]% [Production] <when at war>",
 	//"Gain [10] [Food] <upon defeating a [Military] unit>",
@@ -262,6 +263,241 @@
 	"Gain a free [Specialists] [in all cities]"],
 	"cities":["Owaci", "Ipsa", "Soyala", "Rayen", "Wayra", "Sigo", "Pakwa"]
   },
+  
+  //MINOR FACTIONS  
+  {
+	  "name": "Bos",
+	  "adjective": ["Bos"],
+	  "cityStateType": "Bos",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [29, 191, 40],
+	  "uniques": [],
+	  "cities": ["Bos"]
+	},
+  {
+	  "name": "Ceretan",
+	  "adjective": ["Ceretan"],
+	  "cityStateType": "Ceretan",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 255, 255],
+	  "uniques": [],
+	  "cities": ["Ceretan"]
+	},
+  {
+	  "name": "Delvers",
+	  "adjective": ["Delvers"],
+	  "cityStateType": "Delvers",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [227, 214, 66],
+	  "uniques": [],
+	  "cities": ["Delvers"]
+	},
+  {
+	  "name": "Dorgeshi",
+	  "adjective": ["Dorgeshi"],
+	  "cityStateType": "Dorgeshi",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [178, 71, 255],
+	  "uniques": [],
+	  "cities": ["Dorgeshi"]
+	},
+  {
+	  "name": "Erycis",
+	  "adjective": ["Erycis"],
+	  "cityStateType": "Erycis",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [150, 38, 62],
+	  "uniques": [],
+	  "cities": ["Erycis"]
+	},
+  {
+	  "name": "Eyeless Ones",
+	  "adjective": ["Eyeless Ones"],
+	  "cityStateType": "Eyeless Ones",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [178, 71, 255],
+	  "uniques": [],
+	  "cities": ["Eyeless Ones"]
+	},
+  {
+	  "name": "Gauran",
+	  "adjective": ["Gauran"],
+	  "cityStateType": "Gauran",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 239, 194],
+	  "uniques": [],
+	  "cities": ["Gauran"]
+	},
+  {
+	  "name": "Geldirus",
+	  "adjective": ["Geldirus"],
+	  "cityStateType": "Geldirus",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [222, 255, 238],
+	  "uniques": [],
+	  "cities": ["Geldirus"]
+	},
+  {
+	  "name": "Haunts",
+	  "adjective": ["Haunts"],
+	  "cityStateType": "Haunts",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [74, 113, 255],
+	  "uniques": [],
+	  "cities": ["Haunts"]
+	},
+  {
+	  "name": "Hurnas",
+	  "adjective": ["Hurnas"],
+	  "cityStateType": "Hurnas",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [238, 255, 222],
+	  "uniques": [],
+	  "cities": ["Hurnas"]
+	},
+  {
+	  "name": "Jotus",
+	  "adjective": ["Jotus"],
+	  "cityStateType": "Jotus",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [227, 44, 27],
+	  "uniques": [],
+	  "cities": ["Jotus"]
+	},
+  {
+	  "name": "Kazanji",
+	  "adjective": ["Kazanji"],
+	  "cityStateType": "Kazanji",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [93, 45, 128],
+	  "uniques": [],
+	  "cities": ["Kazanji"]
+	},
+  {
+	  "name": "Magtay",
+	  "adjective": ["Magtay"],
+	  "cityStateType": "Magtay",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [196, 196, 196],
+	  "uniques": [],
+	  "cities": ["Magtay"]
+	},
+  {
+	  "name": "Nidya",
+	  "adjective": ["Nidya"],
+	  "cityStateType": "Nidya",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [222, 255, 251],
+	  "uniques": [],
+	  "cities": ["Nidya"]
+	},
+  {
+	  "name": "Silics",
+	  "adjective": ["Silics"],
+	  "cityStateType": "Silics",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [95, 237, 218],
+	  "uniques": [],
+	  "cities": ["Silics"]
+	},
+  {
+	  "name": "Sisters of Mercy",
+	  "adjective": ["Sisters of Mercy"],
+	  "cityStateType": "Sisters of Mercy",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [255, 186, 200],
+	  "uniques": [],
+	  "cities": ["Sisters of Mercy"]
+	},
+  {
+	  "name": "Urces",
+	  "adjective": ["Urces"],
+	  "cityStateType": "Urces",
+
+	  "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+	  "attacked": "Very well, we will kick you back to the ancient era!",
+	  "defeated": "This isn't how it is supposed to be!",
+	  "outerColor": [0, 0, 0],
+	  "innerColor": [173, 116, 62],
+	  "uniques": [],
+	  "cities": ["Urces"]
+	},
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   

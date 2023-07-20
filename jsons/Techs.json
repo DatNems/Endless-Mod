@@ -599,11 +599,15 @@
 				"name": "Advanced Alloys",  //???
 				"row": 1,
 				"prerequisites": ["Age of Discovery"], 
+				"uniques": ["[Enhanced] units gain the [Glassteel] promotion <when above [2] [Glassteel]>",
+				"[EnhancedWater] units gain the [Glassteel] promotion <when above [2] [Glassteel]>"]
 			},
 			{
 				"name": "Advanced Armor",    //???
 				"row": 2,
 				"prerequisites": ["Age of Discovery"], 
+				"uniques": ["[Enhanced] units gain the [Titanium] promotion <when above [2] [Titanium]>",
+				"[EnhancedWater] units gain the [Titanium] promotion <when above [2] [Titanium]>"]
 			},
 			{
 				"name": "Alchemist's Furnace",  //strat extractors
@@ -721,11 +725,13 @@
 				"name": "Alchemical Alloys",   //Glassteel units +uniques
 				"row": 1,
 				"prerequisites": ["Age of Glory"],
+				"uniques": ["[+25]% Strength <for units with [Glassteel]>"],
 			},
 			{
 				"name": "Alchemical Armor",     //Titanium Units +uniques
 				"row": 2,
 				"prerequisites": ["Age of Glory"],
+				"uniques": ["[+25]% Strength <for units with [Titanium]>"],
 			},
 			{
 				"name": "Alchemy Workshop",   //tech building
@@ -755,12 +761,14 @@
 			{
 				"name": "Exotic Alloys",  //grants flat glassteel
 				"row": 8,
-				"prerequisites": ["Age of Glory"],
+				"prerequisites": ["Alchemical Alloys"],
+				"uniques": ["[+10]% Strength <for units with [Glassteel]>"],
 			},
 			{
 				"name": "Exotic Armor",   //grants flat titanium
 				"row": 9,
-				"prerequisites": ["Age of Glory"],
+				"prerequisites": ["Alchemical Armor"],
+				"uniques": ["[+10]% Strength <for units with [Titanium]>"],
 			},
 			{
 				"name": "Fire Ship",   //<-- yes
@@ -931,11 +939,15 @@
 				"name": "Uncommon Alloys",   //Adamantian units + uniques
 				"row": 18,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["[Enhanced] units gain the [Adamantian] promotion <when above [2] [Adamantian]>",
+				"[EnhancedWater] units gain the [Adamantian] promotion <when above [2] [Adamantian]>"]
 			},
 			{
 				"name": "Uncommon Armor",   //Palladian units + uniques
 				"row": 19,
 				"prerequisites": ["Age of Enlightenment"],
+				"uniques": ["[Enhanced] units gain the [Palladian] promotion <when above [2] [Palladian]>",
+				"[EnhancedWater] units gain the [Palladian] promotion <when above [2] [Palladian]>"]
 			},
 			{
 				"name": "Unexpected Allies",   //defense building
@@ -1056,11 +1068,15 @@
 				"name": "Rare Alloys",   //Hyperium units
 				"row": 17,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["[Enhanced] units gain the [Mithrite] promotion <when above [2] [Mithrite]>",
+				"[EnhancedWater] units gain the [Mithrite] promotion <when above [2] [Mithrite]>"]
 			},
 			{
 				"name": "Rare Armor",   //stockpile upgrade??
 				"row": 18,
 				"prerequisites": ["Age of Industry"],
+				"uniques": ["[Enhanced] units gain the [Hyperium] promotion <when above [2] [Hyperium]>",
+				"[EnhancedWater] units gain the [Hyperium] promotion <when above [2] [Hyperium]>"]
 			},
 			{
 				"name": "Rare Metal Foundry",  //T3 Strat Extractors
@@ -1119,12 +1135,14 @@
 			{
 				"name": "Exceptional Alloys",  //???
 				"row": 5,
-				"prerequisites": ["Age of Heroes"],
+				"prerequisites": ["Marvelous Alloys"],
+				"uniques": ["[+10]% Strength <for units with [Adamantian]>"],
 			},
 			{
 				"name": "Exceptional Armor",  //???
 				"row": 6,
-				"prerequisites": ["Age of Heroes"],
+				"prerequisites": ["Marvelous Armor"],
+				"uniques": ["[+10]% Strength <for units with [Palladian]>"],
 			},
 			{
 				"name": "Guardian of Air",  //guardian
@@ -1155,11 +1173,13 @@
 				"name": "Marvelous Alloys",  //???
 				"row": 12,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["[+25]% Strength <for units with [Adamantian]>"],
 			},
 			{
 				"name": "Marvelous Armor",  //???
 				"row": 13,
 				"prerequisites": ["Age of Heroes"],
+				"uniques": ["[+25]% Strength <for units with [Palladian]>"],
 			},
 			{
 				"name": "Military Reserves",  //defense building
@@ -1223,12 +1243,14 @@
 			{
 				"name": "Arcane Alloys",   //???
 				"row": 1,
-				"prerequisites": ["End of Ages"],
+				"prerequisites": ["Puissant Alloys"],
+				"uniques": ["[+10]% Strength <for units with [Mithrite]>"],
 			},
 			{
 				"name": "Arcane Armor",   //???
 				"row": 2,
-				"prerequisites": ["End of Ages"],
+				"prerequisites": ["Puissant Armor"],
+				"uniques": ["[+10]% Strength <for units with [Hyperium]>"],
 			},
 			{
 				"name": "Difference Engine",   //tech boost
@@ -1249,11 +1271,13 @@
 				"name": "Puissant Alloys",   //???
 				"row": 6,
 				"prerequisites": ["End of Ages"],
+				"uniques": ["[+25]% Strength <for units with [Mithrite]>"],
 			},
 			{
 				"name": "Puissant Armor",   //???
 				"row": 7,
 				"prerequisites": ["End of Ages"],
+				"uniques": ["[+25]% Strength <for units with [Hyperium]>"],
 			},
 			{
 				"name": "Self-Driving Plows",   //tech boost

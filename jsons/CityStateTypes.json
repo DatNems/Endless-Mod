@@ -1,0 +1,111 @@
+[  //UNIQUE UNIT SHARING DOESN'T WORK YET
+  {
+    "name": "Bos",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% [Food] [in all cities]","May buy [Centaur] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Ceretan",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% Strength <for [Military] units> <when defending>","May buy [Drider] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Delvers",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% [Gold] [in all cities]","May buy [Dredge] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Dorgeshi",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+1 Happiness] from every [Luxury resource]","May buy [Burdeki] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Erycis",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+1] Movement <for [Military] units>","May buy [Vinesnake] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Eyeless Ones",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+1 Happiness] [in all cities]","May buy [Caecator] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Gauran", 
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[Gold] cost of purchasing [Military] units [-10]%","May buy [Minotaur] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Geldirus",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+20]% to Flank Attack bonuses","May buy [Ice Warg] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Haunts",
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% [Science] [in all cities]","May buy [Ended] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Hurnas",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% Strength <for [Military] units> <when attacking>","May buy [Orc] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Jotus",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["All newly-trained [Military] units [in all cities] receive the [Jotus] promotion","May buy [Tetike] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Kazanji",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+10]% [Culture] [in all cities]","May buy [Daemon] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Magtay",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+25]% Strength for cities","May buy [Zujajun] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Nidya",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["Damage is ignored when determining unit Strength","May buy [Arpuja] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Silics",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["Quantity of strategic resources produced by the empire +[50]%","May buy [Harmonite] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Sisters of Mercy",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["All healing effects doubled","May buy [Justicere] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ {
+    "name": "Urces",  
+    "friendBonusUniques": [""],
+    "allyBonusUniques": ["[+25]% Production when constructing [All] buildings [in all cities]","May buy [Rumbler] units with [Gold] [in all cities]"],
+    "color": [255, 0, 0]
+    },
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+]
