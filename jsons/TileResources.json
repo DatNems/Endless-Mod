@@ -535,8 +535,33 @@
 		"uniques": ["Not shown on world screen"],
 	},
 	
+	//Guardians
 	
-	
+	{
+		"name": "Guardian of Dust",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Guardian of Fire",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Guardian of Earth",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Guardian of Air",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
+	{
+		"name": "Guardian of Water",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen"],
+	},
 	
 	
 	

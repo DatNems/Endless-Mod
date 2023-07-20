@@ -12,61 +12,61 @@
 	{
 		"name": "Level 1", 
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 2", 
 		"prerequisites": ["Level 1"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 3", 
 		"prerequisites": ["Level 2"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 4", 
 		"prerequisites": ["Level 3"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 5", 
 		"prerequisites": ["Level 4"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 6", 
 		"prerequisites": ["Level 5"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 7", 
 		"prerequisites": ["Level 6"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 8", 
 		"prerequisites": ["Level 7"],
 		"uniques": ["[+10]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 9", 
 		"prerequisites": ["Level 8"],
 		"uniques": ["[+15]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	{
 		"name": "Level 10", 
 		"prerequisites": ["Level 9"],
 		"uniques": ["[+25]% Strength"],
-		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced"]
+		"unitTypes": ["Melee", "Ranged", "Mounted", "WaterMelee", "WaterRanged", "WaterSubmarine", "Enhanced", "Guardian"]
 	},
 	
 	//building promos?

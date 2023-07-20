@@ -48,50 +48,55 @@
 	//Guardians
 	{
 		"name": "Dust Guardian",
-		"unitType": "Ranged",
+		"unitType": "Guardian",
 		"movement": 4,
 		"strength": 75,
 		"rangedStrength": 25,
 		"range": 1,
-		"cost": 2000,
+		"cost": 500,
 		"promotions": ["Medic","Medic II"],
-		"uniques": ["Unbuildable","Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities"],
+		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Never appears as a Barbarian unit",
+		"Unbuildable <without [Guardian of Dust]>", "Provides [1] [Guardian of Dust] <upon being defeated>"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Fire Guardian",
-		"unitType": "Ranged",
+		"unitType": "Guardian",
 		"movement": 4,
 		"strength": 18,
 		"rangedStrength": 100,
 		"range": 3,
-		"cost": 2000,
-		"uniques": ["Unbuildable","Penalty vs City 50%"],
+		"cost": 500,
+		"uniques": ["Penalty vs City 50%","Never appears as a Barbarian unit",
+		"Unbuildable <without [Guardian of Fire]>", "Provides [1] [Guardian of Fire] <upon being defeated>"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Earth Guardian",
-		"unitType": "Melee",
+		"unitType": "Guardian",
 		"movement": 4,
 		"strength": 64,
-		"cost": 2000,
-		"uniques": ["Unbuildable","+100% Strength"]
+		"cost": 500,
+		"uniques": ["[+100]% Strength","Never appears as a Barbarian unit",
+		"Unbuildable <without [Guardian of Earth]>", "Provides [1] [Guardian of Earth] <upon being defeated>"]
 	},
 	{
 		"name": "Water Guardian",
-		"unitType": "Mounted",
+		"unitType": "Guardian",
 		"movement": 6,
 		"strength": 100,
-		"cost": 2000,
-		"uniques": ["Unbuildable","Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","[-50]% Strength <when defending>"],
+		"cost": 500,
+		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","[-50]% Strength <when defending>","Never appears as a Barbarian unit",
+		"Unbuildable <without [Guardian of Water]>", "Provides [1] [Guardian of Water] <upon being defeated>"],
 	},
 	{
 		"name": "Air Guardian",
-		"unitType": "Mounted",
+		"unitType": "Guardian",
 		"movement": 6,
 		"strength": 60,
-		"cost": 2000,
-		"uniques": ["Unbuildable","+133% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles"]
+		"cost": 500,
+		"uniques": ["[+133]% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles","Never appears as a Barbarian unit",
+		"Unbuildable <without [Guardian of Air]>", "Provides [1] [Guardian of Air] <upon being defeated>"]
 	},
 	
 	
