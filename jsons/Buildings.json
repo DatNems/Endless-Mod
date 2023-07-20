@@ -203,7 +203,8 @@
 		"uniqueTo": "Broken Lords",
 		"cost": 100,
 		"food": 2,
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [100] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population2",    
@@ -211,7 +212,8 @@
 		"cost": 150,
 		"food": 2,
         "requiredBuilding": "Buy Population1",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [200] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population3",    
@@ -219,7 +221,8 @@
 		"cost": 225,
 		"food": 2,
         "requiredBuilding": "Buy Population2",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [350] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population4",    
@@ -227,7 +230,8 @@
 		"cost": 340,
 		"food": 2,
         "requiredBuilding": "Buy Population3",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [550] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population5",    
@@ -235,7 +239,8 @@
 		"cost": 490,
 		"food": 2,
         "requiredBuilding": "Buy Population4",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [800] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population6",    
@@ -243,7 +248,8 @@
 		"cost": 735,
 		"food": 2,
         "requiredBuilding": "Buy Population5",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [1100] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population7",    
@@ -251,7 +257,8 @@
 		"cost": 1070,
 		"food": 2,
         "requiredBuilding": "Buy Population6",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [1450] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population8",    
@@ -259,7 +266,8 @@
 		"cost": 1535,
 		"food": 2,
         "requiredBuilding": "Buy Population7",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [1850] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population9",    
@@ -267,7 +275,8 @@
 		"cost": 2270,
 		"food": 2,
         "requiredBuilding": "Buy Population8",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [2300] [Gold] [in all cities]"]
     },
 	{
         "name": "Buy Population10",    
@@ -275,7 +284,8 @@
 		"cost": 3335,
 		"food": 2,
         "requiredBuilding": "Buy Population9",
-        "uniques": ["Unsellable","[+1] population [in this city]"]
+        "uniques": ["Unbuildable","Unsellable","[+1] population [in this city]",
+		"Can be purchased for [2800] [Gold] [in all cities]"]
     },
 	
 	
@@ -615,10 +625,10 @@
         "requiredTech": "Bread and Circuses"
     },
 	{
-        "name": "Meritocratic Promotion",   
+        "name": "Meritocratic Promotion",   //WIP
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Free [Infantry] appears","Free [Ranger] appears","Free [Cavalry] appears","Free [Flying] appears","Free [Support] appears"],
+        "uniques": [" "],
         "requiredTech": "Meritocratic Promotion"
     },
 	{
@@ -643,10 +653,10 @@
         "requiredTech": "Signal Corps"
     },
 	{
-        "name": "Mercenary Corps",     //NEEDS UPDATE FOR T2 UNITS
+        "name": "Mercenary Corps",     //NEEDS UPDATE FOR T2 UNITS/WIP
         "isNationalWonder": true, 
 		"cost": 1,
-        "uniques": ["Free [Infantry] appears","Free [Ranger] appears","Free [Cavalry] appears","Free [Flying] appears","Free [Support] appears"],
+        "uniques": [" "],
         "requiredTech": "Mercenary Corps"
     },
 	{
