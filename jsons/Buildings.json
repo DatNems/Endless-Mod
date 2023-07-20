@@ -1716,46 +1716,36 @@
         "name": "Guardian of Dust",    
         "isWonder": true, 
 		"cost": 1000,
-        "uniques": ["Free [Dust Guardian] appears"],
         "requiredTech": "Guardian of Dust"
-		"uniques": ["Unbuildable <when above [1] [Guardian of Dust]>",
-		"Provides [1] [Guardian of Dust]"]
+		"uniques": ["Provides [1] [Guardian of Dust]"]
     },
 	{
         "name": "Guardian of Fire",    
         "isWonder": true, 
 		"cost": 1000,
-        "uniques": ["Free [Fire Guardian] appears"],
         "requiredTech": "Guardian of Fire"
-		"uniques": ["Unbuildable <when above [1] [Guardian of Fire]>",
-		"Provides [1] [Guardian of Fire]"]
+		"uniques": ["Provides [1] [Guardian of Fire]"]
     },
 	{
         "name": "Guardian of Earth",    
         "isWonder": true, 
 		"cost": 1000,
-        "uniques": ["Free [Earth Guardian] appears"],
         "requiredTech": "Guardian of Earth"
-		"uniques": ["Unbuildable <when above [1] [Guardian of Earth]>",
-		"Provides [1] [Guardian of Earth]"]
+		"uniques": ["Provides [1] [Guardian of Earth]"]
     },
 	{
         "name": "Guardian of Water",    
         "isWonder": true, 
 		"cost": 1000,
-        "uniques": ["Free [Water Guardian] appears"],
         "requiredTech": "Guardian of Water"
-		"uniques": ["Unbuildable <when above [1] [Guardian of Water]>",
-		"Provides [1] [Guardian of Water]"]
+		"uniques": ["Provides [1] [Guardian of Water]"]
     },
 	{
         "name": "Guardian of Air",    
         "isWonder": true, 
 		"cost": 1000,
-        "uniques": ["Free [Air Guardian] appears"],
         "requiredTech": "Guardian of Air"
-		"uniques": ["Unbuildable <when above [1] [Guardian of Air]>",
-		"Provides [1] [Guardian of Air]"]
+		"uniques": ["Provides [1] [Guardian of Air]"]
     },
 	
 	
