@@ -17,6 +17,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Hero",
+        "movementType": "Land"
+    },
+    {
         "name": "Submarine",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
