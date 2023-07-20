@@ -56,7 +56,7 @@
 		"cost": 500,
 		"promotions": ["Medic","Medic II"],
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Never appears as a Barbarian unit",
-		"Unbuildable <without [Guardian of Dust]>", "Provides [1] [Guardian of Dust] <upon being defeated>"],
+		"Consumes [1] [Guardian of Dust]","Unbuildable <without [Guardian of Dust]>", "Provides [1] [Guardian of Dust] <upon being defeated>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -68,7 +68,7 @@
 		"range": 3,
 		"cost": 500,
 		"uniques": ["Penalty vs City 50%","Never appears as a Barbarian unit",
-		"Unbuildable <without [Guardian of Fire]>", "Provides [1] [Guardian of Fire] <upon being defeated>"],
+		"Consumes [1] [Guardian of Fire]","Unbuildable <without [Guardian of Fire]>", "Provides [1] [Guardian of Fire] <upon being defeated>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -78,7 +78,7 @@
 		"strength": 64,
 		"cost": 500,
 		"uniques": ["[+100]% Strength","Never appears as a Barbarian unit",
-		"Unbuildable <without [Guardian of Earth]>", "Provides [1] [Guardian of Earth] <upon being defeated>"]
+		"Consumes [1] [Guardian of Earth]","Unbuildable <without [Guardian of Earth]>", "Provides [1] [Guardian of Earth] <upon being defeated>"]
 	},
 	{
 		"name": "Water Guardian",
@@ -87,7 +87,7 @@
 		"strength": 100,
 		"cost": 500,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","[-50]% Strength <when defending>","Never appears as a Barbarian unit",
-		"Unbuildable <without [Guardian of Water]>", "Provides [1] [Guardian of Water] <upon being defeated>"],
+		"Consumes [1] [Guardian of Water]","Unbuildable <without [Guardian of Water]>", "Provides [1] [Guardian of Water] <upon being defeated>"],
 	},
 	{
 		"name": "Air Guardian",
@@ -96,7 +96,7 @@
 		"strength": 60,
 		"cost": 500,
 		"uniques": ["[+133]% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles","Never appears as a Barbarian unit",
-		"Unbuildable <without [Guardian of Air]>", "Provides [1] [Guardian of Air] <upon being defeated>"]
+		"Consumes [1] [Guardian of Air]","Unbuildable <without [Guardian of Air]>", "Provides [1] [Guardian of Air] <upon being defeated>"]
 	},
 	
 	
@@ -105,8 +105,16 @@
 	
 	//Infantry
 	{
-		"name": "Infantry",  //FOR STARTING UNIT FIX ONLY
+		"name": "Infantry",  //ONLY USED AS BASE
 		"unitType": "Melee",
+		"movement": 4,
+		"strength": 30,
+		"cost": 60,
+		"uniques": ["Unbuildable","Never appears as a Barbarian unit"],
+	},
+	{
+		"name": "Hero",  //ONLY USED AS BASE
+		"unitType": "Hero",
 		"movement": 4,
 		"strength": 30,
 		"cost": 60,
