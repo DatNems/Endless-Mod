@@ -48,37 +48,37 @@
 	{
 		"name": "Titanium Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	}, 
 	{
 		"name": "Glassteel Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	},
 	{
 		"name": "Adamantian Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	},
 	{
 		"name": "Palladian Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	},
 	{
 		"name": "Mithrite Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	},
 	{
 		"name": "Hyperium Extractor",
 		"turnsToBuild": 1,
-		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]"],
+		"uniques": ["Can only be built to improve a resource","Unpillagable","Does not need removal of [Forest]","Does not need removal of [Jungle]","Does not need removal of [Marsh]","Does not need removal of [Citadel]","Does not need removal of [Atoll]"],
 		
 	},
 	
