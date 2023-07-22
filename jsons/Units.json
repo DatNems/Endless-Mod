@@ -21,7 +21,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Kazar]","[-25]% Strength <when defending>","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Kazar]>", "Provides [1] [Urkan Kazar] <upon being defeated>"],
+		"Unbuildable <without [Urkan Kazar]>"],
 	},
 	{
 		"name": "Awakened Chaka",
@@ -31,7 +31,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Chaka]","[+60]% Strength <when defending>","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Chaka]>", "Provides [1] [Urkan Chaka] <upon being defeated>"],
+		"Unbuildable <without [Urkan Chaka]>"],
 	},
 	{
 		"name": "Awakened Fakir",
@@ -41,7 +41,7 @@
 		"cost": 200,
 		"uniques": ["Consumes [1] [Urkan Fakir]","Unable to capture cities",
 		"Can carry [4] [Military] units","Destroys tile improvements when attacking","Never appears as a Barbarian unit",
-		"Unbuildable <without [Urkan Fakir]>", "Provides [1] [Urkan Fakir] <upon being defeated>"],
+		"Unbuildable <without [Urkan Fakir]>"],
 	},
 	
 	
@@ -56,7 +56,7 @@
 		"cost": 500,
 		"promotions": ["Medic","Medic II"],
 		"uniques": ["Bonus for units in 2 tile radius 20%","Penalty vs City 100%","Unable to capture cities","Never appears as a Barbarian unit",
-		"Consumes [1] [Guardian of Dust]","Unbuildable <without [Guardian of Dust]>", "Provides [1] [Guardian of Dust] <upon being defeated>"],
+		"Consumes [1] [Guardian of Dust]","Unbuildable <without [Guardian of Dust]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -68,7 +68,7 @@
 		"range": 3,
 		"cost": 500,
 		"uniques": ["Penalty vs City 50%","Never appears as a Barbarian unit",
-		"Consumes [1] [Guardian of Fire]","Unbuildable <without [Guardian of Fire]>", "Provides [1] [Guardian of Fire] <upon being defeated>"],
+		"Consumes [1] [Guardian of Fire]","Unbuildable <without [Guardian of Fire]>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -78,7 +78,7 @@
 		"strength": 64,
 		"cost": 500,
 		"uniques": ["[+100]% Strength","Never appears as a Barbarian unit",
-		"Consumes [1] [Guardian of Earth]","Unbuildable <without [Guardian of Earth]>", "Provides [1] [Guardian of Earth] <upon being defeated>"]
+		"Consumes [1] [Guardian of Earth]","Unbuildable <without [Guardian of Earth]>"]
 	},
 	{
 		"name": "Water Guardian",
@@ -87,7 +87,7 @@
 		"strength": 100,
 		"cost": 500,
 		"uniques": ["Can move after attacking","No defensive terrain bonus","Penalty vs City 25%","[-50]% Strength <when defending>","Never appears as a Barbarian unit",
-		"Consumes [1] [Guardian of Water]","Unbuildable <without [Guardian of Water]>", "Provides [1] [Guardian of Water] <upon being defeated>"],
+		"Consumes [1] [Guardian of Water]","Unbuildable <without [Guardian of Water]>"],
 	},
 	{
 		"name": "Air Guardian",
@@ -96,7 +96,7 @@
 		"strength": 60,
 		"cost": 500,
 		"uniques": ["[+133]% Strength","Can move after attacking","No defensive terrain bonus","Unable to capture cities","Can pass through impassable tiles","Never appears as a Barbarian unit",
-		"Consumes [1] [Guardian of Air]","Unbuildable <without [Guardian of Air]>", "Provides [1] [Guardian of Air] <upon being defeated>"]
+		"Consumes [1] [Guardian of Air]","Unbuildable <without [Guardian of Air]>"]
 	},
 	
 	
@@ -386,6 +386,14 @@
 		"Instantly consumes [3] [Hyperium] <when above [2] [Hyperium]>"],
 		"attackSound": "horse"
 	},
+	//Heroes
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
