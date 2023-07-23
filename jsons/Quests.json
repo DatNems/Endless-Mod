@@ -2,7 +2,7 @@
   {
     "name": "Clear Barbarian Camp",
     "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
-    "type": "Global",
+    //"type": "Global",
     "influence": 50,
     "minimumCivs": 1,
       "weightForCityStateType": {
