@@ -139,12 +139,5 @@
           "Militaristic": 1.5,
           "Religious": 2.5
       }
-  },
-  {
-    "name": "Spread Religion",
-    "description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
-      "weightForCityStateType": {
-          "Religious": 3
-      }
   }
 ]
